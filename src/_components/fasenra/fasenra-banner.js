@@ -4,7 +4,7 @@ class FasenraBanner extends React.Component {
         const { data } = this.props;
         return (
             <tr style={{ "lineHeight": "0px" }}>
-                <td align="center"><img src={`images/${data.hero_img}`} alt="main" className="main_img" /></td>
+                <td align="center"><img src={`images/${data.hero_img}`} alt="main" className="full-img" /></td>
             </tr>
         )
     }

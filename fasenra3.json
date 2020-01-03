@@ -1,4 +1,5 @@
 {
+    "brand": "fasenra",
     "template_type": "template3",
     "preheader_text": "Preheader Summary text",
     "title": "FASENRA (benralizumab)",
@@ -60,11 +61,11 @@
     "safety": [
         {
             "safety_info": "Important Safety Information",
-            "safety_desc": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box.",
+            "safety_desc": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
         },
         {
             "safety_info": "Abridged Prescribing Information",
-            "safety_desc": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box.",
+            "safety_desc": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
         }
     ],
     "reference_title": "References",

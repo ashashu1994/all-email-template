@@ -1,18 +1,35 @@
 {
+    "brand": "fasenra",
     "template_type": "template1",
     "preheader_text": "Preheader Summary text",
     "title": "FASENRA (benralizumab)",
     "click_text": [
-        "Click for full Prescribing Information and scroll down or click for Important Safety Information.",
-        "Adverse events should be reported. Reporting forms and information can be found at https://aereporting.astrazeneca.com."
+        {
+            "content": [
+                "Click for full ",
+                "Prescribing Information ",
+                "and scroll down or click for ",
+                "Important Safety Information",
+                "."
+            ]
+        },
+        {
+            "content": [
+                "Adverse events should be reported. Reporting forms and information can be found at ",
+                "https://aereporting.astrazeneca.com",
+                "."
+            ]
+        }
     ],
     "hero_img": "main_img.png",
+    "user_name": "Dear Dr [Name]",
+    "user_desc": [
+        "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+    ],
     "cta_block": [
         {
             "heading": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box 1.",
             "image_name": "icon_1.png",
-            "btn_image_name": "btn1.png",
-            "btn_link": "https://www.google.com",
             "list": [
                 "Dummy text to fill the text box. Dummy text",
                 "Dummy text to fill the text box. Dummy text",
@@ -22,8 +39,6 @@
         {
             "heading": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box 1.",
             "image_name": "icon_1.png",
-            "btn_image_name": "btn1.png",
-            "btn_link": "https://www.google.com",
             "list": [
                 "Dummy text to fill the text box. Dummy text",
                 "Dummy text to fill the text box. Dummy text",
@@ -35,14 +50,14 @@
         {
             "heading": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box 2.",
             "image_name": "icon_1.png",
-            "btn_image_name": "btn1.png",
-            "btn_link": "https://www.google.com",
             "list": [
                 "Dummy text to fill the text box. Dummy text",
                 "Dummy text to fill the text box. Dummy text"
             ]
         }
     ],
+    "btn_image_name": "btn2.png",
+    "btn_link": "https://www.google.com",
     "safety": [
         {
             "safety_info": "Important Safety Information",

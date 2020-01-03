@@ -105,125 +105,27 @@ a:hover {
   color: #000 !important;
 }
 
+/* Emailer default ends here */
+/* common class starts here */
+
 #main_table,
 #main_table1 {
   width: 598px !important;
 }
-.show {
-  display: none !important;
-}
-.for_mob {
-  display: block;
-}
-.mob1 {
-  display: block;
-}
-
-#mobhide {
-  display: block;
-}
-.for_mob {
-  line-height: 20px !important;
-}
-.for_mob1 {
-  line-height: 20px !important;
-}
-.fullwidth1 {
-  width: 26% !important;
-}
-.fullwidth2 {
-  width: 74% !important;
-}
-.mob_txt {
-  line-height: 26px !important;
-}
-.line {
-  height: 80px !important;
-}
-
 @media only screen and (max-width: 480px) and (min-width: 320px) {
-  #main_table,
-  #main_table1 {
-    width: 318px !important;
-  }
-  .main_img {
-    width: 318px !important;
-    height: 190px !important;
-  }
-
-  .mob_width {
-    width: 95% !important;
-  }
-
-  .main_icon2 {
-    width: 318px !important;
-    height: 247px !important;
-  }
-
-  .for_mob {
-    height: 22px !important;
-  }
   body {
     line-height: 11px !important;
     text-align: left;
   }
-  .orange_box {
-    font-size: 9.5px !important;
+  #main_table,
+  #main_table1 {
+    width: 318px !important;
   }
-  .mob_txt {
-    line-height: 10px !important;
+  .full-img {
+    width: 318px !important;
+    height: 213px !important;
   }
-  .head {
-    font-size: 16px !important;
-  }
-  .heighttd {
-    height: 18px;
-  }
-  .widthtd {
-    width: 5%;
-  }
-  .line {
-    height: 130px !important;
-  }
-  .for_mob1 {
-    line-height: 12px !important;
-  }
-  .fullwidth1,
-  .fullwidth2 {
-    width: 100% !important;
-    display: block;
-  }
-  .fullwidth1 {
-    text-align: center !important;
-  }
-  .center {
+  .image1 {
     text-align: center;
-  }
-
-  .mob_table {
-    width: 94% !important;
-  }
-  .mob_leftTable {
-    width: 43% !important;
-  }
-  .mob_space {
-    line-height: 10px !important;
-    height: 10px !important;
-  }
-  .mob_img {
-    height: 17px !important;
-    width: 69px !important;
-  }
-  .img_space {
-    line-height: 17px !important;
-  }
-  .img_mob {
-    display: none !important;
-  }
-  .mob_space1 {
-    height: 12px;
-  }
-  .mob_space2 {
-    display: none !important;
   }
 }
