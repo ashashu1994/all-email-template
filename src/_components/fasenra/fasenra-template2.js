@@ -71,14 +71,14 @@ class FasenraTemplate2 extends React.Component {
                                 <tbody>
                                     <tr>
                                         <td width="10" bgcolor="#fff" style={{ backgroundColor: "#fff" }}>&nbsp;</td>
-                                        <td class="mob_table" width="96%" style={{ backgroundColor: "#fff" }}>
+                                        <td className="mob_table" width="96%" style={{ backgroundColor: "#fff" }}>
                                             {data.cta_image.map(function (cta, index) {
                                                 return (
                                                     <>
-                                                        <table align="right" class="mob_leftTable" width="45%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
+                                                        <table align="right" className="mob_leftTable" width="45%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td class="mob_space" width="20%" height="15" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>
+                                                                    <td className="mob_space" width="20%" height="15" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>
                                                                 </tr>
                                                                 <tr valign="top" align="center">
                                                                     <td width="10%" style={{ color: "#fff", backgroundColor: "#fff" }}>
@@ -90,10 +90,10 @@ class FasenraTemplate2 extends React.Component {
                                                             </tbody>
                                                         </table>
                                                         {index === 0 &&
-                                                            <table align="right" class="mob_leftTable" width="10%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
+                                                            <table align="right" className="mob_leftTable" width="10%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td class="mob_space" width="10%" height="55" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>
+                                                                        <td className="mob_space" width="10%" height="55" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>

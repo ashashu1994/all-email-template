@@ -33,7 +33,7 @@ class Forxiga extends React.Component {
                                     </td>
                                 </tr>
                                 <tr style={{ lineHeight: "0px" }}>
-                                    <td><img src={`forxiga_images/${data.hero_img}`} alt="main" class="main_img" /></td>
+                                    <td><img src={`forxiga_images/${data.hero_img}`} alt="main" className="main_img" /></td>
                                 </tr>
                                 <tr style={{ backgroundColor: "#544e5c" }}>
                                     <td width="100%" style={{ backgroundColor: "#544e5c" }}>
@@ -50,9 +50,9 @@ class Forxiga extends React.Component {
                                                                 <table width="100%" border="0" cellspacing="0" cellpadding="0" style={{ backgroundColor: "#544e5c" }}>
                                                                     <tr>
                                                                         <td width="100%" bgcolor="#544e5c" style={{ backgroundColor: "#544e5c" }}>
-                                                                            <table class="mob_table" width="41%" border="0" cellspacing="0" cellpadding="0" bgcolor="#544e5c" style={{ float: "left", textAlign: "left", backgroundColor: "#544e5c" }} align="left">
+                                                                            <table className="mob_table" width="41%" border="0" cellspacing="0" cellpadding="0" bgcolor="#544e5c" style={{ float: "left", textAlign: "left", backgroundColor: "#544e5c" }} align="left">
                                                                                 <tr style={{ backgroundColor: "#544e5c" }}>
-                                                                                    <td class="mob_space" height="3" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "3px" }}>&nbsp;</td>
+                                                                                    <td className="mob_space" height="3" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "3px" }}>&nbsp;</td>
                                                                                 </tr>
                                                                                 <tr style={{ backgroundColor: "#544e5c" }}>
                                                                                     <td height="13" style={{ backgroundColor: "#544e5c", lineHeight: "16px", verticalAlign: "top", height: "8px", color: "#fff", fontSize: "14px", fontWeight: "bold" }}>Managing T2D has mainly been focused on reducing HbA<sub style={{ fontSize: "8px", lineHeight: "0px", color: "#fff" }}>1c</sub>.</td>
@@ -60,18 +60,18 @@ class Forxiga extends React.Component {
                                                                                 <tr>
                                                                                     <td width="10" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "10px" }}>&nbsp;</td>
                                                                                 </tr>
-                                                                                <tr style={{ backgroundColor: "#544e5c" }} class="mob_txt">
+                                                                                <tr style={{ backgroundColor: "#544e5c" }} className="mob_txt">
                                                                                     <td height="13" style={{ backgroundColor: "#544e5c", lineHeight: "15px", verticalAlign: "top", height: "8px", color: "#fff", textAlign: "left", fontSize: "14px", textDecoration: "none", padding: "0px", margin: "0px" }}>However, the heart and kidneys are usually adversely affected by T2D.<sup style={{ fontSize: "7px", lineHeight: "0px", color: "#fff" }}>1</sup></td>
                                                                                 </tr>
                                                                             </table>
-                                                                            <table class="mob_space" width="15%" border="0" cellspacing="0" cellpadding="0" bgcolor="#544e5c" style={{ float: "left", textAlign: "left", backgroundColor: "#544e5c", textDecoration: "none", padding: "0px", margin: "0px" }} align="left">
+                                                                            <table className="mob_space" width="15%" border="0" cellspacing="0" cellpadding="0" bgcolor="#544e5c" style={{ float: "left", textAlign: "left", backgroundColor: "#544e5c", textDecoration: "none", padding: "0px", margin: "0px" }} align="left">
                                                                                 <tr>
                                                                                     <td width="20" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "28px", padding: "0px", margin: "0px" }}>&nbsp;</td>
                                                                                 </tr>
                                                                             </table>
-                                                                            <table class="mob_leftTable" width="10%" border="0" cellspacing="0" cellpadding="0" bgcolor="#544e5c" style={{ float: "left", textAlign: "left", backgroundColor: "#544e5c" }} align="left">
+                                                                            <table className="mob_leftTable" width="10%" border="0" cellspacing="0" cellpadding="0" bgcolor="#544e5c" style={{ float: "left", textAlign: "left", backgroundColor: "#544e5c" }} align="left">
                                                                                 <tr>
-                                                                                    <td class="mob_space" height="5" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "5px" }}>&nbsp;</td>
+                                                                                    <td className="mob_space" height="5" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "5px" }}>&nbsp;</td>
                                                                                 </tr>
                                                                                 <tr>
                                                                                     <td width="10" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "10px" }}>&nbsp;</td>
@@ -154,7 +154,7 @@ class Forxiga extends React.Component {
                                                             <td height="30" style={{ background: "#544e5c", lineHeight: "30px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
                                                         </tr>
                                                         <tr>
-                                                            <td style={{ backgroundColor: "#544e5c" }}><img src="forxiga_images/main_icon_1.png" alt="main_icon_1" class="main_icon_1" /></td>
+                                                            <td style={{ backgroundColor: "#544e5c" }}><img src="forxiga_images/main_icon_1.png" alt="main_icon_1" className="main_icon_1" /></td>
                                                         </tr>
                                                         <tr>
                                                             <td height="15" style={{ background: "#544e5c", lineHeight: "15px", verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>
@@ -190,7 +190,7 @@ class Forxiga extends React.Component {
                                                             <td height="20" style={{ background: "#65606d", lineHeight: "20px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
                                                         </tr>
                                                         <tr>
-                                                            <td style={{ backgroundColor: "#65606d" }}><img src="forxiga_images/main_icon_2.png" alt="main_icon_1" class="main_icon_2" /></td>
+                                                            <td style={{ backgroundColor: "#65606d" }}><img src="forxiga_images/main_icon_2.png" alt="main_icon_1" className="main_icon_2" /></td>
                                                         </tr>
                                                         <tr>
                                                             <td height="15" style={{ background: "#65606d", lineHeight: "15px", verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>
@@ -251,7 +251,7 @@ class Forxiga extends React.Component {
                                                             <td height="20" style={{ background: "#65606d", lineHeight: "20px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
                                                         </tr>
                                                         <tr>
-                                                            <td style={{ backgroundColor: "#65606d" }}><img src="forxiga_images/main_icon_3.png" alt="main_icon_1" class="main_icon_3" /></td>
+                                                            <td style={{ backgroundColor: "#65606d" }}><img src="forxiga_images/main_icon_3.png" alt="main_icon_1" className="main_icon_3" /></td>
                                                         </tr>
                                                         <tr>
                                                             <td height="15" style={{ background: "#65606d", lineHeight: "15px", verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>
@@ -341,14 +341,14 @@ class Forxiga extends React.Component {
                                                                 <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                                                     <tr>
                                                                         <td width="100%" bgcolor="#65606d">
-                                                                            <table class="no_mob" width="20" border="0" cellspacing="0" cellpadding="0" bgcolor="#65606d" style={{ float: "left", textAlign: "left" }} align="left">
+                                                                            <table className="no_mob" width="20" border="0" cellspacing="0" cellpadding="0" bgcolor="#65606d" style={{ float: "left", textAlign: "left" }} align="left">
                                                                                 <tr>
                                                                                     <td width="10" style={{ background: "#65606d", fontSize: "1px", lineHeight: "28px" }}>&nbsp;</td>
                                                                                 </tr>
                                                                             </table>
-                                                                            <table class="mob_table1" width="40%" border="0" cellspacing="0" cellpadding="0" bgcolor="#65606d" style={{ float: "left", textAlign: "left" }} align="left">
+                                                                            <table className="mob_table1" width="40%" border="0" cellspacing="0" cellpadding="0" bgcolor="#65606d" style={{ float: "left", textAlign: "left" }} align="left">
                                                                                 <tr>
-                                                                                    <td class="mob_space" height="3" style={{ background: "#65606d", fontSize: "1px", lineHeight: "3px" }}>&nbsp;</td>
+                                                                                    <td className="mob_space" height="3" style={{ background: "#65606d", fontSize: "1px", lineHeight: "3px" }}>&nbsp;</td>
                                                                                 </tr>
                                                                                 <tr>
                                                                                     <td width="35%" height="20" style={{ color: "#e6b7ba", fontSize: "16px" }}>
@@ -368,9 +368,9 @@ class Forxiga extends React.Component {
                                                                                     <td width="20" style={{ background: "#65606d", fontSize: "1px", lineHeight: "28px" }}>&nbsp;</td>
                                                                                 </tr>
                                                                             </table>
-                                                                            <table class="mob_table1" width="43%" border="0" cellspacing="0" cellpadding="0" bgcolor="#65606d" style={{ float: "left", textAlign: "left" }} align="left">
+                                                                            <table className="mob_table1" width="43%" border="0" cellspacing="0" cellpadding="0" bgcolor="#65606d" style={{ float: "left", textAlign: "left" }} align="left">
                                                                                 <tr>
-                                                                                    <td class="mob_space" height="3" style={{ background: "#65606d", fontSize: "1px", lineHeight: "3px" }}>&nbsp;</td>
+                                                                                    <td className="mob_space" height="3" style={{ background: "#65606d", fontSize: "1px", lineHeight: "3px" }}>&nbsp;</td>
                                                                                 </tr>
                                                                                 <tr>
                                                                                     <td width="50%" height="20" style={{ color: "#fff", fontSize: "16px" }}>
@@ -405,7 +405,7 @@ class Forxiga extends React.Component {
                                     <td height="35" style={{ background: "#3b353f", lineHeight: "35px", verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>
                                 </tr>
                                 <tr style={{ backgroundColor: "#2f2f36" }}>
-                                    <td style={{ backgroundColor: "#2f2f36" }} align="center"><img src="forxiga_images/main_icon_4.png" alt="main_icon_5" class="main_icon_4" style={{ backgroundColor: "#544e5c" }} /></td>
+                                    <td style={{ backgroundColor: "#2f2f36" }} align="center"><img src="forxiga_images/main_icon_4.png" alt="main_icon_5" className="main_icon_4" style={{ backgroundColor: "#544e5c" }} /></td>
                                 </tr>
                                 <tr style={{ backgroundColor: "#2f2f36" }}>
                                     <td height="15" style={{ background: "#2f2f36", lineHeight: "15px", verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>
@@ -502,7 +502,7 @@ class Forxiga extends React.Component {
 
                                                                 </table>
                                                             </td>
-                                                            <td width="25" class="mob_space">&nbsp;</td>
+                                                            <td width="25" className="mob_space">&nbsp;</td>
                                                         </tr>
                                                     </table>
                                                 </td>

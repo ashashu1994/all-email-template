@@ -19,7 +19,7 @@ class FasenraBlueLinks extends React.Component {
                                                 return (
                                                     <tr key={index}>
                                                         <td width="2%"></td>
-                                                        <td width="48%" height="20" style={{ "color": "#fff", "fontSize": "12px" }}><span className="orange_box"> <a rel="noopener noreferrer" target="_blank" href={list.link}><font color="#fff"><u style={{ "color": "#fff", "cursor": "pointer" }}>{list.name}</u></font></a></span></td>
+                                                        <td width="48%" height="20" style={{ "color": "#fff", "fontSize": "12px" }}><span className="font-size-mob-9"> <a rel="noopener noreferrer" target="_blank" href={list.link}><font color="#fff"><u style={{ "color": "#fff", "cursor": "pointer" }}>{list.name}</u></font></a></span></td>
                                                     </tr>
                                                 )
                                             })}
@@ -52,7 +52,7 @@ class FasenraBlueLinks extends React.Component {
                                                 return (
                                                     <tr key={index}>
                                                         <td width="23%" className="widthtd"></td>
-                                                        <td width="23%" height="20" style={{ "color": "#fff", "fontSize": "12px" }}><span className="orange_box"><a rel="noopener noreferrer" target="_blank" href={list.link}><font color="#fff"><u style={{ "color": "#fff", "cursor": "pointer" }}>{list.name}</u></font></a></span></td>
+                                                        <td width="23%" height="20" style={{ "color": "#fff", "fontSize": "12px" }}><span className="font-size-mob-9"><a rel="noopener noreferrer" target="_blank" href={list.link}><font color="#fff"><u style={{ "color": "#fff", "cursor": "pointer" }}>{list.name}</u></font></a></span></td>
                                                     </tr>
                                                 )
                                             })}
