@@ -45,13 +45,13 @@ class FasenraBlueLinks extends React.Component {
                                     <table width="46%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#4472c4" style={{ "float": "left", "textAlign": "left" }} align="right">
                                         <tbody>
                                             <tr>
-                                                <td width="23%" className="widthtd"></td>
-                                                <td width="23%" height="13" className="heighttd"></td>
+                                                <td width="23%" className="fasenra_widthtd"></td>
+                                                <td width="23%" height="13" className="fasenra_heighttd"></td>
                                             </tr>
                                             {data.blue_links_right.map(function (list, index) {
                                                 return (
                                                     <tr key={index}>
-                                                        <td width="23%" className="widthtd"></td>
+                                                        <td width="23%" className="fasenra_widthtd"></td>
                                                         <td width="23%" height="20" style={{ "color": "#fff", "fontSize": "12px" }}><span className="font-size-mob-9"><a rel="noopener noreferrer" target="_blank" href={list.link}><font color="#fff"><u style={{ "color": "#fff", "cursor": "pointer" }}>{list.name}</u></font></a></span></td>
                                                     </tr>
                                                 )

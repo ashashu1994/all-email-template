@@ -75,25 +75,25 @@ class FasenraTemplate2 extends React.Component {
                                             {data.cta_image.map(function (cta, index) {
                                                 return (
                                                     <>
-                                                        <table align="right" className="mob_leftTable" width="45%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
+                                                        <table align="right" className="width-mob-100 text-mob-center" width="45%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
                                                             <tbody>
                                                                 <tr>
-                                                                    <td className="mob_space" width="20%" height="15" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>
+                                                                    <td className="height-mob-10" width="20%" height="15" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>
                                                                 </tr>
                                                                 <tr valign="top" align="center">
                                                                     <td width="10%" style={{ color: "#fff", backgroundColor: "#fff" }}>
-                                                                        {/* <a target="_blank" href="#"> */}
-                                                                        <img src={`images/${cta}`} alt="" height="152px" width="190px" style={{ cursor: "pointer" }} />
-                                                                        {/* </a> */}
+                                                                        <a target="_blank" href="#">
+                                                                            <img src={`images/${cta}`} alt="" height="152px" width="190px" style={{ cursor: "pointer" }} />
+                                                                        </a>
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
                                                         {index === 0 &&
-                                                            <table align="right" className="mob_leftTable" width="10%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
+                                                            <table align="right" className="width-mob-100 text-mob-center" width="10%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
                                                                 <tbody>
                                                                     <tr>
-                                                                        <td className="mob_space" width="10%" height="55" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>
+                                                                        <td className="height-mob-10" width="10%" height="55" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>
                                                                     </tr>
                                                                 </tbody>
                                                             </table>

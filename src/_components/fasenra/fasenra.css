@@ -1,0 +1,8 @@
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+  .fasenra_heighttd {
+    height: 11px;
+  }
+  .fasenra_widthtd {
+    width: 5%;
+  }
+}

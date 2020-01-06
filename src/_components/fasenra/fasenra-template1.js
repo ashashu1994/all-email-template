@@ -47,7 +47,7 @@ class FasenraTemplate1 extends React.Component {
                                             <tr>
                                                 <td width="10" bgcolor="#fff" style={{ backgroundColor: "#fff" }}>&nbsp;</td>
                                                 <td style={{ backgroundColor: "#fff" }}>
-                                                    <table align="right" className="width-mob-100 text-mob-center" width="30%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
+                                                    <table align="left" className="width-mob-100 text-mob-center" width="30%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
                                                         <tbody>
                                                             <tr>
                                                                 <td className="height-mob-10" width="20%" height="15" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>
@@ -57,7 +57,7 @@ class FasenraTemplate1 extends React.Component {
                                                             </tr>
                                                         </tbody>
                                                     </table>
-                                                    <table align="right" className="display-mob-none" width="10%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
+                                                    <table align="left" className="display-mob-none" width="10%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
                                                         <tbody>
                                                             <tr>
                                                                 <td className="height-mob-10" width="10%" height="55" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>

@@ -19,7 +19,25 @@ class Forxiga extends React.Component {
                                                             <td height="15" style={{ background: "#544e5c", lineHeight: "15px", fontSize: "1px" }}>&nbsp;</td>
                                                         </tr>
                                                         <tr>
-                                                            <td height="13" style={{ background: "#544e5c", lineHeight: "12px", color: "#fff", verticalAlign: "top", height: "8px", textAlign: "left", fontSize: "12px", fontWeight: "bold" }}>{data.preheader_text}</td>
+                                                            <td height="13" style={{ background: "#544e5c", lineHeight: "12px", color: "#fff", verticalAlign: "top", height: "8px", textAlign: "left", fontSize: "12px", fontWeight: "bold" }}>
+                                                                {data.preheader_text.map(function (text, index) {
+                                                                    return (
+                                                                        <>
+                                                                            {(text.includes("<sup>")) ? <sup style={{ fontSize: "8px", lineHeight: "0px", color: "#fff" }}>{text.replace('<sup>', '')}</sup> :
+                                                                                (text.includes("<sub>")) ?
+                                                                                    <sub style={{ fontSize: "8px", lineHeight: "0px", color: "#fff" }}>{text.replace('<sub>', '')}</sub> :
+                                                                                    (text.includes("<a>")) ?
+                                                                                        <a href={text.substring(
+                                                                                            text.indexOf("<a>") + 3,
+                                                                                            text.indexOf("</a>")
+                                                                                        )} style={{ color: "#fff" }}>{text.replace(text.substring(
+                                                                                            text.indexOf("<a>"),
+                                                                                            text.indexOf("</a>") + 4), '')}</a> : text
+                                                                            }
+                                                                        </>
+                                                                    )
+                                                                })}
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <td height="15" style={{ background: "#544e5c", lineHeight: "15px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
@@ -33,7 +51,7 @@ class Forxiga extends React.Component {
                                     </td>
                                 </tr>
                                 <tr style={{ lineHeight: "0px" }}>
-                                    <td><img src={`forxiga_images/${data.hero_img}`} alt="main" className="main_img" /></td>
+                                    <td><img src={`forxiga_images/${data.hero_img}`} alt="main" className="full-img" /></td>
                                 </tr>
                                 <tr style={{ backgroundColor: "#544e5c" }}>
                                     <td width="100%" style={{ backgroundColor: "#544e5c" }}>
@@ -55,13 +73,49 @@ class Forxiga extends React.Component {
                                                                                     <td className="mob_space" height="3" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "3px" }}>&nbsp;</td>
                                                                                 </tr>
                                                                                 <tr style={{ backgroundColor: "#544e5c" }}>
-                                                                                    <td height="13" style={{ backgroundColor: "#544e5c", lineHeight: "16px", verticalAlign: "top", height: "8px", color: "#fff", fontSize: "14px", fontWeight: "bold" }}>Managing T2D has mainly been focused on reducing HbA<sub style={{ fontSize: "8px", lineHeight: "0px", color: "#fff" }}>1c</sub>.</td>
+                                                                                    <td height="13" style={{ backgroundColor: "#544e5c", lineHeight: "16px", verticalAlign: "top", height: "8px", color: "#fff", fontSize: "14px", fontWeight: "bold" }}>
+                                                                                        {data.text1.map(function (text, index) {
+                                                                                            return (
+                                                                                                <>
+                                                                                                    {(text.includes("<sup>")) ? <sup style={{ fontSize: "8px", lineHeight: "0px", color: "#fff" }}>{text.replace('<sup>', '')}</sup> :
+                                                                                                        (text.includes("<sub>")) ?
+                                                                                                            <sub style={{ fontSize: "8px", lineHeight: "0px", color: "#fff" }}>{text.replace('<sub>', '')}</sub> :
+                                                                                                            (text.includes("<a>")) ?
+                                                                                                                <a href={text.substring(
+                                                                                                                    text.indexOf("<a>") + 3,
+                                                                                                                    text.indexOf("</a>")
+                                                                                                                )} style={{ color: "#fff" }}>{text.replace(text.substring(
+                                                                                                                    text.indexOf("<a>"),
+                                                                                                                    text.indexOf("</a>") + 4), '')}</a> : text
+                                                                                                    }
+                                                                                                </>
+                                                                                            )
+                                                                                        })}
+                                                                                    </td>
                                                                                 </tr>
                                                                                 <tr>
                                                                                     <td width="10" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "10px" }}>&nbsp;</td>
                                                                                 </tr>
                                                                                 <tr style={{ backgroundColor: "#544e5c" }} className="mob_txt">
-                                                                                    <td height="13" style={{ backgroundColor: "#544e5c", lineHeight: "15px", verticalAlign: "top", height: "8px", color: "#fff", textAlign: "left", fontSize: "14px", textDecoration: "none", padding: "0px", margin: "0px" }}>However, the heart and kidneys are usually adversely affected by T2D.<sup style={{ fontSize: "7px", lineHeight: "0px", color: "#fff" }}>1</sup></td>
+                                                                                    <td height="13" style={{ backgroundColor: "#544e5c", lineHeight: "15px", verticalAlign: "top", height: "8px", color: "#fff", textAlign: "left", fontSize: "14px", textDecoration: "none", padding: "0px", margin: "0px" }}>
+                                                                                        {data.text2.map(function (text, index) {
+                                                                                            return (
+                                                                                                <>
+                                                                                                    {(text.includes("<sup>")) ? <sup style={{ fontSize: "7px", lineHeight: "0px", color: "#fff" }}>{text.replace('<sup>', '')}</sup> :
+                                                                                                        (text.includes("<sub>")) ?
+                                                                                                            <sub style={{ fontSize: "7px", lineHeight: "0px", color: "#fff" }}>{text.replace('<sub>', '')}</sub> :
+                                                                                                            (text.includes("<a>")) ?
+                                                                                                                <a href={text.substring(
+                                                                                                                    text.indexOf("<a>") + 3,
+                                                                                                                    text.indexOf("</a>")
+                                                                                                                )} style={{ color: "#fff" }}>{text.replace(text.substring(
+                                                                                                                    text.indexOf("<a>"),
+                                                                                                                    text.indexOf("</a>") + 4), '')}</a> : text
+                                                                                                    }
+                                                                                                </>
+                                                                                            )
+                                                                                        })}
+                                                                                    </td>
                                                                                 </tr>
                                                                             </table>
                                                                             <table className="mob_space" width="15%" border="0" cellspacing="0" cellpadding="0" bgcolor="#544e5c" style={{ float: "left", textAlign: "left", backgroundColor: "#544e5c", textDecoration: "none", padding: "0px", margin: "0px" }} align="left">
@@ -77,7 +131,7 @@ class Forxiga extends React.Component {
                                                                                     <td width="10" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "10px" }}>&nbsp;</td>
                                                                                 </tr>
                                                                                 <tr>
-                                                                                    <td align="center" width="10%" height="5" style={{ color: "#fff", fontSize: "12px", lineHeight: "14px", backgroundColor: "#544e5c" }}><a target="_blank" href="#"><img src="forxiga_images/cta_1.png" alt="" height="49px" width="215px" style={{ cursor: "pointer" }} /></a>
+                                                                                    <td align="center" width="10%" height="5" style={{ color: "#fff", fontSize: "12px", lineHeight: "14px", backgroundColor: "#544e5c" }}><a target="_blank" href={data.cta_btn_1_link}><img src={`forxiga_images/${data.cta_btn_1}`} alt="" height="49px" width="215px" style={{ cursor: "pointer" }} /></a>
                                                                                     </td>
                                                                                 </tr>
                                                                             </table>
@@ -107,13 +161,48 @@ class Forxiga extends React.Component {
                                                             <td height="30" style={{ background: "#fff", lineHeight: "30px", verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>
                                                         </tr>
                                                         <tr>
-                                                            <td height="13" style={{ background: "#fff", lineHeight: "10px", verticalAlign: "top", height: "8px", color: "#000", fontSize: "12px" }}>Dear Lorem Ipsum</td>
+                                                            <td height="13" style={{ background: "#fff", lineHeight: "10px", verticalAlign: "top", height: "8px", color: "#000", fontSize: "12px" }}>
+                                                                {data.text3.map(function (text, index) {
+                                                                    return (
+                                                                        <>
+                                                                            {(text.includes("<sup>")) ? <sup style={{ fontSize: "7px", lineHeight: "0px", color: "#000" }}>{text.replace('<sup>', '')}</sup> :
+                                                                                (text.includes("<sub>")) ?
+                                                                                    <sub style={{ fontSize: "7px", lineHeight: "0px", color: "#000" }}>{text.replace('<sub>', '')}</sub> :
+                                                                                    (text.includes("<a>")) ?
+                                                                                        <a href={text.substring(
+                                                                                            text.indexOf("<a>") + 3,
+                                                                                            text.indexOf("</a>")
+                                                                                        )} style={{ color: "#000" }}>{text.replace(text.substring(
+                                                                                            text.indexOf("<a>"),
+                                                                                            text.indexOf("</a>") + 4), '')}</a> : text
+                                                                            }
+                                                                        </>
+                                                                    )
+                                                                })}
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <td height="20" style={{ background: "#fff", lineHeight: "20px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
                                                         </tr>
                                                         <tr>
-                                                            <td height="13" style={{ background: "#fff", lineHeight: "15px", verticalAlign: "top", height: "8px", color: "#000", textAlign: "left", fontSize: "12px" }}>customText[|As a follow-up to our discussion,|Thanks for your time.|I hope you are well.|Before our next appointment,|] I would like to take the opportunity to highlight the risk of early cardiorenal complications in patients with type 2 diabetes (T2D). T2D is associated with several micro and macrovascular complications that may start early in the disease process, of which cardiac and renal risks are prominent subtypes. The real-world data indicate that heart failure (HF) and/or chronic kidney disease(CKD) were the most common early cardiovascular (CV) complication in T2D patients – higher than stroke and myocardial infarction (MI). Thus, the treatment guidelines such as European Association for the Study of Diabetes/ American Diabetes Association (EASD/ADA) and American College of Cardiology/American Heart Association (ACC/AHA) guidelines are evolving to consider the holistic management of T2D.</td>
+                                                            <td height="13" style={{ background: "#fff", lineHeight: "15px", verticalAlign: "top", height: "8px", color: "#000", textAlign: "left", fontSize: "12px" }}>
+                                                                {data.text4.map(function (text, index) {
+                                                                    return (
+                                                                        <>
+                                                                            {(text.includes("<sup>")) ? <sup style={{ fontSize: "7px", lineHeight: "0px", color: "#000" }}>{text.replace('<sup>', '')}</sup> :
+                                                                                (text.includes("<sub>")) ?
+                                                                                    <sub style={{ fontSize: "7px", lineHeight: "0px", color: "#000" }}>{text.replace('<sub>', '')}</sub> :
+                                                                                    (text.includes("<a>")) ?
+                                                                                        <a href={text.substring(
+                                                                                            text.indexOf("<a>") + 3,
+                                                                                            text.indexOf("</a>")
+                                                                                        )} style={{ color: "#000" }}>{text.replace(text.substring(
+                                                                                            text.indexOf("<a>"),
+                                                                                            text.indexOf("</a>") + 4), '')}</a> : text
+                                                                            }
+                                                                        </>
+                                                                    )
+                                                                })}</td>
                                                         </tr>
                                                         <tr>
                                                             <td height="30" style={{ background: "#fff", lineHeight: "30px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
