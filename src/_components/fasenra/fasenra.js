@@ -13,7 +13,7 @@ import FasenraTemplate2 from './fasenra-template2';
 class Fasenra extends React.Component {
     render() {
         return (
-            <div style={{ "width": "100%", "border": "0px", "padding": "0px", "margin": "0px" }}>
+            <div clasName="" style={{ "width": "100%", "border": "0px", "padding": "0px", "margin": "0px" }}>
                 <table id="main_table" width="598" border="0" cellPadding="0" cellSpacing="0" style={{ "border": "1px solid #343434", "backgroundColor": "#fff", "color": "#000", "textAlign": "left", "verticalAlign": "top", "margin": "0 auto" }} align="center">
                     <tbody>
                         <tr>

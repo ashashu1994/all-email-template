@@ -17,9 +17,37 @@
     "cta_btn_1": "cta_1.png",
     "cta_btn_1_link": "https://www.google.com",
     "text3": [
-        "Dear Lorem Ipsum"
+        "Dear {{accTitle}} {{accFname}} {{accLname}},"
     ],
     "text4": [
-        "customText[|As a follow-up to our discussion,|Thanks for your time.|I hope you are well.|Before our next appointment,|] I would like to take the opportunity to highlight the risk of early cardiorenal complications in patients with type 2 diabetes (T2D). T2D is associated with several micro and macrovascular complications that may start early in the disease process, of which cardiac and renal risks are prominent subtypes. The real-world data indicate that heart failure (HF) and/or chronic kidney disease(CKD) were the most common early cardiovascular (CV) complication in T2D patients – higher than stroke and myocardial infarction (MI). Thus, the treatment guidelines such as European Association for the Study of Diabetes/ American Diabetes Association (EASD/ADA) and American College of Cardiology/American Heart Association (ACC/AHA) guidelines are evolving to consider the holistic management of T2D."
+        "{{customText[|As a follow-up to our discussion,|Thanks for your time.|I hope you are well.|Before our next appointment,|]}} I would like to take the opportunity to highlight the risk of early cardiorenal complications in patients with type 2 diabetes (T2D). T2D is associated with several micro and macrovascular complications that may start early in the disease process, of which cardiac and renal risks are prominent subtypes. The real-world data indicate that heart failure (HF) and/or chronic kidney disease(CKD) were the most common early cardiovascular (CV) complication in T2D patients – higher than stroke and myocardial infarction (MI). Thus, the treatment guidelines such as European Association for the Study of Diabetes/ American Diabetes Association (EASD/ADA) and American College of Cardiology/American Heart Association (ACC/AHA) guidelines are evolving to consider the holistic management of T2D."
+    ],
+    "text5": [
+        "PATIENTS WITH T2D MAY BE AT RISK OF CARDIORENAL COMPLICATIONS EARLY IN THEIR DISEASE",
+        "<sup>1"
+    ],
+    "text6": [
+        "Prediabetes is associated with an increased risk of CV disease and CKD.",
+        "<sup>2,3"
+    ],
+    "image1": "main_icon_1.png",
+    "smallText": "*Compared to patients with normoglycaemia.",
+    "text7": [
+        "68% of patients with T2D had evidence of LV dysfunction within 5 years of T2D diagnosis.",
+        "<sup>4†"
+    ],
+    "image2": "main_icon_2.png",
+    "text8": [
+        {
+            "multiline": [
+                "<sup>†",
+                "Data from a prospective, multicentre study (N = 386). Mean age was 71 years in left ventricular (LV) dysfunction group and 64 in normal LV function group."
+            ]
+        },
+        {
+            "multiline": [
+                "Patients with LV dysfunction were older, had lower glomerular filtration rate, higher levels of glycated haemoglobin, C-reactive protein, LV mass, relative wall thickness and prevalence of valve calcifications."
+            ]
+        }
     ]
 }
