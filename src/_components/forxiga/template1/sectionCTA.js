@@ -22,9 +22,9 @@ class SectionCTA extends React.Component {
                                                         <table width="100%" border="0" cellspacing="0" cellpadding="0" style={{ backgroundColor: "#544e5c" }}>
                                                             <tr>
                                                                 <td width="100%" bgcolor="#544e5c" style={{ backgroundColor: "#544e5c" }}>
-                                                                    <table className="mob_table" width="41%" border="0" cellspacing="0" cellpadding="0" bgcolor="#544e5c" style={{ float: "left", textAlign: "left", backgroundColor: "#544e5c" }} align="left">
+                                                                    <table className="width-mob-100" width="41%" border="0" cellspacing="0" cellpadding="0" bgcolor="#544e5c" style={{ float: "left", textAlign: "left", backgroundColor: "#544e5c" }} align="left">
                                                                         <tr style={{ backgroundColor: "#544e5c" }}>
-                                                                            <td className="mob_space" height="3" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "3px" }}>&nbsp;</td>
+                                                                            <td className="width-mob-10" height="3" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "3px" }}>&nbsp;</td>
                                                                         </tr>
                                                                         <tr style={{ backgroundColor: "#544e5c" }}>
                                                                             <td height="13" style={{ backgroundColor: "#544e5c", lineHeight: "16px", verticalAlign: "top", height: "8px", color: "#fff", fontSize: "14px", fontWeight: "bold" }}>
@@ -38,7 +38,7 @@ class SectionCTA extends React.Component {
                                                                         <tr>
                                                                             <td width="10" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "10px" }}>&nbsp;</td>
                                                                         </tr>
-                                                                        <tr style={{ backgroundColor: "#544e5c" }} className="mob_txt">
+                                                                        <tr style={{ backgroundColor: "#544e5c" }} className="display-mob-block">
                                                                             <td height="13" style={{ backgroundColor: "#544e5c", lineHeight: "15px", verticalAlign: "top", height: "8px", color: "#fff", textAlign: "left", fontSize: "14px", textDecoration: "none", padding: "0px", margin: "0px" }}>
                                                                                 {text.text2.map(function (commonTxt, commonTxtIndex) {
                                                                                     return (
@@ -48,14 +48,14 @@ class SectionCTA extends React.Component {
                                                                             </td>
                                                                         </tr>
                                                                     </table>
-                                                                    <table className="mob_space" width="15%" border="0" cellspacing="0" cellpadding="0" bgcolor="#544e5c" style={{ float: "left", textAlign: "left", backgroundColor: "#544e5c", textDecoration: "none", padding: "0px", margin: "0px" }} align="left">
+                                                                    <table className="width-mob-10" width="15%" border="0" cellspacing="0" cellpadding="0" bgcolor="#544e5c" style={{ float: "left", textAlign: "left", backgroundColor: "#544e5c", textDecoration: "none", padding: "0px", margin: "0px" }} align="left">
                                                                         <tr>
                                                                             <td width="20" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "28px", padding: "0px", margin: "0px" }}>&nbsp;</td>
                                                                         </tr>
                                                                     </table>
-                                                                    <table className="mob_leftTable" width="10%" border="0" cellspacing="0" cellpadding="0" bgcolor="#544e5c" style={{ float: "left", textAlign: "left", backgroundColor: "#544e5c" }} align="left">
+                                                                    <table width="10%" border="0" cellspacing="0" cellpadding="0" bgcolor="#544e5c" style={{ float: "left", textAlign: "left", backgroundColor: "#544e5c" }} align="left">
                                                                         <tr>
-                                                                            <td className="mob_space" height="5" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "5px" }}>&nbsp;</td>
+                                                                            <td className="width-mob-10" height="5" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "5px" }}>&nbsp;</td>
                                                                         </tr>
                                                                         <tr>
                                                                             <td width="10" style={{ backgroundColor: "#544e5c", fontSize: "1px", lineHeight: "10px" }}>&nbsp;</td>

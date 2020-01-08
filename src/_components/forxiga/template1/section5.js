@@ -50,9 +50,9 @@ class Section5 extends React.Component {
                                             </tr>
                                         </>
                                     }
-                                    {data.image1 && <>
+                                    {data.image && <>
                                         <tr>
-                                            <td style={{ backgroundColor: "#544e5c" }}><img src={`forxiga_images/${data.image1}`} alt="main_icon_1" className="main_icon_1" /></td>
+                                            <td style={{ backgroundColor: "#544e5c" }}><img src={`forxiga_images/${data.image}`} alt="main_icon_1" className="full-img-267" /></td>
                                         </tr>
                                         <tr>
                                             <td height="15" style={{ background: "#544e5c", lineHeight: "15px", verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>

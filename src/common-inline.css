@@ -128,12 +128,18 @@ a:hover {
   .full-img {
     width: 318px !important;
   }
+  .full-img-less {
+    width: 267px !important;
+  }
   .text-mob-center {
     text-align: center !important;
   }
 
   .width-mob-100 {
     width: 100% !important;
+  }
+  .width-mob-10 {
+    width: 10% !important;
   }
   .width-mob-95 {
     width: 95% !important;
@@ -146,8 +152,11 @@ a:hover {
   .display-mob-none {
     display: none;
   }
-  .display-mob-block {
+  .display-mob-inline-block {
     display: inline-block;
+  }
+  .display-mob-block {
+    display: block;
   }
   .font-size-mob-9 {
     font-size: 9px !important;
