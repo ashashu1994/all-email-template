@@ -82,28 +82,28 @@ img {
   text-decoration: none !important;
 }
 a {
-  color: #000 !important;
+  color: #000;
   text-decoration: underline;
   cursor: pointer !important;
 }
 a:active {
   text-decoration: underline !important;
-  color: #000 !important;
+  color: #000;
   cursor: pointer !important;
 }
 a:visited {
   text-decoration: underline !important;
-  color: #000 !important;
+  color: #000;
   cursor: pointer !important;
 }
 a:link {
   text-decoration: underline !important;
-  color: #000 !important;
+  color: #000;
   cursor: pointer !important;
 }
 a:hover {
   text-decoration: underline !important;
-  color: #000 !important;
+  color: #000;
 }
 
 /* Emailer default ends here */
