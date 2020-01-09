@@ -1,6 +1,6 @@
 {
     "brand": "fasenra",
-    "template_type": "template1",
+    "template_type": "template5",
     "content": [
         {
             "preheader_text": [
@@ -28,7 +28,7 @@
                 }
             ],
             "hero_img": "main_img.png",
-            "_comments": "**********************************Template 1 starts here**********************************************",
+            "_comments": "**********************************Template 1, Template 4, Template 5 common**********************************************",
             "user_name": [
                 "Dear Dr [Name]"
             ],
@@ -39,6 +39,7 @@
                     ]
                 }
             ],
+            "_comments": "**********************************Template 1 starts here**********************************************",
             "template1": {
                 "cta_block": [
                     {
@@ -193,6 +194,28 @@
                         ]
                     }
                 ]
+            },
+            "_comments": "**********************************Template 4 starts here**********************************************",
+            "template4": {
+                "cta_full_text": [
+                    "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                ],
+                "image_name": "icon_2.png",
+                "btn_image_name": "btn1.png",
+                "btn_link": "#"
+            },
+            "_comments": "**********************************Template 5 starts here**********************************************",
+            "template5": {
+                "cta_heading": [
+                    "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box"
+                ],
+                "cta_list": [
+                    "Dummy text to fill the text box. Dummy text",
+                    "Dummy text to fill the text box. Dummy text",
+                    "Dummy text to fill the text box. Dummy text"
+                ],
+                "btn_image_name": "btn2.png",
+                "btn_link": "#"
             },
             "safety": [
                 {
