@@ -33,20 +33,20 @@ class Fasenra extends React.Component {
                                                             data={content}
                                                         />
                                                     }
-                                                    {content.template_type === "template1" &&
+                                                    {data.template_type === "template1" &&
                                                         <FasenraTemplate1
                                                             data={content}
                                                         />
                                                     }
-                                                    {(content.template_type === "template2" || content.template_type === "template5") &&
+                                                    {(data.template_type === "template2" || data.template_type === "template5") &&
                                                         <FasenraTemplate2
                                                             data={content}
                                                         />
                                                     }
-                                                    {content.template_type === "template3" &&
+                                                    {data.template_type === "template3" &&
                                                         <FasenraTemplate3 data={content} />
                                                     }
-                                                    {content.template_type === "template4" &&
+                                                    {data.template_type === "template4" &&
                                                         <FasenraTemplate4 data={content} />
                                                     }
                                                     <FasenraSafetyReference data={content} />
