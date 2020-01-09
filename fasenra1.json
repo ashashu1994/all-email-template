@@ -1,115 +1,165 @@
 {
     "brand": "fasenra",
     "template_type": "template1",
-    "preheader_text": "Preheader Summary text",
-    "title": "FASENRA (benralizumab)",
-    "click_text": [
+    "content": [
         {
-            "content": [
-                "Click for full ",
-                "Prescribing Information ",
-                "and scroll down or click for ",
-                "Important Safety Information",
-                "."
-            ]
-        },
-        {
-            "content": [
-                "Adverse events should be reported. Reporting forms and information can be found at ",
-                "https://aereporting.astrazeneca.com",
-                "."
-            ]
+            "preheader_text": [
+                "Preheader Summary text"
+            ],
+            "title": [
+                "FASENRA (benralizumab)"
+            ],
+            "click_text": [
+                {
+                    "content": [
+                        "Click for full ",
+                        "<a>#</a>Prescribing Information",
+                        " and scroll down or click for ",
+                        "<a>#</a>Important Safety Information",
+                        "."
+                    ]
+                },
+                {
+                    "content": [
+                        "Adverse events should be reported. Reporting forms and information can be found at ",
+                        "<a>#</a>https://aereporting.astrazeneca.com",
+                        "."
+                    ]
+                }
+            ],
+            "hero_img": "main_img.png",
+            "user_name": "Dear Dr [Name]",
+            "user_desc": [
+                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+            ],
+            "cta_block": [
+                {
+                    "heading": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box 1.",
+                    "image_name": "icon_1.png",
+                    "list": [
+                        "Dummy text to fill the text box. Dummy text",
+                        "Dummy text to fill the text box. Dummy text",
+                        "Dummy text to fill the text box. Dummy text"
+                    ]
+                },
+                {
+                    "heading": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box 1.",
+                    "image_name": "icon_1.png",
+                    "list": [
+                        "Dummy text to fill the text box. Dummy text",
+                        "Dummy text to fill the text box. Dummy text",
+                        "Dummy text to fill the text box. Dummy text",
+                        "Dummy text to fill the text box. Dummy text",
+                        "Dummy text to fill the text box. Dummy text"
+                    ]
+                },
+                {
+                    "heading": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box 2.",
+                    "image_name": "icon_1.png",
+                    "list": [
+                        "Dummy text to fill the text box. Dummy text",
+                        "Dummy text to fill the text box. Dummy text"
+                    ]
+                }
+            ],
+            "btn_image_name": "btn2.png",
+            "btn_link": "https://www.google.com",
+            "safety": [
+                {
+                    "safety_info": [
+                        "Important Safety Information"
+                    ],
+                    "safety_desc": [
+                        "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                    ]
+                },
+                {
+                    "safety_info": [
+                        "Abridged Prescribing Information"
+                    ],
+                    "safety_desc": [
+                        "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                    ]
+                }
+            ],
+            "reference_title": [
+                "References"
+            ],
+            "reference_list": [
+                {
+                    "multiline": [
+                        "1. Dummy text to fill the text box."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "2. Dummy text to fill the text box."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "3. Dummy text to fill the text box."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "4. Dummy text to fill the text box."
+                    ]
+                }
+            ],
+            "blue_links": [
+                {
+                    "blue_links_length": [
+                        {
+                            "links": [
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Important Safety Information"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Contact US"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Prescribing Information"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "links": [
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Contact US"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Prescribing Information"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Important Safety"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "footer_text": [
+                "Please do not reply to this e-mail; it will not reach us. To ensure you will continue to receive these e-mails in your inbox, please add [xxx@email.astrazeneca-us.com] to your address book.",
+                "If in the future you no longer want to receive e-mails please click unsubscribe.",
+                "This product information is intended for healthcare professionals only.",
+                "In accordance with AstraZeneca policy, all promotional material must be developed in association with, and approved for release by local nominated signatory.",
+                "©2018 AstraZeneca. All rights reserved. PromoMats ID: XXXXX"
+            ],
+            "preparation_date": "XXXX",
+            "expiry_date": "XXXX"
         }
-    ],
-    "hero_img": "main_img.png",
-    "user_name": "Dear Dr [Name]",
-    "user_desc": [
-        "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
-    ],
-    "cta_block": [
-        {
-            "heading": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box 1.",
-            "image_name": "icon_1.png",
-            "list": [
-                "Dummy text to fill the text box. Dummy text",
-                "Dummy text to fill the text box. Dummy text",
-                "Dummy text to fill the text box. Dummy text"
-            ]
-        },
-        {
-            "heading": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box 1.",
-            "image_name": "icon_1.png",
-            "list": [
-                "Dummy text to fill the text box. Dummy text",
-                "Dummy text to fill the text box. Dummy text",
-                "Dummy text to fill the text box. Dummy text",
-                "Dummy text to fill the text box. Dummy text",
-                "Dummy text to fill the text box. Dummy text"
-            ]
-        },
-        {
-            "heading": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box 2.",
-            "image_name": "icon_1.png",
-            "list": [
-                "Dummy text to fill the text box. Dummy text",
-                "Dummy text to fill the text box. Dummy text"
-            ]
-        }
-    ],
-    "btn_image_name": "btn2.png",
-    "btn_link": "https://www.google.com",
-    "safety": [
-        {
-            "safety_info": "Important Safety Information",
-            "safety_desc": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
-        },
-        {
-            "safety_info": "Abridged Prescribing Information",
-            "safety_desc": "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
-        }
-    ],
-    "reference_title": "References",
-    "reference_list": [
-        "1. Dummy text to fill the text box.",
-        "2. Dummy text to fill the text box.",
-        "3. Dummy text to fill the text box.",
-        "4. Dummy text to fill the text box."
-    ],
-    "blue_links_left": [
-        {
-            "name": "Important Safety Information",
-            "link": "https://www.google.com"
-        },
-        {
-            "name": "Prescribing Information",
-            "link": "https://www.google.com"
-        },
-        {
-            "name": "BRILINTA™",
-            "link": "https://www.google.com"
-        }
-    ],
-    "blue_links_right": [
-        {
-            "name": "Contact Us",
-            "link": "https://www.google.com"
-        },
-        {
-            "name": "Privacy Notice",
-            "link": "https://www.google.com"
-        },
-        {
-            "name": "Report an Adverse Event",
-            "link": "https://aereporting.astrazeneca.com"
-        }
-    ],
-    "footer_text": [
-        "Please do not reply to this e-mail; it will not reach us. To ensure you will continue to receive these e-mails in your inbox, please add [xxx@email.astrazeneca-us.com] to your address book.",
-        "If in the future you no longer want to receive e-mails please click unsubscribe.",
-        "This product information is intended for healthcare professionals only.",
-        "In accordance with AstraZeneca policy, all promotional material must be developed in association with, and approved for release by local nominated signatory.",
-        "©2018 AstraZeneca. All rights reserved. PromoMats ID: XXXXX"
-    ],
-    "preparation_date": "XXXX",
-    "expiry_date": "XXXX"
+    ]
 }

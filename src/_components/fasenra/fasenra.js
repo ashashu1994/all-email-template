@@ -20,33 +20,41 @@ class Fasenra extends React.Component {
                             <td>
                                 <table id="main_table1" width="598" border="0" cellPadding="0" cellSpacing="0" style={{ "backgroundColor": "#fff", "color": "#000", "textAlign": "left", "verticalAlign": "top", "margin": "0 auto" }} align="center">
                                     <tbody>
-                                        <FasenraHeader
-                                            data={data}
-                                        />
-                                        {data.hero_img &&
-                                            <FasenraBanner
-                                                data={data}
-                                            />
-                                        }
-                                        {data.template_type === "template1" &&
-                                            <FasenraTemplate1
-                                                data={data}
-                                            />
-                                        }
-                                        {(data.template_type === "template2" || data.template_type === "template5") &&
-                                            <FasenraTemplate2
-                                                data={data}
-                                            />
-                                        }
-                                        {data.template_type === "template3" &&
-                                            <FasenraTemplate3 data={data} />
-                                        }
-                                        {data.template_type === "template4" &&
-                                            <FasenraTemplate4 data={data} />
-                                        }
-                                        <FasenraSafetyReference data={data} />
-                                        <FasenraBlueLinks data={data} />
-                                        <FasenraFooter data={data} />
+                                        {data.content.map(function (content, contentIndex) {
+                                            return (
+                                                <>
+                                                    {content.preheader_text && content.title && content.click_text &&
+                                                        <FasenraHeader
+                                                            data={content}
+                                                        />
+                                                    }
+                                                    {content.hero_img &&
+                                                        <FasenraBanner
+                                                            data={content}
+                                                        />
+                                                    }
+                                                    {content.template_type === "template1" &&
+                                                        <FasenraTemplate1
+                                                            data={content}
+                                                        />
+                                                    }
+                                                    {(content.template_type === "template2" || content.template_type === "template5") &&
+                                                        <FasenraTemplate2
+                                                            data={content}
+                                                        />
+                                                    }
+                                                    {content.template_type === "template3" &&
+                                                        <FasenraTemplate3 data={content} />
+                                                    }
+                                                    {content.template_type === "template4" &&
+                                                        <FasenraTemplate4 data={content} />
+                                                    }
+                                                    <FasenraSafetyReference data={content} />
+                                                    <FasenraBlueLinks data={content} />
+                                                    <FasenraFooter data={content} />
+                                                </>
+                                            )
+                                        })}
                                     </tbody>
                                 </table>
                             </td>

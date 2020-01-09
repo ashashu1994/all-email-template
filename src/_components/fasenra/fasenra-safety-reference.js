@@ -1,4 +1,5 @@
 import React from 'react';
+import CommonText from '../_common/custom_text';
 class FasenraSafetyReference extends React.Component {
     render() {
         const { data } = this.props;
@@ -15,17 +16,27 @@ class FasenraSafetyReference extends React.Component {
                                             <tr>
                                                 <td height="15" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "fontSize": "1px" }}>&nbsp;</td>
                                             </tr>
-                                            {data.safety.map(function (safety, index) {
+                                            {data.safety && data.safety.map(function (safety, index) {
                                                 return (
                                                     <>
                                                         <tr key={index}>
-                                                            <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "color": "#000", "fontSize": "12px" }}>{safety.safety_info}</td>
+                                                            <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "color": "#000", "fontSize": "12px" }}>
+                                                                {safety.safety_info.map(function (commonTxt, commonTxtIndex) {
+                                                                    return (
+                                                                        <CommonText commonTxt={commonTxt} />
+                                                                    )
+                                                                })}
+                                                            </td>
                                                         </tr>
                                                         <tr>
                                                             <td height="10" style={{ "background": "#fff", "lineHeight": "10px", "verticalAlign": "top", "fontSize": "1px" }}>&nbsp;</td>
                                                         </tr>
                                                         <tr>
-                                                            <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "color": "#000", "fontSize": "12px", "textAlign": "justify" }}>{safety.safety_desc}</td>
+                                                            <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "color": "#000", "fontSize": "12px", "textAlign": "justify" }}>{safety.safety_desc.map(function (commonTxt, commonTxtIndex) {
+                                                                return (
+                                                                    <CommonText commonTxt={commonTxt} />
+                                                                )
+                                                            })}</td>
                                                         </tr>
                                                         <tr>
                                                             <td height="15" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "fontSize": "1px", "height": "8px" }}>&nbsp;</td>
@@ -33,25 +44,38 @@ class FasenraSafetyReference extends React.Component {
                                                     </>
                                                 )
                                             })}
-                                            <tr>
-                                                <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "color": "#000", "fontSize": "12px" }}>{data.reference_title}</td>
-                                            </tr>
-                                            <tr>
-                                                <td height="10" style={{ "background": "#fff", "lineHeight": "10px", "verticalAlign": "top", "fontSize": "1px" }}>&nbsp;</td>
-                                            </tr>
-                                            {data.reference_list.map(function (name, index) {
-                                                return (
-                                                    <tr key={index}>
-                                                        <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "color": "#000", "fontSize": "12px" }}>{name}</td>
-                                                    </tr>
-                                                )
-                                            })}
-                                            <tr>
-                                                <td height="10" style={{ "background": "#fff", "lineHeight": "10px", "verticalAlign": "top", "fontSize": "1px" }}>&nbsp;</td>
-                                            </tr>
-                                            <tr>
-                                                <td height="15" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "fontSize": "1px" }}>&nbsp;</td>
-                                            </tr>
+                                            {data.reference_title && <>
+                                                <tr>
+                                                    <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "color": "#000", "fontSize": "12px" }}>
+                                                        {data.reference_title.map(function (commonTxt, commonTxtIndex) {
+                                                            return (
+                                                                <CommonText commonTxt={commonTxt} />
+                                                            )
+                                                        })}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="10" style={{ "background": "#fff", "lineHeight": "10px", "verticalAlign": "top", "fontSize": "1px" }}>&nbsp;</td>
+                                                </tr>
+                                            </>}
+                                            {data.reference_list && <>
+                                                {data.reference_list.map(function (text, index) {
+                                                    return (
+                                                        <tr key={index}>
+                                                            <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "color": "#000", "fontSize": "12px" }}>
+                                                                {text.multiline.map(function (commonTxt, commonTxtIndex) {
+                                                                    return (
+                                                                        <CommonText commonTxt={commonTxt} />
+                                                                    )
+                                                                })}
+                                                            </td>
+                                                        </tr>
+                                                    )
+                                                })}
+                                                <tr>
+                                                    <td height="10" style={{ "background": "#fff", "lineHeight": "10px", "verticalAlign": "top", "fontSize": "1px" }}>&nbsp;</td>
+                                                </tr>
+                                            </>
+                                            }
                                         </tbody>
                                     </table>
                                 </td>
