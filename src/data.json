@@ -1,6 +1,6 @@
 {
     "brand": "fasenra",
-    "template_type": "template5",
+    "template_type": "template2",
     "content": [
         {
             "preheader_text": [
@@ -204,15 +204,31 @@
                 "btn_image_name": "btn1.png",
                 "btn_link": "#"
             },
-            "_comments": "**********************************Template 5 starts here**********************************************",
-            "template5": {
+            "_comments": "**********************************Template 2, 5 starts here**********************************************",
+            "template25": {
                 "cta_heading": [
                     "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box"
                 ],
+                "cta_image": [
+                    "icon_1.png",
+                    "icon_1.png"
+                ],
                 "cta_list": [
-                    "Dummy text to fill the text box. Dummy text",
-                    "Dummy text to fill the text box. Dummy text",
-                    "Dummy text to fill the text box. Dummy text"
+                    {
+                        "multiline": [
+                            "Dummy text to fill the text box. Dummy text"
+                        ]
+                    },
+                    {
+                        "multiline": [
+                            "Dummy text to fill the text box. Dummy text"
+                        ]
+                    },
+                    {
+                        "multiline": [
+                            "Dummy text to fill the text box. Dummy text"
+                        ]
+                    }
                 ],
                 "btn_image_name": "btn2.png",
                 "btn_link": "#"

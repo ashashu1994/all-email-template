@@ -1,8 +1,8 @@
 import React from 'react';
 import CommonText from '../_common/custom_text';
-class FasenraTemplate2 extends React.Component {
+class FasenraTemplate25 extends React.Component {
     render() {
-        const { data } = this.props;
+        const { data, template_type } = this.props;
         return (
             <>
                 <tr>
@@ -40,7 +40,8 @@ class FasenraTemplate2 extends React.Component {
                                                             <tr>
                                                                 <td height="13" style={{ background: "#fff", lineHeight: "10px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
                                                             </tr>
-                                                        </>)
+                                                        </>
+                                                    )
                                                 })}
                                             </tbody>
                                         </table>
@@ -51,7 +52,7 @@ class FasenraTemplate2 extends React.Component {
                         </table>
                     </td>
                 </tr>
-                {data.template5.cta_heading &&
+                {data.template25.cta_heading &&
                     <tr>
                         <td width="100%">
                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -65,11 +66,12 @@ class FasenraTemplate2 extends React.Component {
                                                         <td height="15" style={{ background: "#fff", lineHeight: "15px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
                                                     </tr>
                                                     <tr>
-                                                        <td height="13" style={{ background: "#fff", lineHeight: "12px", verticalAlign: "top", height: "13px", color: "#000", fontSize: "12px", fontWeight: "bold" }}>{data.template5.cta_heading.map(function (commonTxt, commonTxtIndex) {
-                                                            return (
-                                                                <CommonText commonTxt={commonTxt} />
-                                                            )
-                                                        })}</td>
+                                                        <td height="13" style={{ background: "#fff", lineHeight: "12px", verticalAlign: "top", height: "13px", color: "#000", fontSize: "12px", fontWeight: "bold" }}>
+                                                            {data.template25.cta_heading.map(function (commonTxt, commonTxtIndex) {
+                                                                return (
+                                                                    <CommonText commonTxt={commonTxt} />
+                                                                )
+                                                            })}</td>
                                                     </tr>
                                                     <tr>
                                                         <td height="13" style={{ background: "#fff", lineHeight: "10px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
@@ -84,8 +86,7 @@ class FasenraTemplate2 extends React.Component {
                         </td>
                     </tr>
                 }
-                {/* 
-                {data.template_type === "template2" &&
+                {template_type === "template2" &&
                     <tr>
                         <td width="100%">
                             <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -93,7 +94,7 @@ class FasenraTemplate2 extends React.Component {
                                     <tr>
                                         <td width="10" bgcolor="#fff" style={{ backgroundColor: "#fff" }}>&nbsp;</td>
                                         <td className="mob_table" width="96%" style={{ backgroundColor: "#fff" }}>
-                                            {data.cta_image.map(function (cta, index) {
+                                            {data.template25.cta_image.map(function (cta, index) {
                                                 return (
                                                     <>
                                                         <table align="right" className="width-mob-100 text-mob-center" width="45%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
@@ -130,13 +131,12 @@ class FasenraTemplate2 extends React.Component {
                         </td>
                     </tr>
                 }
-                */}
-                {data.template_type === "template2" &&
+                {(template_type === "template2") &&
                     <tr>
                         <td height="15" style={{ background: "#fff", lineHeight: "15px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
                     </tr>
                 }
-                {data.template5.cta_list && <>
+                {data.template25.cta_list && <>
                     <tr>
                         <td width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
                             <tbody>
@@ -145,12 +145,16 @@ class FasenraTemplate2 extends React.Component {
                                     <td>
                                         <table width="100%" border="0" cellspacing="0" cellpadding="0">
                                             <tbody>
-                                                {data.template5.cta_list.map(function (cta, index) {
+                                                {data.template25.cta_list.map(function (cta, index) {
                                                     return (
                                                         <>
                                                             <tr>
                                                                 <td width="12" height="10" style={{ background: "#fff", color: "#000", textAlign: "justify", fontSize: "15px", verticalAlign: "top" }}>•</td>
-                                                                <td height="13" style={{ background: "#fff", color: "#000", textAlign: "left", fontSize: "10px" }}>{cta}</td>
+                                                                <td height="13" style={{ background: "#fff", color: "#000", textAlign: "left", fontSize: "10px" }}>{cta.multiline.map(function (commonTxt, commonTxtIndex) {
+                                                                    return (
+                                                                        <CommonText commonTxt={commonTxt} />
+                                                                    )
+                                                                })}</td>
                                                             </tr>
                                                             <tr>
                                                                 <td height="3" style={{ background: "#fff", lineHeight: "3px", verticalAlign: "top", height: "3px", fontSize: "1px" }}>&nbsp;</td>
@@ -173,14 +177,14 @@ class FasenraTemplate2 extends React.Component {
                         <td height="25" style={{ background: "#ffffff", fontSize: "1px", lineHeight: "25px" }}>&nbsp;</td>
                     </tr>
                 </>}
-                {data.template5.btn_image_name && <>
+                {data.template25.btn_image_name && <>
                     <tr>
                         <td width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
                             <tr>
                                 <td width="1%">&nbsp;</td>
                                 <td width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
                                     <tr>
-                                        <td height="13" style={{ background: "#fff", lineHeight: "12px", verticalAlign: "top", height: "8px", textAlign: "center" }}><a rel="noopener noreferrer" target="_blank" href={data.template5.btn_link}><img src={`images/${data.template5.btn_image_name}`} alt="" style={{ cursor: "pointer" }} /></a></td>
+                                        <td height="13" style={{ background: "#fff", lineHeight: "12px", verticalAlign: "top", height: "8px", textAlign: "center" }}><a rel="noopener noreferrer" target="_blank" href={data.template25.btn_link}><img src={`images/${data.template25.btn_image_name}`} alt="" style={{ cursor: "pointer" }} /></a></td>
                                     </tr>
                                 </table></td>
                                 <td width="1%">&nbsp;</td>
@@ -197,4 +201,4 @@ class FasenraTemplate2 extends React.Component {
     }
 }
 
-export default FasenraTemplate2;
+export default FasenraTemplate25;

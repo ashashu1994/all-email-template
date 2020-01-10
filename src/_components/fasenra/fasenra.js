@@ -9,7 +9,7 @@ import FasenraTemplate4 from './fasenra-template4';
 import FasenraSafetyReference from './fasenra-safety-reference';
 import FasenraBlueLinks from './fasenra-blue-links';
 import FasenraFooter from './fasenra-footer';
-import FasenraTemplate2 from './fasenra-template2';
+import FasenraTemplate25 from './fasenra-template25';
 class Fasenra extends React.Component {
     render() {
         return (
@@ -39,8 +39,9 @@ class Fasenra extends React.Component {
                                                         />
                                                     }
                                                     {(data.template_type === "template2" || data.template_type === "template5") &&
-                                                        <FasenraTemplate2
+                                                        <FasenraTemplate25
                                                             data={content}
+                                                            template_type={data.template_type}
                                                         />
                                                     }
                                                     {data.template_type === "template3" &&
