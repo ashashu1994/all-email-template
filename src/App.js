@@ -9,8 +9,6 @@ function App() {
       <Router>
         <>
           <Route exact path="/" component={Template} />
-          <Route path="/forxiga" component={Forxiga} />
-          <Route path="/fasenra" component={Fasenra} />
         </>
       </Router>
     </>

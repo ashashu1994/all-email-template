@@ -7,7 +7,7 @@ class FasenraBlueLinks extends React.Component {
             <>
                 {data.blue_links && data.blue_links.map(function (blue_links, blue_linksIndex) {
                     return (
-                        <>
+                        <React.Fragment key={blue_linksIndex}>
                             <tr>
                                 <td height="15" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "fontSize": "1px" }}>&nbsp;</td>
                             </tr>
@@ -63,20 +63,22 @@ class FasenraBlueLinks extends React.Component {
                                                                             </tr>
                                                                             {blue_links.blue_links_length[0].links && blue_links.blue_links_length[0].links.map(function (links, linksIndex) {
                                                                                 return (
-                                                                                    <>
+                                                                                    <React.Fragment key={linksIndex}>
                                                                                         <tr>
                                                                                             <td width="2%"></td>
                                                                                             <td width="48%" height="20" style={{ "color": "#fff", "fontSize": "12px" }}>
                                                                                                 <span style={{ "color": "#fff" }} className="font-size-mob-9">
                                                                                                     {links.multiline && links.multiline.map(function (commonTxt, commonTxtIndex) {
                                                                                                         return (
-                                                                                                            <CommonText commonTxt={commonTxt} />
+                                                                                                            <React.Fragment key={commonTxtIndex}>
+                                                                                                                <CommonText aColor="#fff" commonTxt={commonTxt} />
+                                                                                                            </React.Fragment>
                                                                                                         )
                                                                                                     })}
                                                                                                 </span>
                                                                                             </td>
                                                                                         </tr>
-                                                                                    </>
+                                                                                    </React.Fragment>
                                                                                 )
                                                                             })}
                                                                             <tr>
@@ -106,16 +108,18 @@ class FasenraBlueLinks extends React.Component {
                                                                             </tr>
                                                                             {blue_links.blue_links_length[1].links && blue_links.blue_links_length[1].links.map(function (links, linksIndex) {
                                                                                 return (
-                                                                                    <>
+                                                                                    <React.Fragment key={linksIndex}>
                                                                                         <tr>
                                                                                             <td width="23%" className="fasenra_widthtd"></td>
-                                                                                            <td width="23%" height="20" style={{ "color": "#fff", "fontSize": "12px" }}><span className="font-size-mob-9"><a rel="noopener noreferrer" target="_blank" href="#"><font color="#fff"><u style={{ "color": "#fff", "cursor": "pointer" }}>{links.multiline && links.multiline.map(function (commonTxt, commonTxtIndex) {
+                                                                                            <td width="23%" height="20" style={{ "color": "#fff", "fontSize": "12px" }}><span style={{ "color": "#fff" }}  className="font-size-mob-9">{links.multiline && links.multiline.map(function (commonTxt, commonTxtIndex) {
                                                                                                 return (
-                                                                                                    <CommonText commonTxt={commonTxt} />
+                                                                                                    <React.Fragment key={commonTxtIndex}>
+                                                                                                        <CommonText aColor="#fff" commonTxt={commonTxt} />
+                                                                                                    </React.Fragment>
                                                                                                 )
-                                                                                            })}</u></font></a></span></td>
+                                                                                            })}</span></td>
                                                                                         </tr>
-                                                                                    </>
+                                                                                    </React.Fragment>
                                                                                 )
                                                                             })}
 
@@ -135,7 +139,7 @@ class FasenraBlueLinks extends React.Component {
                                     </td>
                                 </tr>
                             }
-                        </>
+                        </React.Fragment>
                     )
                 })
                 }

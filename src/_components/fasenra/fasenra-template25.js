@@ -7,12 +7,12 @@ class FasenraTemplate25 extends React.Component {
             <>
                 <tr>
                     <td width="100%">
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                             <tbody>
                                 <tr>
                                     <td width="10">&nbsp;</td>
                                     <td >
-                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                             <tbody>
                                                 <tr>
                                                     <td height="15" style={{ background: "#fff", lineHeight: "15px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
@@ -55,12 +55,12 @@ class FasenraTemplate25 extends React.Component {
                 {data.template25.cta_heading &&
                     <tr>
                         <td width="100%">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                 <tbody>
                                     <tr>
                                         <td width="10">&nbsp;</td>
                                         <td >
-                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                                 <tbody>
                                                     <tr>
                                                         <td height="15" style={{ background: "#fff", lineHeight: "15px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
@@ -89,7 +89,7 @@ class FasenraTemplate25 extends React.Component {
                 {template_type === "template2" &&
                     <tr>
                         <td width="100%">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                 <tbody>
                                     <tr>
                                         <td width="10" bgcolor="#fff" style={{ backgroundColor: "#fff" }}>&nbsp;</td>
@@ -97,22 +97,20 @@ class FasenraTemplate25 extends React.Component {
                                             {data.template25.cta_image.map(function (cta, index) {
                                                 return (
                                                     <>
-                                                        <table align="right" className="width-mob-100 text-mob-center" width="45%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
+                                                        <table align="right" className="width-mob-100 text-mob-center" width="45%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
                                                             <tbody>
                                                                 <tr>
                                                                     <td className="height-mob-10" width="20%" height="15" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>
                                                                 </tr>
                                                                 <tr valign="top" align="center">
                                                                     <td width="10%" style={{ color: "#fff", backgroundColor: "#fff" }}>
-                                                                        <a target="_blank" href="#">
-                                                                            <img src={`images/${cta}`} alt="" height="152px" width="190px" style={{ cursor: "pointer" }} />
-                                                                        </a>
+                                                                        <img src={`images/${cta}`} alt="" height="152px" width="190px" style={{ cursor: "pointer" }} />
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
                                                         {index === 0 &&
-                                                            <table align="right" className="width-mob-100 text-mob-center" width="10%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
+                                                            <table align="right" className="width-mob-100 text-mob-center" width="10%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
                                                                 <tbody>
                                                                     <tr>
                                                                         <td className="height-mob-10" width="10%" height="55" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>
@@ -138,12 +136,12 @@ class FasenraTemplate25 extends React.Component {
                 }
                 {data.template25.cta_list && <>
                     <tr>
-                        <td width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <td width="100%"><table width="100%" border="0" cellSpacing="0" cellPadding="0">
                             <tbody>
                                 <tr>
                                     <td width="10">&nbsp;</td>
                                     <td>
-                                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                        <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                             <tbody>
                                                 {data.template25.cta_list.map(function (cta, index) {
                                                     return (
@@ -179,10 +177,10 @@ class FasenraTemplate25 extends React.Component {
                 </>}
                 {data.template25.btn_image_name && <>
                     <tr>
-                        <td width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <td width="100%"><table width="100%" border="0" cellSpacing="0" cellPadding="0">
                             <tr>
                                 <td width="1%">&nbsp;</td>
-                                <td width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <td width="100%"><table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                     <tr>
                                         <td height="13" style={{ background: "#fff", lineHeight: "12px", verticalAlign: "top", height: "8px", textAlign: "center" }}><a rel="noopener noreferrer" target="_blank" href={data.template25.btn_link}><img src={`images/${data.template25.btn_image_name}`} alt="" style={{ cursor: "pointer" }} /></a></td>
                                     </tr>

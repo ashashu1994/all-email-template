@@ -1,15 +1,15 @@
 import React from 'react';
 class CommonText extends React.Component {
     render() {
-        const { commonTxt } = this.props;
+        const { commonTxt, aColor } = this.props;
         return (
             <>
                 {/* if sup tag */}
                 {(commonTxt.includes("<sup>")) ?
-                    <sup style={{ fontSize: "0.6em", lineHeight: "0px", color: "inherit" }}>{commonTxt.replace('<sup>', '')}</sup> :
+                    <sup style={{ fontSize: "7px", lineHeight: "0px", color: "inherit" }}>{commonTxt.replace('<sup>', '')}</sup> :
                     // if sub tag
                     (commonTxt.includes("<sub>")) ?
-                        <sub style={{ fontSize: "0.6em", lineHeight: "0px", color: "inherit" }}>{commonTxt.replace('<sub>', '')}</sub> :
+                        <sub style={{ fontSize: "7px", lineHeight: "0px", color: "inherit" }}>{commonTxt.replace('<sub>', '')}</sub> :
                         // if bold tag
                         (commonTxt.includes("<b>")) ?
                             <b>{commonTxt.replace('<b>', '')}</b> :
@@ -25,9 +25,9 @@ class CommonText extends React.Component {
                                         commonTxt.substring(
                                             commonTxt.indexOf("<a>") + 3,
                                             commonTxt.indexOf("</a>"))
-                                    } style={{ color: "inherit" }}>{commonTxt.replace(commonTxt.substring(
+                                    } style={{ color: `${aColor}` }}><span style={{ color: `${aColor}` }}>{commonTxt.replace(commonTxt.substring(
                                         commonTxt.indexOf("<a>"),
-                                        commonTxt.indexOf("</a>") + 4), '')}</a> :
+                                        commonTxt.indexOf("</a>") + 4), '')}</span></a> :
                                     // if span for color
                                     (commonTxt.includes("<span>")) ?
                                         <span style={{
@@ -45,7 +45,7 @@ class CommonText extends React.Component {
                                                 commonTxt.indexOf("<span>"),
                                                 commonTxt.indexOf("</span>") + 7), '')}
                                         </span> :
-                                        // if nothing print as it is
+                                        // if nothing, print as it is
                                         commonTxt
                 }
             </>

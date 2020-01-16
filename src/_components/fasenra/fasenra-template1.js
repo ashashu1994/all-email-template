@@ -8,12 +8,12 @@ class FasenraTemplate1 extends React.Component {
                 {(data.user_desc || data.user_name) &&
                     <tr>
                         <td width="100%">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                 <tbody>
                                     <tr>
                                         <td width="10">&nbsp;</td>
                                         <td >
-                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                                 <tbody>
                                                     <tr>
                                                         <td height="15" style={{ background: "#fff", lineHeight: "15px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
@@ -56,7 +56,7 @@ class FasenraTemplate1 extends React.Component {
                 {data.template1.cta_block && <>
                     <tr>
                         <td width="100%">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                 <tbody>
                                     <tr>
                                         <td height="15" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>
@@ -67,24 +67,24 @@ class FasenraTemplate1 extends React.Component {
                                                 <tr>
                                                     <td width="10" bgcolor="#fff" style={{ backgroundColor: "#fff" }}>&nbsp;</td>
                                                     <td style={{ backgroundColor: "#fff" }}>
-                                                        <table align="left" className="width-mob-100 text-mob-center" width="30%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
+                                                        <table align="left" className="width-mob-100 text-mob-center" width="30%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
                                                             <tbody>
                                                                 <tr>
                                                                     <td className="height-mob-10" width="20%" height="15" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>
                                                                 </tr>
                                                                 <tr valign="top">
-                                                                    <td width="10%" style={{ color: "#fff", backgroundColor: "#fff" }}><a target="_blank" href="#"><img src={`images/${cta.image_name && cta.image_name}`} alt="" height="152px" width="190px" style={{ cursor: "pointer" }} className="text-mob-center" /></a></td>
+                                                                    <td width="10%" style={{ color: "#fff", backgroundColor: "#fff" }}><img src={`images/${cta.image_name && cta.image_name}`} alt="" height="152px" width="190px" style={{ cursor: "pointer" }} className="text-mob-center" /></td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
-                                                        <table align="left" className="display-mob-none" width="10%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
+                                                        <table align="left" className="display-mob-none" width="10%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#fbeae1" style={{ float: "left", textAlign: "right" }}>
                                                             <tbody>
                                                                 <tr>
                                                                     <td className="height-mob-10" width="10%" height="55" style={{ color: "#fff", backgroundColor: "#fff", fontSize: "1px" }}>&nbsp;</td>
                                                                 </tr>
                                                             </tbody>
                                                         </table>
-                                                        <table className="width-mob-95" width="50%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fff" style={{ float: "left", textAlign: "left" }} align="left">
+                                                        <table className="width-mob-95" width="50%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#fff" style={{ float: "left", textAlign: "left" }} align="left">
                                                             <tbody>
                                                                 <tr>
                                                                     <td className="height-mob-10" height="15" style={{ background: "#fff", fontSize: "1px", lineHeight: "15px" }}>&nbsp;</td>
@@ -97,7 +97,7 @@ class FasenraTemplate1 extends React.Component {
                                                                     })}</td>
                                                                 </tr>
                                                                 <tr>
-                                                                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0" style={{ lineHeight: "14px", backgroundColor: "#fff" }}>
+                                                                    <td><table width="100%" border="0" cellSpacing="0" cellPadding="0" style={{ lineHeight: "14px", backgroundColor: "#fff" }}>
                                                                         <tbody>
                                                                             <tr>
                                                                                 <td height="5" style={{ background: "#fff", fontSize: "1px" }}></td>
@@ -142,11 +142,11 @@ class FasenraTemplate1 extends React.Component {
                     <>
                         <tr>
                             <td width="100%">
-                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                     <tbody>
                                         <tr>
                                             <td width="1%">&nbsp;</td>
-                                            <td width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <td width="100%"><table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                                 <tr>
                                                     <td height="13" style={{ background: "#fff", lineHeight: "12px", verticalAlign: "top", height: "8px", textAlign: "center" }}>
                                                         <a rel="noopener noreferrer" target="_blank" href={data.btn_link}>
