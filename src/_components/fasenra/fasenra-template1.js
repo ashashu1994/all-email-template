@@ -18,7 +18,7 @@ class FasenraTemp1 extends React.Component {
                             <td>
                                 <table id="main_table1" width="598" border="0" cellPadding="0" cellSpacing="0" style={{ "backgroundColor": "#fff", "color": "#000", "textAlign": "left", "verticalAlign": "top", "margin": "0 auto" }} align="center">
                                     <tbody>
-                                        {data.content.map(function (content, contentIndex) {
+                                        {data.content && data.content.map(function (content, contentIndex) {
                                             return (
                                                 <React.Fragment key={contentIndex}>
                                                     {content.preheader_text && content.title && content.click_text &&
@@ -31,11 +31,9 @@ class FasenraTemp1 extends React.Component {
                                                             data={content}
                                                         />
                                                     }
-                                                    {template_type === "template1" &&
-                                                        <FasenraTemplate1
-                                                            data={content}
-                                                        />
-                                                    }
+                                                    <FasenraTemplate1
+                                                        data={content}
+                                                    />
                                                     <FasenraSafetyReference data={content} />
                                                     <FasenraBlueLinks data={content} />
                                                     <FasenraFooter data={content} />

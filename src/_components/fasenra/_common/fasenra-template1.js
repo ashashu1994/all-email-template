@@ -57,7 +57,7 @@ class FasenraTemplate1 extends React.Component {
                         </td>
                     </tr>
                 }
-                {data.template1.cta_block && <>
+                {data.template1 &&  data.template1.cta_block && <>
                     <tr>
                         <td width="100%">
                             <table width="100%" border="0" cellSpacing="0" cellPadding="0">
@@ -146,7 +146,8 @@ class FasenraTemplate1 extends React.Component {
                         <td height="35" style={{ background: "#fff", fontSize: "1px", lineHeight: "15px" }}>&nbsp;</td>
                     </tr>
                 </>}
-                {data.template1.btn_image_name &&
+                
+                {data.template1 && data.template1.btn_image_name &&
                     <>
                         <tr>
                             <td width="100%">

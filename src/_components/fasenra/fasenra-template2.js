@@ -31,12 +31,10 @@ class FasenraTemp2 extends React.Component {
                                                             data={content}
                                                         />
                                                     }
-                                                    {(template_type === "template2" || template_type === "template5") &&
-                                                        <FasenraTemplate25
-                                                            data={content}
-                                                            template_type={template_type}
-                                                        />
-                                                    }
+                                                    <FasenraTemplate25
+                                                        data={content}
+                                                        template_type={template_type}
+                                                    />
                                                     <FasenraSafetyReference data={content} />
                                                     <FasenraBlueLinks data={content} />
                                                     <FasenraFooter data={content} />

@@ -26,8 +26,12 @@
                         "."
                     ]
                 }
-            ],
-            "hero_img": "main_img.png",
+            ]
+        },
+        {
+            "hero_img": "main_img.png"
+        },
+        {
             "user_name": [
                 "Dear Dr [Name]"
             ],
@@ -37,7 +41,9 @@
                         "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
                     ]
                 }
-            ],
+            ]
+        },
+        {
             "template25": {
                 "cta_heading": [
                     "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box"
@@ -65,7 +71,9 @@
                 ],
                 "btn_image_name": "btn2.png",
                 "btn_link": "#"
-            },
+            }
+        },
+        {
             "safety": [
                 {
                     "safety_info": [
@@ -83,7 +91,9 @@
                         "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
                     ]
                 }
-            ],
+            ]
+        },
+        {
             "reference_title": [
                 "References"
             ],
@@ -108,7 +118,9 @@
                         "4. Dummy text to fill the text box."
                     ]
                 }
-            ],
+            ]
+        },
+        {
             "blue_links": [
                 {
                     "blue_links_length": [
@@ -152,7 +164,9 @@
                         }
                     ]
                 }
-            ],
+            ]
+        },
+        {
             "footer_text": [
                 {
                     "multiline": [

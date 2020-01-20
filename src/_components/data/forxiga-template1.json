@@ -5,8 +5,12 @@
         {
             "preheader_text": [
                 "Preheader Summary text"
-            ],
-            "hero_img": "main_img.png",
+            ]
+        },
+        {
+            "hero_img": "main_img.png"
+        },
+        {
             "grid_cta": [
                 {
                     "text1": [
@@ -21,7 +25,9 @@
                     "cta_btn_1": "cta_1.png",
                     "cta_btn_1_link": "https://www.google.com"
                 }
-            ],
+            ]
+        },
+        {
             "section4": {
                 "title": [
                     "Dear {{accTitle}} {{accFname}} {{accLname}},"
@@ -33,7 +39,9 @@
                         ]
                     }
                 ]
-            },
+            }
+        },
+        {
             "section567": [
                 {
                     "section5": [
@@ -102,7 +110,9 @@
                         }
                     ]
                 }
-            ],
+            ]
+        },
+        {
             "section8": [
                 {
                     "heading": [
@@ -129,18 +139,24 @@
                         }
                     ]
                 }
-            ],
+            ]
+        },
+        {
             "section9": [
                 {
                     "image": "main_icon_4.png"
                 }
-            ],
+            ]
+        },
+        {
             "section10": [
                 {
                     "cta_btn_2": "cta_2.png",
                     "cta_btn_2_link": "#"
                 }
-            ],
+            ]
+        },
+        {
             "refSection": [
                 {
                     "reference_heading": "References",
@@ -177,7 +193,9 @@
                         }
                     ]
                 }
-            ],
+            ]
+        },
+        {
             "footer_text": [
                 {
                     "multiline": [
