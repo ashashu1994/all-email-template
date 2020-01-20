@@ -1,100 +1,54 @@
 import React from 'react';
-import CommonText from '../_common/custom_text';
-class FasenraTemplate4 extends React.Component {
+import data from "../data/fasenra-template4";
+import './fasenra.css';
+import FasenraHeader from './_common/fasenra-header';
+import FasenraBanner from './_common/fasenra-banner';
+import FasenraTemplate4 from './_common/fasenra-template4';
+import FasenraSafetyReference from './_common/fasenra-safety-reference';
+import FasenraBlueLinks from './_common/fasenra-blue-links';
+import FasenraFooter from './_common/fasenra-footer';
+class FasenraTemp4 extends React.Component {
     render() {
-        const { data } = this.props;
+        const { template_type } = this.props;
         return (
-            <>
-                {data.template4 &&
-                    <tr>
-                        <td width="100%" bgcolor="#fff">
-                            <table width="100%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#fff">
-                                <tbody>
-                                    <tr>
-                                        <td width="10" style={{ "backgroundColor": "#fff" }} >&nbsp;</td>
-                                        <td>
-                                            <table width="100%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#fff">
-                                                <tbody>
-                                                    <tr>
-                                                        <td height="15" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "fontSize": "1px" }}>&nbsp;</td>
-                                                    </tr>
-                                                    {data.user_name && <>
-                                                        <tr>
-                                                            <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "color": "#000", "fontSize": "12px" }}>
-                                                                {data.user_name && data.user_name.map(function (commonTxt, commonTxtIndex) {
-                                                                    return (
-                                                                        <CommonText commonTxt={commonTxt} />
-                                                                    )
-                                                                })}</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td height="10" style={{ "background": "#fff", "lineHeight": "10px", "verticalAlign": "top", "fontSize": "1px" }}>&nbsp;</td>
-                                                        </tr>
-                                                    </>
+            <div style={{ "width": "100%", "border": "0px", "padding": "0px", "margin": "0px" }}>
+                <table id="main_table" width="598" border="0" cellPadding="0" cellSpacing="0" style={{ "border": "1px solid #343434", "backgroundColor": "#fff", "color": "#000", "textAlign": "left", "verticalAlign": "top", "margin": "0 auto" }} align="center">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <table id="main_table1" width="598" border="0" cellPadding="0" cellSpacing="0" style={{ "backgroundColor": "#fff", "color": "#000", "textAlign": "left", "verticalAlign": "top", "margin": "0 auto" }} align="center">
+                                    <tbody>
+                                        {data.content.map(function (content, contentIndex) {
+                                            return (
+                                                <React.Fragment key={contentIndex}>
+                                                    {content.preheader_text && content.title && content.click_text &&
+                                                        <FasenraHeader
+                                                            data={content}
+                                                        />
                                                     }
-                                                    {data.user_desc && data.user_desc.map(function (desc, index) {
-                                                        return (
-                                                            <>
-                                                                <tr>
-                                                                    <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "color": "#000", "fontSize": "12px" }}>
-                                                                        {desc.multiline && desc.multiline.map(function (commonTxt, commonTxtIndex) {
-                                                                            return (
-                                                                                <CommonText commonTxt={commonTxt} />
-                                                                            )
-                                                                        })}
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td height="10" style={{ "background": "#fff", "lineHeight": "10px", "verticalAlign": "top", "fontSize": "1px" }}>&nbsp;</td>
-                                                                </tr>
-                                                            </>
-                                                        )
-                                                    })}
-                                                    {data.template4.cta_full_text &&
-                                                        <>
-                                                            <tr>
-                                                                <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "color": "#000", "fontSize": "12px", "fontWeight": "bold" }}>{data.template4.cta_full_text.map(function (commonTxt, commonTxtIndex) {
-                                                                    return (
-                                                                        <CommonText commonTxt={commonTxt} />
-                                                                    )
-                                                                })}</td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="10" style={{ "background": "#fff", "lineHeight": "10px", "verticalAlign": "top", "fontSize": "1px" }}>&nbsp;</td>
-                                                            </tr>
-                                                        </>
+                                                    {content.hero_img &&
+                                                        <FasenraBanner
+                                                            data={content}
+                                                        />
                                                     }
-                                                    {data.template4.image_name && <>
-                                                        <tr style={{ "lineHeight": "0px" }}>
-                                                            <td align="center"><img src={`images/${data.template4.image_name}`} alt="main" className="main_img" /></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td height="30" style={{ "background": "#fff", "lineHeight": "30px", "verticalAlign": "top", "fontSize": "1px" }}>&nbsp;</td>
-                                                        </tr>
-                                                    </>
+                                                    {template_type === "template4" &&
+                                                        <FasenraTemplate4 data={content} />
                                                     }
-                                                    {data.template4.btn_image_name && <>
-                                                        <tr style={{ "lineHeight": "0px", "backgroundColor": "#fff" }}>
-                                                            <td align="center"><a href={data.template4.btn_link}><img src={`images/${data.template4.btn_image_name}`} alt="main" className="main_img" /></a></td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td height="15" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "fontSize": "1px" }}>&nbsp;</td>
-                                                        </tr>
-                                                    </>
-                                                    }
-                                                </tbody>
-                                            </table>
-                                        </td>
-                                        <td width="10" style={{ "background-color": "#fff" }}>&nbsp;</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </td>
-                    </tr>
-                }
-            </>
+                                                    <FasenraSafetyReference data={content} />
+                                                    <FasenraBlueLinks data={content} />
+                                                    <FasenraFooter data={content} />
+                                                </React.Fragment>
+                                            )
+                                        })}
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         )
     }
 }
 
-export default FasenraTemplate4;
+export default FasenraTemp4;

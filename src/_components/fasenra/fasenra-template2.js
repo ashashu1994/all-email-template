@@ -1,13 +1,13 @@
 import React from 'react';
-import data from "../data/fasenra-template3";
+import data from "../data/fasenra-template2";
 import './fasenra.css';
 import FasenraHeader from './_common/fasenra-header';
 import FasenraBanner from './_common/fasenra-banner';
-import FasenraTemplate3 from './_common/fasenra-template3';
 import FasenraSafetyReference from './_common/fasenra-safety-reference';
 import FasenraBlueLinks from './_common/fasenra-blue-links';
 import FasenraFooter from './_common/fasenra-footer';
-class FasenraTemp3 extends React.Component {
+import FasenraTemplate25 from './_common/fasenra-template25';
+class FasenraTemp2 extends React.Component {
     render() {
         const { template_type } = this.props;
         return (
@@ -31,8 +31,11 @@ class FasenraTemp3 extends React.Component {
                                                             data={content}
                                                         />
                                                     }
-                                                    {template_type === "template3" &&
-                                                        <FasenraTemplate3 data={content} />
+                                                    {(template_type === "template2" || template_type === "template5") &&
+                                                        <FasenraTemplate25
+                                                            data={content}
+                                                            template_type={template_type}
+                                                        />
                                                     }
                                                     <FasenraSafetyReference data={content} />
                                                     <FasenraBlueLinks data={content} />
@@ -51,4 +54,4 @@ class FasenraTemp3 extends React.Component {
     }
 }
 
-export default FasenraTemp3;
+export default FasenraTemp2;

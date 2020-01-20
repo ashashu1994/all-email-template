@@ -1,13 +1,14 @@
 import React from 'react';
-import data from "../../data";
 import '../../common-inline.css';
 import Fasenra from '../fasenra/fasenra';
 import Forxiga from '../forxiga/forxiga';
 class Template extends React.Component {
     render() {
+        const { brand, template } = this.props.match.params;
         return (
             <>
-                {data.brand === "forxiga" ? <Forxiga data={data} /> : <Fasenra data={data} />}
+                {brand === "fasenra" ? <Fasenra template_type={template} />
+                    : (brand === "forxiga") ? <Forxiga template_type={template} /> : ""}
             </>
         )
     }

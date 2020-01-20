@@ -1,4 +1,5 @@
 import React from 'react';
+import data from "../data/forxiga-template1";
 import './forxiga-temp1.css';
 import ForxigaTemplate1Header from './template1/header';
 import ForxigaTemplate1Banner from './template1/banner';
@@ -12,7 +13,6 @@ import RefSection from './template1/RefSection';
 import Footer from './template1/footer';
 class ForxigaTemplate1 extends React.Component {
     render() {
-        const { data } = this.props;
         return (
             <div style={{ "width": "100%", "border": "0px", "padding": "0px", "margin": "0px" }}>
                 <table id="main_table" width="598" border="0" cellPadding="0" cellSpacing="0" style={{ "border": "1px solid #343434", "color": "#000", "textAlign": "left", "verticalAlign": "top", "margin": "0 auto" }} align="center">

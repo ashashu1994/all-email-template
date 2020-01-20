@@ -1,5 +1,5 @@
 import React from 'react';
-import CommonText from '../_common/custom_text';
+import CommonText from '../../_common/custom_text';
 class FasenraHeader extends React.Component {
     render() {
         const { data } = this.props;
@@ -22,7 +22,9 @@ class FasenraHeader extends React.Component {
                                                         <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "color": "#000", "fontSize": "12px" }}>
                                                             {data.preheader_text.map(function (commonTxt, commonTxtIndex) {
                                                                 return (
-                                                                    <CommonText commonTxt={commonTxt} />
+                                                                    <React.Fragment key={commonTxtIndex}>
+                                                                        <CommonText commonTxt={commonTxt} />
+                                                                    </React.Fragment>
                                                                 )
                                                             })}
                                                         </td>
@@ -37,7 +39,9 @@ class FasenraHeader extends React.Component {
                                                     <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "color": "#000", "fontSize": "12px", "textAlign": "justify" }}>
                                                         {data.title.map(function (commonTxt, commonTxtIndex) {
                                                             return (
-                                                                <CommonText commonTxt={commonTxt} />
+                                                                <React.Fragment key={commonTxtIndex}>
+                                                                    <CommonText commonTxt={commonTxt} />
+                                                                </React.Fragment>
                                                             )
                                                         })}
                                                     </td>
@@ -51,12 +55,14 @@ class FasenraHeader extends React.Component {
                                                 <>
                                                     {data.click_text.map(function (name, index) {
                                                         return (
-                                                            <>
+                                                            <React.Fragment key={index}>
                                                                 <tr key={index}>
                                                                     <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "height": "8px", "verticalAlign": "top", "color": "#000", "textAlign": "left", "fontSize": "11px" }}>
                                                                         {name.content.map(function (commonTxt, commonTxtIndex) {
                                                                             return (
-                                                                                <CommonText commonTxt={commonTxt} />
+                                                                                <React.Fragment key={commonTxtIndex}>
+                                                                                    <CommonText commonTxt={commonTxt} />
+                                                                                </React.Fragment>
                                                                             )
                                                                         })}
                                                                     </td>
@@ -64,7 +70,7 @@ class FasenraHeader extends React.Component {
                                                                 <tr>
                                                                     <td height="1" style={{ "background": "#fff", "lineHeight": "1px", "height": "1px", "verticalAlign": "top", "fontSize": "1px" }}>&nbsp;</td>
                                                                 </tr>
-                                                            </>
+                                                            </React.Fragment>
                                                         )
                                                     })}
                                                     <tr>

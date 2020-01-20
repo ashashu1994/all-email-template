@@ -1,68 +1,16 @@
 import React from 'react';
-import data from "../../data";
-import './fasenra.css';
-import FasenraHeader from './fasenra-header';
-import FasenraBanner from './fasenra-banner';
-import FasenraTemplate1 from './fasenra-template1';
-import FasenraTemplate3 from './fasenra-template3';
-import FasenraTemplate4 from './fasenra-template4';
-import FasenraSafetyReference from './fasenra-safety-reference';
-import FasenraBlueLinks from './fasenra-blue-links';
-import FasenraFooter from './fasenra-footer';
-import FasenraTemplate25 from './fasenra-template25';
+import FasenraTemp1 from './fasenra-template1';
+import FasenraTemp2 from './fasenra-template2';
+import FasenraTemp3 from './fasenra-template3';
+import FasenraTemp4 from './fasenra-template4';
+import FasenraTemp5 from './fasenra-template5';
 class Fasenra extends React.Component {
     render() {
+        const { template_type } = this.props;
         return (
-            <div clasName="" style={{ "width": "100%", "border": "0px", "padding": "0px", "margin": "0px" }}>
-                <table id="main_table" width="598" border="0" cellPadding="0" cellSpacing="0" style={{ "border": "1px solid #343434", "backgroundColor": "#fff", "color": "#000", "textAlign": "left", "verticalAlign": "top", "margin": "0 auto" }} align="center">
-                    <tbody>
-                        <tr>
-                            <td>
-                                <table id="main_table1" width="598" border="0" cellPadding="0" cellSpacing="0" style={{ "backgroundColor": "#fff", "color": "#000", "textAlign": "left", "verticalAlign": "top", "margin": "0 auto" }} align="center">
-                                    <tbody>
-                                        {data.content.map(function (content, contentIndex) {
-                                            return (
-                                                <>
-                                                    {content.preheader_text && content.title && content.click_text &&
-                                                        <FasenraHeader
-                                                            data={content}
-                                                        />
-                                                    }
-                                                    {content.hero_img &&
-                                                        <FasenraBanner
-                                                            data={content}
-                                                        />
-                                                    }
-                                                    {data.template_type === "template1" &&
-                                                        <FasenraTemplate1
-                                                            data={content}
-                                                        />
-                                                    }
-                                                    {(data.template_type === "template2" || data.template_type === "template5") &&
-                                                        <FasenraTemplate25
-                                                            data={content}
-                                                            template_type={data.template_type}
-                                                        />
-                                                    }
-                                                    {data.template_type === "template3" &&
-                                                        <FasenraTemplate3 data={content} />
-                                                    }
-                                                    {data.template_type === "template4" &&
-                                                        <FasenraTemplate4 data={content} />
-                                                    }
-                                                    <FasenraSafetyReference data={content} />
-                                                    <FasenraBlueLinks data={content} />
-                                                    <FasenraFooter data={content} />
-                                                </>
-                                            )
-                                        })}
-                                    </tbody>
-                                </table>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
+            <>
+                {(template_type === "template1") ? <FasenraTemp1 template_type={template_type} /> : (template_type === "template2") ? <FasenraTemp2 template_type={template_type} /> : (template_type === "template3") ? <FasenraTemp3 template_type={template_type} /> : (template_type === "template4") ? <FasenraTemp4 template_type={template_type} /> : <FasenraTemp5 template_type={template_type} />}
+            </>
         )
     }
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import CommonText from '../_common/custom_text';
+import CommonText from '../../_common/custom_text';
 class FasenraBlueLinks extends React.Component {
     render() {
         const { data } = this.props;

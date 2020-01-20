@@ -1,0 +1,208 @@
+{
+    "brand": "forxiga",
+    "template_type": "template1",
+    "content": [
+        {
+            "preheader_text": [
+                "Preheader Summary text"
+            ],
+            "hero_img": "main_img.png",
+            "grid_cta": [
+                {
+                    "text1": [
+                        "Managing T2D has mainly been focused on reducing HbA",
+                        "<sub>1c",
+                        "."
+                    ],
+                    "text2": [
+                        "However, the heart and kidneys are usually adversely affected by T2D.",
+                        "<sup>1"
+                    ],
+                    "cta_btn_1": "cta_1.png",
+                    "cta_btn_1_link": "https://www.google.com"
+                }
+            ],
+            "section4": {
+                "title": [
+                    "Dear {{accTitle}} {{accFname}} {{accLname}},"
+                ],
+                "description": [
+                    {
+                        "multiline": [
+                            "{{customText[|As a follow-up to our discussion,|Thanks for your time.|I hope you are well.|Before our next appointment,|]}} I would like to take the opportunity to highlight the risk of early cardiorenal complications in patients with type 2 diabetes (T2D). T2D is associated with several micro and macrovascular complications that may start early in the disease process, of which cardiac and renal risks are prominent subtypes. The real-world data indicate that heart failure (HF) and/or chronic kidney disease(CKD) were the most common early cardiovascular (CV) complication in T2D patients – higher than stroke and myocardial infarction (MI). Thus, the treatment guidelines such as European Association for the Study of Diabetes/ American Diabetes Association (EASD/ADA) and American College of Cardiology/American Heart Association (ACC/AHA) guidelines are evolving to consider the holistic management of T2D."
+                        ]
+                    }
+                ]
+            },
+            "section567": [
+                {
+                    "section5": [
+                        {
+                            "heading": [
+                                "PATIENTS WITH T2D MAY BE AT RISK OF CARDIORENAL COMPLICATIONS EARLY IN THEIR DISEASE",
+                                "<sup>1"
+                            ],
+                            "description": [
+                                "Prediabetes is associated with an ",
+                                "<span>#e6b7ba</span>increased risk",
+                                " of CV disease and CKD.",
+                                "<sup>2,3"
+                            ],
+                            "image": "main_icon_1.png",
+                            "smallText": "*Compared to patients with normoglycaemia."
+                        }
+                    ],
+                    "section6": [
+                        {
+                            "heading": [
+                                "<span>#e6b7ba</span>68%",
+                                " of patients with T2D had evidence of LV dysfunction within 5 years of T2D diagnosis.",
+                                "<sup>4†"
+                            ],
+                            "image": "main_icon_2.png",
+                            "text8": [
+                                {
+                                    "multiline": [
+                                        "<sup>†",
+                                        "Data from a prospective, multicentre study (N = 386). Mean age was 71 years in left ventricular (LV) dysfunction group and 64 in normal LV function group."
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "Patients with LV dysfunction were older, had lower glomerular filtration rate, higher levels of glycated haemoglobin, C-reactive protein, LV mass, relative wall thickness and prevalence of valve calcifications."
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "section7": [
+                        {
+                            "heading": [
+                                "In a real-world study",
+                                "<sup>‡",
+                                ", HF and/or CKD was the ",
+                                "<span>rgb(230, 183, 186)</span>most common ",
+                                "early CV complication in T2D patients – higher than stroke and MI.",
+                                "<sup>5"
+                            ],
+                            "image": "main_icon_3.png",
+                            "text10": [
+                                {
+                                    "multiline": [
+                                        "PAD = peripheral arterial disease"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<sup>‡",
+                                        "Real-world evidence taken from cohorts of patients from Germany, Japan, Norway and Sweden."
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "section8": [
+                {
+                    "heading": [
+                        "TREATMENT GUIDELINES ARE EVOLVING TO CONSIDER HOLISTIC MANAGEMENT OF T2D"
+                    ],
+                    "grid2": [
+                        {
+                            "title": [
+                                "<span>rgb(230, 183, 186)</span>EASD/ADA GUIDELINE"
+                            ],
+                            "description": [
+                                "The new EASD/ADA guidelines recognise the importance of managing the risk of cardiac and renal damage in patients with T2D",
+                                "<sup>6"
+                            ]
+                        },
+                        {
+                            "title": [
+                                "ACC/AHA GUIDELINE"
+                            ],
+                            "description": [
+                                "The 2019 ACC/AHA guidelines for primary prevention of CV risk recommend a management approach that addresses CV risk factors in patients with T2D",
+                                "<sup>7"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "section9": [
+                {
+                    "image": "main_icon_4.png"
+                }
+            ],
+            "section10": [
+                {
+                    "cta_btn_2": "cta_2.png",
+                    "cta_btn_2_link": "#"
+                }
+            ],
+            "refSection": [
+                {
+                    "reference_heading": "References",
+                    "reference_text": [
+                        {
+                            "multiline": [
+                                "<b>1. ",
+                                "Ronco C, et al. ",
+                                "<i>J Am Coll Cardiol",
+                                ". 2008‌;‌ 52(19)‌:‌1527‌-‌1539. ",
+                                "<b>2.",
+                                " Huang Y, et al. ",
+                                "<i>Br Med J",
+                                ". 2016‌;‌ 355‌:‌ i5953. ",
+                                "<b>3.",
+                                " Echouffo‌-‌Tcheugui JB, et al. ",
+                                "<i>Diabet Med",
+                                ". 2016;33(12)‌:‌1615‌-‌1624. ",
+                                "<b>4.",
+                                " Faden G, et al. ",
+                                "<i>Diabetes Res Clin Pract",
+                                ". 2013‌;‌101(3)‌:‌309‌-‌316. ",
+                                "<b>5.",
+                                " Birkeland KI et al. Poster presented at the 7‌9‌th American Diabetes Association's Scientific Sessions; 20‌1‌9‌; June ‌7‌-‌11‌; San Francisco, CA, US. ",
+                                "<b>6.",
+                                " Davies MJ, et al. ",
+                                "<i>Diabetologica",
+                                ". 2018; 51(12)‌:‌2461‌-‌2498. ",
+                                "<b>7.",
+                                " Arnett DK, et al. ",
+                                "<i>J Am Coll Cardiol",
+                                ". 2019."
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "footer_text": [
+                {
+                    "multiline": [
+                        "If you would no longer like to receive these e-mails, please click ",
+                        "<a>#</a>unsubscribe",
+                        "."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "In accordance with AstraZeneca policy, all promotional material must be developed in association with, and approved for release by local nominated signatory."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "©2019 AstraZeneca. All rights reserved."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "PromoMats ID: Z4-20039   Preparation date: 11 2019   Expiry date: 11 2020"
+                    ]
+                }
+            ],
+            "footer_logo": "az_logo.png"
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import CommonText from '../_common/custom_text';
+import CommonText from '../../_common/custom_text';
 class FasenraFooter extends React.Component {
     render() {
         const { data } = this.props;
@@ -20,19 +20,21 @@ class FasenraFooter extends React.Component {
                                                     </tr>
                                                     {data.footer_text.map(function (footer_text, index) {
                                                         return (
-                                                            <>
-                                                                <tr key={index}>
+                                                            <React.Fragment key={index}>
+                                                                <tr>
                                                                     <td height="13" style={{ "background": "#fff", "lineHeight": "15px", "verticalAlign": "top", "height": "8px", "color": "#000", "fontSize": "12px" }}>
                                                                         {footer_text.multiline.map(function (commonTxt, commonTxtIndex) {
                                                                             return (
-                                                                                <CommonText commonTxt={commonTxt} />
+                                                                                <React.Fragment key={commonTxtIndex}>
+                                                                                    <CommonText commonTxt={commonTxt} />
+                                                                                </React.Fragment>
                                                                             )
                                                                         })}</td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td height="10" style={{ "background": "#fff", "lineHeight": "10px", "verticalAlign": "top", "fontSize": "1px" }}>&nbsp;</td>
                                                                 </tr>
-                                                            </>
+                                                            </React.Fragment>
                                                         )
                                                     })}
                                                 </tbody>
