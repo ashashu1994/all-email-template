@@ -1,0 +1,11 @@
+.error {
+  color: red;
+  font-weight: bold;
+  font-size: 14;
+}
+
+.info {
+  color: blue;
+  font-weight: "italics";
+  font-size: "16";
+}

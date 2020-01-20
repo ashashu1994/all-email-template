@@ -1,16 +1,24 @@
 import React from 'react';
-import data from "../../data";
-import '../../common-inline.css';
-import Fasenra from '../fasenra/fasenra';
-import Forxiga from '../forxiga/forxiga';
-class Template extends React.Component {
+// import styles from './editor.module.css';
+const error = {
+    color: 'red',
+    fontWeight: 'bold',
+    fontSize: '14'
+}
+
+const info = {
+    color: 'blue',
+    fontWeight: 'italics',
+    fontSize: '16'
+}
+class Editor extends React.Component {
     render() {
         return (
             <>
-                {data.brand === "forxiga" ? <Forxiga data={data} /> : <Fasenra data={data} />}
+                <p style={error}>This is Error</p>
             </>
         )
     }
 }
 
-export default Template;
+export default Editor;
