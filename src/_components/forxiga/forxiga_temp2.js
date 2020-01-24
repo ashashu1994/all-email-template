@@ -1,5 +1,5 @@
 import React from 'react';
-import data from "../data/forxiga-template1";
+import data from "../data/forxiga-template2";
 import ForxigaTemplate1Header from './template1/header';
 import ForxigaTemplate1Banner from './template1/banner';
 import SectionCTA from './template1/sectionCTA';
@@ -10,8 +10,10 @@ import Section9 from './template1/section9';
 import Section10 from './template1/section10';
 import RefSection from './template1/RefSection';
 import Footer from './template1/footer';
+import Section11 from './template1/section11';
+import Section567_2 from './template1/section567_2';
 import ListComponent from './template1/list-component';
-class ForxigaTemplate1 extends React.Component {
+class ForxigaTemplate2 extends React.Component {
     render() {
         return (
             <div style={{ "width": "100%", "border": "0px", "padding": "0px", "margin": "0px" }}>
@@ -43,6 +45,13 @@ class ForxigaTemplate1 extends React.Component {
                                                             </React.Fragment>
                                                         )
                                                     })}
+                                                    {content.section567_2 && content.section567_2.map(function (section567_2, section567_2Index) {
+                                                        return (
+                                                            <React.Fragment key={section567_2Index}>
+                                                                <Section567_2 data={section567_2} />
+                                                            </React.Fragment>
+                                                        )
+                                                    })}
                                                     {content.section8 && content.section8.map(function (section8, section8Index) {
                                                         return (
                                                             <React.Fragment key={section8Index}>
@@ -61,6 +70,13 @@ class ForxigaTemplate1 extends React.Component {
                                                         return (
                                                             <React.Fragment key={section10Index}>
                                                                 <Section10 data={section10} />
+                                                            </React.Fragment>
+                                                        )
+                                                    })}
+                                                    {content.section11 && content.section11.map(function (section11, section11Index) {
+                                                        return (
+                                                            <React.Fragment key={section11Index}>
+                                                                <Section11 data={section11} />
                                                             </React.Fragment>
                                                         )
                                                     })}
@@ -91,4 +107,4 @@ class ForxigaTemplate1 extends React.Component {
     }
 }
 
-export default ForxigaTemplate1;
+export default ForxigaTemplate2;

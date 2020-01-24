@@ -1,0 +1,177 @@
+{
+    "brand": "forxiga",
+    "template_type": "template1",
+    "content": [
+        {
+            "section4": {
+                "title": [
+                    "Dear Lorem,"
+                ],
+                "description": [
+                    {
+                        "multiline": [
+                            "Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "hero_img": "main_img.png"
+        },
+        {
+            "section4": {
+                "big_title": [
+                    "Lorem Ipsum"
+                ],
+                "description": [
+                    {
+                        "multiline": [
+                            "Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers."
+                        ]
+                    },
+                    {
+                        "multiline": [
+                            "Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "preheader_text": [
+                "Lorem Ipsum"
+            ]
+        },
+        {
+            "section4": {
+                "description": [
+                    {
+                        "multiline": [
+                            "Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers."
+                        ]
+                    },
+                    {
+                        "multiline": [
+                            "Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section567": [
+                {
+                    "section5": [
+                        {
+                            "heading": [
+                                "PATIENTS WITH T2D MAY BE AT RISK OF CARDIORENAL COMPLICATIONS EARLY IN THEIR DISEASE",
+                                "<sup>1"
+                            ],
+                            "description": [
+                                "Prediabetes is associated with an ",
+                                "<span>#e6b7ba</span>increased risk",
+                                " of CV disease and CKD.",
+                                "<sup>2,3"
+                            ],
+                            "image": "main_icon_1.png",
+                            "smallText": "*Compared to patients with normoglycaemia."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section11": [
+                {
+                    "cta_btn_2": "cta_2.png",
+                    "cta_btn_2_link": "#"
+                }
+            ]
+        },
+        {
+            "refSection": [
+                {
+                    "reference_heading": "Prescribing Information",
+                    "reference_text": [
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "preheader_text": [
+                "Reference"
+            ]
+        },
+        {
+            "refSection": [
+                {
+                    "reference_text": [
+                        {
+                            "multiline": [
+                                "<b>1. ",
+                                "Ronco C, et al. ",
+                                "<i>J Am Coll Cardiol",
+                                ". 2008‌;‌ 52(19)‌:‌1527‌-‌1539. ",
+                                "<b>2.",
+                                " Huang Y, et al. ",
+                                "<i>Br Med J",
+                                ". 2016‌;‌ 355‌:‌ i5953. ",
+                                "<b>3.",
+                                " Echouffo‌-‌Tcheugui JB, et al. ",
+                                "<i>Diabet Med",
+                                ". 2016;33(12)‌:‌1615‌-‌1624. ",
+                                "<b>4.",
+                                " Faden G, et al. ",
+                                "<i>Diabetes Res Clin Pract",
+                                ". 2013‌;‌101(3)‌:‌309‌-‌316. ",
+                                "<b>5.",
+                                " Birkeland KI et al. Poster presented at the 7‌9‌th American Diabetes Association's Scientific Sessions; 20‌1‌9‌; June ‌7‌-‌11‌; San Francisco, CA, US. ",
+                                "<b>6.",
+                                " Davies MJ, et al. ",
+                                "<i>Diabetologica",
+                                ". 2018; 51(12)‌:‌2461‌-‌2498. ",
+                                "<b>7.",
+                                " Arnett DK, et al. ",
+                                "<i>J Am Coll Cardiol",
+                                ". 2019."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "footer_text": [
+                {
+                    "multiline": [
+                        "If you would no longer like to receive these e-mails, please click ",
+                        "<a>#</a>unsubscribe",
+                        "."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "In accordance with AstraZeneca policy, all promotional material must be developed in association with, and approved for release by local nominated signatory."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "©2019 AstraZeneca. All rights reserved."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "PromoMats ID: Z4-20039   Preparation date: 11 2019   Expiry date: 11 2020"
+                    ]
+                }
+            ],
+            "footer_logo": "az_logo.png"
+        }
+    ]
+}

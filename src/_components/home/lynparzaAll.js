@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-class FasenraAll extends React.Component {
+class LynparzaAll extends React.Component {
     render() {
         return (
             <div className="home-container-page">
@@ -13,7 +13,7 @@ class FasenraAll extends React.Component {
                         <div className="abs">
                             <div className="d-table-mid">
                                 <div className="mid-div">
-                                    <h1>Fasenra</h1>
+                                    <h1>Lynparza</h1>
                                     <p>Lorem ipsum is simply dummy text used by designers in the website. Lorem Ipsum is simply
                                         dummy text is used
                                         by
@@ -30,7 +30,7 @@ class FasenraAll extends React.Component {
                         <div className="content-div2">
                             <div className="content-left">
                                 <div className="content2-content">
-                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/fasenra-template1.jpg)" }}></div>
+                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/lynparza-template1.jpg)" }}></div>
                                     <h3>Template 1</h3>
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
@@ -38,14 +38,14 @@ class FasenraAll extends React.Component {
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
                             designers. Lorem Ipsum is simply dummy text.</p>
-                                    <NavLink to="/template/fasenra/template1" target="_blank">
+                                    <NavLink to="/template/lynparza/template1" target="_blank">
                                         <button className="">Edit Template</button>
                                     </NavLink>
                                 </div>
                             </div>
-                            <div className="content-left right">
+                            <div className="content-left">
                                 <div className="content2-content">
-                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/fasenra-template2.jpg)" }}></div>
+                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/lynparza-template1.jpg)" }}></div>
                                     <h3>Template 2</h3>
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
@@ -53,7 +53,7 @@ class FasenraAll extends React.Component {
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
                             designers. Lorem Ipsum is simply dummy text.</p>
-                                    <NavLink to="/template/fasenra/template2" target="_blank">
+                                    <NavLink to="/template/lynparza/template2" target="_blank">
                                         <button className="">Edit Template</button>
                                     </NavLink>
                                 </div>
@@ -63,7 +63,7 @@ class FasenraAll extends React.Component {
                         <div className="content-div2">
                             <div className="content-left">
                                 <div className="content2-content">
-                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/fasenra-template3.jpg)" }}></div>
+                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/lynparza-template1.jpg)" }}></div>
                                     <h3>Template 3</h3>
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
@@ -71,40 +71,7 @@ class FasenraAll extends React.Component {
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
                             designers. Lorem Ipsum is simply dummy text.</p>
-                                    <NavLink to="/template/fasenra/template3" target="_blank">
-                                        <button className="">Edit Template</button>
-                                    </NavLink>
-                                </div>
-                            </div>
-                            <div className="content-left right">
-                                <div className="content2-content">
-                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/fasenra-template4.jpg)" }}></div>
-                                    <h3>Template 4</h3>
-                                    <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
-                                        text is used by
-                            designers. Lorem Ipsum is simply dummy text.</p>
-                                    <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
-                                        text is used by
-                            designers. Lorem Ipsum is simply dummy text.</p>
-                                    <NavLink to="/template/fasenra/template4" target="_blank">
-                                        <button className="">Edit Template</button>
-                                    </NavLink>
-                                </div>
-                            </div>
-                            <div className="clearfix"></div>
-                        </div>
-                        <div className="content-div2">
-                            <div className="content-left">
-                                <div className="content2-content">
-                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/fasenra-template5.jpg)" }}></div>
-                                    <h3>Template 5</h3>
-                                    <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
-                                        text is used by
-                            designers. Lorem Ipsum is simply dummy text.</p>
-                                    <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
-                                        text is used by
-                            designers. Lorem Ipsum is simply dummy text.</p>
-                                    <NavLink to="/template/fasenra/template5" target="_blank">
+                                    <NavLink to="/template/lynparza/template3" target="_blank">
                                         <button className="">Edit Template</button>
                                     </NavLink>
                                 </div>
@@ -124,4 +91,4 @@ class FasenraAll extends React.Component {
     }
 }
 
-export default FasenraAll;
+export default LynparzaAll;

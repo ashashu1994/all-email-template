@@ -17,7 +17,7 @@ class ForxigaTemplate1Header extends React.Component {
                                                 <td height="15" style={{ background: "#544e5c", lineHeight: "15px", fontSize: "1px" }}>&nbsp;</td>
                                             </tr>
                                             <tr>
-                                                <td height="13" style={{ background: "#544e5c", lineHeight: "12px", color: "#fff", verticalAlign: "top", height: "8px", textAlign: "left", fontSize: "12px", fontWeight: "bold" }}>
+                                                <td height="13" style={{ background: "#544e5c", lineHeight: "14px", color: "#fff", verticalAlign: "top", height: "8px", textAlign: "left", fontSize: "12px", fontWeight: "bold" }}>
                                                     {data.preheader_text.map(function (commonTxt, commonTxtIndex) {
                                                         return (
                                                             <React.Fragment key={commonTxtIndex}>

@@ -37,7 +37,7 @@ class Section6 extends React.Component {
                                                     }
                                                     {data.image && <>
                                                         <tr>
-                                                            <td style={{ backgroundColor: "#65606d" }}><img src={`forxiga_images/${data.image}`} alt="main_icon_1" className="full-img-196" /></td>
+                                                            <td style={{ backgroundColor: "#65606d" }}><img src={`forxiga_images/${data.image}`} alt="main_icon_1" style={{ maxWidth: "100%" }} className="full-img-196" /></td>
                                                         </tr>
                                                         <tr>
                                                             <td height="15" style={{ background: "#65606d", lineHeight: "15px", verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>

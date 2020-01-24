@@ -38,7 +38,7 @@ class ForxigaAll extends React.Component {
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
                             designers. Lorem Ipsum is simply dummy text.</p>
-                                    <NavLink to="/template/forxiga/template1">
+                                    <NavLink to="/template/forxiga/template1" target="_blank">
                                         <button className="">Edit Template</button>
                                     </NavLink>
                                 </div>
@@ -53,7 +53,7 @@ class ForxigaAll extends React.Component {
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
                             designers. Lorem Ipsum is simply dummy text.</p>
-                                    <NavLink to="/template/forxiga/template2">
+                                    <NavLink to="/template/forxiga/template2" target="_blank">
                                         <button className="">Edit Template</button>
                                     </NavLink>
                                 </div>
@@ -71,7 +71,7 @@ class ForxigaAll extends React.Component {
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
                             designers. Lorem Ipsum is simply dummy text.</p>
-                                    <NavLink to="/template/forxiga/template3">
+                                    <NavLink to="/template/forxiga/template3" target="_blank">
                                         <button className="">Edit Template</button>
                                     </NavLink>
                                 </div>
@@ -86,7 +86,7 @@ class ForxigaAll extends React.Component {
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
                             designers. Lorem Ipsum is simply dummy text.</p>
-                                    <NavLink to="/template/forxiga/template4">
+                                    <NavLink to="/template/forxiga/template4" target="_blank">
                                         <button className="">Edit Template</button>
                                     </NavLink>
                                 </div>

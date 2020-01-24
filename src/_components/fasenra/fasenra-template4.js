@@ -1,6 +1,5 @@
 import React from 'react';
 import data from "../data/fasenra-template4";
-import './fasenra.css';
 import FasenraHeader from './_common/fasenra-header';
 import FasenraBanner from './_common/fasenra-banner';
 import FasenraTemplate4 from './_common/fasenra-template4';

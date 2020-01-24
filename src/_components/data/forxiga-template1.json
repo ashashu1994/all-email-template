@@ -4,7 +4,7 @@
     "content": [
         {
             "preheader_text": [
-                "Preheader Summary text"
+                "Lorem ipsum text"
             ]
         },
         {
@@ -14,12 +14,12 @@
             "grid_cta": [
                 {
                     "text1": [
-                        "Managing T2D has mainly been focused on reducing HbA",
+                        "Lorem Ipsum is simply dummy text used be designers",
                         "<sub>1c",
                         "."
                     ],
                     "text2": [
-                        "However, the heart and kidneys are usually adversely affected by T2D.",
+                        "Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum",
                         "<sup>1"
                     ],
                     "cta_btn_1": "cta_1.png",
@@ -30,12 +30,12 @@
         {
             "section4": {
                 "title": [
-                    "Dear {{accTitle}} {{accFname}} {{accLname}},"
+                    "Dear Lorem,"
                 ],
                 "description": [
                     {
                         "multiline": [
-                            "{{customText[|As a follow-up to our discussion,|Thanks for your time.|I hope you are well.|Before our next appointment,|]}} I would like to take the opportunity to highlight the risk of early cardiorenal complications in patients with type 2 diabetes (T2D). T2D is associated with several micro and macrovascular complications that may start early in the disease process, of which cardiac and renal risks are prominent subtypes. The real-world data indicate that heart failure (HF) and/or chronic kidney disease(CKD) were the most common early cardiovascular (CV) complication in T2D patients – higher than stroke and myocardial infarction (MI). Thus, the treatment guidelines such as European Association for the Study of Diabetes/ American Diabetes Association (EASD/ADA) and American College of Cardiology/American Heart Association (ACC/AHA) guidelines are evolving to consider the holistic management of T2D."
+                            "Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers."
                         ]
                     }
                 ]
@@ -47,37 +47,37 @@
                     "section5": [
                         {
                             "heading": [
-                                "PATIENTS WITH T2D MAY BE AT RISK OF CARDIORENAL COMPLICATIONS EARLY IN THEIR DISEASE",
+                                "Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text",
                                 "<sup>1"
                             ],
                             "description": [
-                                "Prediabetes is associated with an ",
+                                "Lorem Ipsum is simply dummy text used ",
                                 "<span>#e6b7ba</span>increased risk",
-                                " of CV disease and CKD.",
+                                " lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers",
                                 "<sup>2,3"
                             ],
                             "image": "main_icon_1.png",
-                            "smallText": "*Compared to patients with normoglycaemia."
+                            "smallText": "*Lorem Ipsum is simply dummy text used be designers."
                         }
                     ],
                     "section6": [
                         {
                             "heading": [
                                 "<span>#e6b7ba</span>68%",
-                                " of patients with T2D had evidence of LV dysfunction within 5 years of T2D diagnosis.",
+                                " of Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. ",
                                 "<sup>4†"
                             ],
-                            "image": "main_icon_2.png",
+                            "image": "main_img.png",
                             "text8": [
                                 {
                                     "multiline": [
                                         "<sup>†",
-                                        "Data from a prospective, multicentre study (N = 386). Mean age was 71 years in left ventricular (LV) dysfunction group and 64 in normal LV function group."
+                                        "Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers."
                                     ]
                                 },
                                 {
                                     "multiline": [
-                                        "Patients with LV dysfunction were older, had lower glomerular filtration rate, higher levels of glycated haemoglobin, C-reactive protein, LV mass, relative wall thickness and prevalence of valve calcifications."
+                                        "Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers."
                                     ]
                                 }
                             ]
@@ -86,24 +86,24 @@
                     "section7": [
                         {
                             "heading": [
-                                "In a real-world study",
+                                "Lorem Ipsum is simply dummy text",
                                 "<sup>‡",
-                                ", HF and/or CKD was the ",
+                                ", Lorem Ipsum is simply dummy text used be designers. ",
                                 "<span>rgb(230, 183, 186)</span>most common ",
-                                "early CV complication in T2D patients – higher than stroke and MI.",
+                                "Lorem Ipsum is simply dummy text used be designers.",
                                 "<sup>5"
                             ],
-                            "image": "main_icon_3.png",
+                            "image": "main_img.png",
                             "text10": [
                                 {
                                     "multiline": [
-                                        "PAD = peripheral arterial disease"
+                                        "Lorem Ipsum is simply dummy text used be designers."
                                     ]
                                 },
                                 {
                                     "multiline": [
                                         "<sup>‡",
-                                        "Real-world evidence taken from cohorts of patients from Germany, Japan, Norway and Sweden."
+                                        "Lorem Ipsum is simply dummy text used be designers."
                                     ]
                                 }
                             ]
@@ -116,35 +116,28 @@
             "section8": [
                 {
                     "heading": [
-                        "TREATMENT GUIDELINES ARE EVOLVING TO CONSIDER HOLISTIC MANAGEMENT OF T2D"
+                        "Lorem Ipsum is simply dummy text used be designers."
                     ],
                     "grid2": [
                         {
                             "title": [
-                                "<span>rgb(230, 183, 186)</span>EASD/ADA GUIDELINE"
+                                "<span>rgb(230, 183, 186)</span>Lorem Ipsum is simply"
                             ],
                             "description": [
-                                "The new EASD/ADA guidelines recognise the importance of managing the risk of cardiac and renal damage in patients with T2D",
+                                "Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers.",
                                 "<sup>6"
                             ]
                         },
                         {
                             "title": [
-                                "ACC/AHA GUIDELINE"
+                                "Lorem Ipsum is simply dummy"
                             ],
                             "description": [
-                                "The 2019 ACC/AHA guidelines for primary prevention of CV risk recommend a management approach that addresses CV risk factors in patients with T2D",
+                                "Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers. Lorem Ipsum is simply dummy text used be designers.",
                                 "<sup>7"
                             ]
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "section9": [
-                {
-                    "image": "main_icon_4.png"
                 }
             ]
         },

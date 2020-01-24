@@ -4,6 +4,7 @@ import Template from './_components/template/template';
 import Home from './_components/home/home';
 import FasenraAll from './_components/home/fasenraAll';
 import ForxigaAll from './_components/home/forxigaAll';
+import LynparzaAll from './_components/home/lynparzaAll';
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/home/fasenra" component={FasenraAll} />
           <Route exact path="/home/forxiga" component={ForxigaAll} />
+          <Route exact path="/home/lynparza" component={LynparzaAll} />
           <Route exact path="/template/:brand/:template" component={Template} />
         </>
       </Router>

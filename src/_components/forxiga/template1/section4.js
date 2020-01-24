@@ -16,6 +16,24 @@ class Section4 extends React.Component {
                                             <tr>
                                                 <td height="30" style={{ background: "#fff", lineHeight: "30px", verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>
                                             </tr>
+                                            {data.section4.big_title &&
+                                                <>
+                                                    <tr>
+                                                        <td height="13" style={{ background: "#fff", lineHeight: "10px", verticalAlign: "top", height: "8px", color: "#4d4d59", fontSize: "15px", fontWeight: "bold" }}>
+                                                            {data.section4.big_title.map(function (commonTxt, commonTxtIndex) {
+                                                                return (
+                                                                    <React.Fragment key={commonTxtIndex}>
+                                                                        <CommonText commonTxt={commonTxt} />
+                                                                    </React.Fragment>
+                                                                )
+                                                            })}
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="15" style={{ background: "#fff", lineHeight: "20px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
+                                                    </tr>
+                                                </>
+                                            }
                                             {data.section4.title &&
                                                 <>
                                                     <tr>
@@ -30,7 +48,7 @@ class Section4 extends React.Component {
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td height="20" style={{ background: "#fff", lineHeight: "20px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
+                                                        <td height="15" style={{ background: "#fff", lineHeight: "20px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
                                                     </tr>
                                                 </>
                                             }

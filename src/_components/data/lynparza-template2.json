@@ -1,0 +1,242 @@
+{
+    "brand": "lynparza",
+    "template_type": "template1",
+    "content": [
+        {
+            "preheader_text": [
+                "Preheader Summary text"
+            ],
+            "title": [
+                "Dummy text to fill the text box."
+            ],
+            "click_text": [
+                {
+                    "multiline": [
+                        "Click for full ",
+                        "<a>#</a>Prescribing Information",
+                        " and scroll down or click for ",
+                        "<a>#</a>Important Safety Information",
+                        "."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "Adverse events should be reported. Reporting forms and information can be found at ",
+                        "<a>#</a>https://aereporting.astrazeneca.com",
+                        "."
+                    ]
+                }
+            ]
+        },
+        {
+            "hero_img": {
+                "desktop_img": "main_img.png",
+                "mob_img": "mob_main_img.png"
+            }
+        },
+        {
+            "text_section": [
+                {
+                    "paragraph": [
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box:"
+                            ]
+                        }
+                    ],
+                    "bullet_list": [
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        },
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "paragraph": [
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        }
+                    ],
+                    "small_paragraph": [
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section10": [
+                {
+                    "heading": [
+                        "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                    ],
+                    "paragraph": [
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        }
+                    ],
+                    "image": {
+                        "desktop_img": "main_img.png"
+                    },
+                    "bullet_list": [
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        },
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "full_cta": "cta.png",
+            "full_cta_link": "#"
+        },
+        {
+            "text_section": [
+                {
+                    "sub_title": [
+                        "Important Safety Information"
+                    ],
+                    "small_paragraph": [
+                        {
+                            "multiline": [
+                                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla metus varius laoreet."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text_section": [
+                {
+                    "sub_title": [
+                        "Abridged Prescribing Information"
+                    ],
+                    "small_paragraph": [
+                        {
+                            "multiline": [
+                                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla metus varius laoreet."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text_section": [
+                {
+                    "sub_title": [
+                        "References"
+                    ],
+                    "small_paragraph": [
+                        {
+                            "multiline": [
+                                "1. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. 2. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. 3. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. 4. Dummy text to fill the text box. 5. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. 6. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. 7. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blue_links": [
+                {
+                    "blue_links_length": [
+                        {
+                            "links": [
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Important Safety Information"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Contact US"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Prescribing Information"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "links": [
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Contact US"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Prescribing Information"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Important Safety"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "footer": {
+                "paragraph": [
+                    {
+                        "multiline": [
+                            "Lorem Ipsum is simply dummy used by designers. Lorem Ipsum is simply dummy used by designers. Lorem Ipsum is simply dummy used by designers. Lorem Ipsum is simply dummy used by designers."
+                        ]
+                    },
+                    {
+                        "multiline": [
+                            "Lorem Ipsum is simply dummy used by designers. Lorem Ipsum is simply dummy used by designers. Lorem Ipsum is simply dummy used by designers."
+                        ]
+                    },
+                    {
+                        "multiline": [
+                            "Lorem Ipsum is simply dummy used by designers. Lorem Ipsum is simply dummy used by designers."
+                        ]
+                    },
+                    {
+                        "multiline": [
+                            "Lorem Ipsum is simply dummy used by designers."
+                        ]
+                    }
+                ],
+                "copyright_logo": {
+                    "year": "2020",
+                    "company": "AstraZeneca",
+                    "promo_id": "XX-XXXXX",
+                    "preparation_date": "MM YYYY",
+                    "expiry_date": "MM YYYY",
+                    "logo": "logo.png"
+                }
+            }
+        }
+    ]
+}
