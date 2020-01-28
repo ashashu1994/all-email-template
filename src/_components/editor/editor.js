@@ -1,16 +1,38 @@
-import React from 'react';
-import data from "../../data";
+import React, { useState } from 'react';
 import '../../common-inline.css';
-import Fasenra from '../fasenra/fasenra';
-import Forxiga from '../forxiga/forxiga';
-class Template extends React.Component {
-    render() {
-        return (
-            <>
-                {data.brand === "forxiga" ? <Forxiga data={data} /> : <Fasenra data={data} />}
-            </>
-        )
-    }
+function Editor() {
+    return (
+        <div className="editor-page-css">
+            <div className="editor-left">
+                <div className="editor-padding">
+                    <h3>Components</h3>
+                    <div>
+                        <div className="editor-component">
+                            a
+                        </div>
+                        <div className="editor-component">
+                            a
+                        </div>
+                        <div className="editor-component">
+                            a
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="editor-right">
+                <div className="editor-right-top">
+
+                </div>
+                <div className="editor-right-middle">
+
+                </div>
+                <div className="editor-right-bottom">
+
+                </div>
+            </div>
+            <div className="clearfix"></div>
+        </div>
+    )
 }
 
-export default Template;
+export default Editor;
