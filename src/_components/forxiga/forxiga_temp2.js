@@ -11,7 +11,7 @@ import Section10 from './template1/section10';
 import RefSection from './template1/RefSection';
 import Footer from './template1/footer';
 import Section11 from './template1/section11';
-import Section567_2 from './template1/section567_2';
+import Section567v2 from './template1/section567v2';
 import ListComponent from './template1/list-component';
 class ForxigaTemplate2 extends React.Component {
     render() {
@@ -48,7 +48,7 @@ class ForxigaTemplate2 extends React.Component {
                                                     {content.section567_2 && content.section567_2.map(function (section567_2, section567_2Index) {
                                                         return (
                                                             <React.Fragment key={section567_2Index}>
-                                                                <Section567_2 data={section567_2} />
+                                                                <Section567v2 data={section567_2} />
                                                             </React.Fragment>
                                                         )
                                                     })}

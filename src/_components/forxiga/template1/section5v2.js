@@ -1,6 +1,6 @@
 import React from 'react';
 import CommonText from '../../_common/custom_text';
-class Section5_2 extends React.Component {
+class Section5V2 extends React.Component {
     render() {
         const { data } = this.props;
         return (
@@ -58,7 +58,7 @@ class Section5_2 extends React.Component {
                                             }
                                             {data.image && <>
                                                 <tr>
-                                                    <td style={{ backgroundColor: "#ffffff" }}><img src={`forxiga_images/${data.image}`} style={{ maxWidth: "100%" }} alt="main_icon_1" className="full-img-267" /></td>
+                                                    <td style={{ backgroundColor: "#ffffff" }}><img src={`forxiga_images/${data.image}`} style={{ maxWidth: "100%" }} alt="main_icon_1" className="full-img-less" /></td>
                                                 </tr>
                                                 <tr>
                                                     <td height="15" style={{ background: "#ffffff", lineHeight: "15px", verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>
@@ -86,4 +86,4 @@ class Section5_2 extends React.Component {
     }
 }
 
-export default Section5_2;
+export default Section5V2;

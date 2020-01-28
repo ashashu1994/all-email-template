@@ -1,6 +1,5 @@
 import React from 'react';
 import data from "../data/lynparza-template1";
-import CommonText from '../_common/custom_text';
 import Header from './_components/header';
 import RespBanner from './_components/resp-banner';
 import Banner from './_components/banner';
@@ -11,11 +10,11 @@ import Footer from './_components/footer';
 class LynparzaTemp1 extends React.Component {
     render() {
         return (
-            <table id="main_table" width="598" border="0" cellpadding="0" cellspacing="0" style={{ border: "1px solid #343434", backgroundColor: "#fff", color: "#000", textAlign: "justify", verticalAlign: "top", margin: "0 auto" }} align="center">
+            <table id="main_table" width="598" border="0" cellPadding="0" cellSpacing="0" style={{ border: "1px solid #343434", backgroundColor: "#fff", color: "#000", textAlign: "justify", verticalAlign: "top", margin: "0 auto" }} align="center">
                 <tbody>
                     <tr>
                         <td>
-                            <table id="main_table1" width="598" border="0" cellpadding="0" cellspacing="0" style={{ backgroundColor: "#fff", color: "#000", textAlign: "justify", verticalAlign: "top", margin: "0 auto" }} align="center">
+                            <table id="main_table1" width="598" border="0" cellPadding="0" cellSpacing="0" style={{ backgroundColor: "#fff", color: "#000", textAlign: "justify", verticalAlign: "top", margin: "0 auto" }} align="center">
                                 <tbody>
                                     <tr>
                                         <td height="20" style={{ background: "#004d74", lineHeight: "20px", verticalAlign: "top", height: "10px", fontSize: "1px" }}>&nbsp;</td>
@@ -48,15 +47,15 @@ class LynparzaTemp1 extends React.Component {
                                                 {content.full_cta && <>
                                                     <tr>
                                                         <td width="100%">
-                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                            <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                                                 <tbody>
                                                                     <tr>
                                                                         <td width="1%">&nbsp;</td>
                                                                         <td width="100%">
-                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                            <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                                                                 <tbody>
                                                                                     <tr>
-                                                                                        <td height="13" style={{ background: "#fff", lineHeight: "18px", verticalAlign: "top", height: "8px", textAlign: "center" }}><a target="_blank" href={content.full_cta_link ? content.full_cta_link : "#"}><img src={`lynparza_images/${content.full_cta && content.full_cta}`} alt="" style={{ cursor: "pointer" }} /></a></td>
+                                                                                        <td height="13" style={{ background: "#fff", lineHeight: "18px", verticalAlign: "top", height: "8px", textAlign: "center" }}><a target="_blank" rel="noopener noreferrer" href={content.full_cta_link ? content.full_cta_link : "#"}><img src={`lynparza_images/${content.full_cta && content.full_cta}`} alt="" style={{ cursor: "pointer" }} /></a></td>
                                                                                     </tr>
                                                                                 </tbody>
                                                                             </table>

@@ -8,16 +8,16 @@ class Footer extends React.Component {
                 {content.footer.paragraph &&
                     <tr>
                         <td width="100%">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                 <tbody>
                                     <tr>
                                         <td width="100%">
-                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                            <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                                 <tbody>
                                                     <tr>
                                                         <td width="10">&nbsp;</td>
                                                         <td>
-                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                            <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                                                 <tbody>
                                                                     {content.footer.paragraph.map(function (paragraph, paragraphIndex) {
                                                                         return (
@@ -59,15 +59,15 @@ class Footer extends React.Component {
                 {content.footer.copyright_logo &&
                     <tr>
                         <td width="100%">
-                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                            <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                 <tbody>
                                     <tr>
                                         <td width="90%" bgcolor="#004d74">
-                                            <table width="72%" border="0" cellspacing="0" cellpadding="0" bgcolor="#004d74" style={{ float: "left", textAlign: "left" }} align="left" class="width-mob-100">
+                                            <table width="72%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#004d74" style={{ float: "left", textAlign: "left" }} align="left" className="width-mob-100">
                                                 <tbody>
                                                     <tr>
                                                         <td height="5" width="5"></td>
-                                                        <td width="98%" height="15" class="height-mob-0"></td>
+                                                        <td width="98%" height="15" className="height-mob-0"></td>
                                                     </tr>
                                                     <tr>
                                                         <td width="10"></td>
@@ -88,7 +88,7 @@ class Footer extends React.Component {
                                                     </tr>
                                                 </tbody>
                                             </table>
-                                            <table width="1%" border="0" cellspacing="0" cellpadding="0" bgcolor="#004d74" style={{ float: "left", textAlign: "left" }} align="left">
+                                            <table width="1%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#004d74" style={{ float: "left", textAlign: "left" }} align="left">
                                                 <tbody>
                                                     <tr>
                                                         <td width="1%" height="5"></td>
@@ -98,19 +98,19 @@ class Footer extends React.Component {
                                                     </tr>
                                                 </tbody>
                                             </table>
-                                            <table width="25%" border="0" cellspacing="0" cellpadding="0" bgcolor="#004d74" style={{ float: "left", textAlign: "left" }} align="right">
+                                            <table width="25%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#004d74" style={{ float: "left", textAlign: "left" }} align="right">
                                                 <tbody>
                                                     <tr>
-                                                        <td width="98%" height="5" class="height-mob-0"></td>
+                                                        <td width="98%" height="5" className="height-mob-0"></td>
                                                     </tr>
                                                     <tr>
-                                                        <td width="98%" height="9" class="height-mob-0"></td>
+                                                        <td width="98%" height="9" className="height-mob-0"></td>
                                                     </tr>
                                                     <tr>
                                                         <td align="right" width="1%" height="5" style={{ color: "#fff", fontSize: "12.5px", lineHeight: "20px" }}><img src={`lynparza_images/${content.footer.copyright_logo.logo}`} alt="" /></td>
                                                     </tr>
                                                     <tr>
-                                                        <td height="13" width="5" class="height-mob-0"></td>
+                                                        <td height="13" width="5" className="height-mob-0"></td>
                                                     </tr>
                                                 </tbody>
                                             </table>

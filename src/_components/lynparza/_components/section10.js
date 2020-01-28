@@ -7,22 +7,22 @@ class Section10 extends React.Component {
             <>
                 <tr>
                     <td width="100%">
-                        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                             <tbody>
                                 <tr>
                                     <td width="10">&nbsp;</td>
                                     <td>
-                                        <table width="100%" border="0" cellspacing="0" cellpadding="0" style={{ border: "1px solid #0b4e75" }}>
+                                        <table width="100%" border="0" cellSpacing="0" cellPadding="0" style={{ border: "1px solid #0b4e75" }}>
                                             <tbody>
                                                 {content.heading &&
                                                     <tr>
                                                         <td>
-                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#0b4e75" bordercolor="#0b4e75">
+                                                            <table width="100%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#0b4e75" bordercolor="#0b4e75">
                                                                 <tbody>
                                                                     <tr>
                                                                         <td width="15" style={{ lineHeight: "10px" }}>&nbsp;</td>
                                                                         <td>
-                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#0b4e75" bordercolor="#67116f">
+                                                                            <table width="100%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#0b4e75" bordercolor="#67116f">
                                                                                 <tbody>
                                                                                     <tr>
                                                                                         <td height="5" style={{ background: "#0b4e75", lineHeight: "5px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
@@ -77,10 +77,10 @@ class Section10 extends React.Component {
                                                 {content.image && (content.image.desktop_img && content.image.mob_img) ?
                                                     <>
                                                         <tr>
-                                                            <td width="100%" valign="top" align="center" class="display-mob-none" style={{ background: "#f8f8f8" }}><img src="lynparza_images/main_img.png" alt="main" width="550px" style={{ display: "block" }} /></td>
+                                                            <td width="100%" valign="top" align="center" className="display-mob-none" style={{ background: "#f8f8f8" }}><img src="lynparza_images/main_img.png" alt="main" width="550px" style={{ display: "block" }} /></td>
                                                         </tr>
                                                         <tr>
-                                                            <td width="100%" valign="top" align="center" class="mobshow" lang="x-mobshow" style={{ width: "0", maxHeight: "0", overflow: "hidden", float: "left", display: "none", background: "#f8f8f8" }}><img src="lynparza_images/mob_main_img.png" alt="main" width="286px" /></td>
+                                                            <td width="100%" valign="top" align="center" className="mobshow" lang="x-mobshow" style={{ width: "0", maxHeight: "0", overflow: "hidden", float: "left", display: "none", background: "#f8f8f8" }}><img src="lynparza_images/mob_main_img.png" alt="main" width="286px" /></td>
                                                         </tr>
                                                         <tr>
                                                             <td height="15" style={{ background: "#f8f8f8", lineHeight: "15px", verticalAlign: "top", height: "5px", fontSize: "1px" }}>&nbsp;</td>
@@ -99,12 +99,12 @@ class Section10 extends React.Component {
                                                 {content.bullet_list &&
                                                     <tr>
                                                         <td width="100%">
-                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style={{ background: "#f8f8f8" }}>
+                                                            <table width="100%" border="0" cellSpacing="0" cellPadding="0" style={{ background: "#f8f8f8" }}>
                                                                 <tbody>
                                                                     <tr>
                                                                         <td width="10">&nbsp;</td>
                                                                         <td>
-                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style={{ lineHeight: "14px" }}>
+                                                                            <table width="100%" border="0" cellSpacing="0" cellPadding="0" style={{ lineHeight: "14px" }}>
                                                                                 <tbody>
                                                                                     {content.bullet_list && content.bullet_list.map(function (bullet_list, bullet_listIndex) {
                                                                                         return (
@@ -143,15 +143,15 @@ class Section10 extends React.Component {
                                                 {content.full_cta && <>
                                                     <tr>
                                                         <td width="100%">
-                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0" style={{ background: "#f8f8f8" }}>
+                                                            <table width="100%" border="0" cellSpacing="0" cellPadding="0" style={{ background: "#f8f8f8" }}>
                                                                 <tbody>
                                                                     <tr>
                                                                         <td width="1%">&nbsp;</td>
                                                                         <td width="100%">
-                                                                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                            <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                                                                 <tbody>
                                                                                     <tr>
-                                                                                        <td height="13" style={{ background: "#f8f8f8", lineHeight: "18px", verticalAlign: "top", height: "8px", textAlign: "center" }}><a target="_blank" href={content.full_cta_link ? content.full_cta_link : "#"}><img src={`lynparza_images/${content.full_cta && content.full_cta}`} alt="" style={{ cursor: "pointer" }} /></a></td>
+                                                                                        <td height="13" style={{ background: "#f8f8f8", lineHeight: "18px", verticalAlign: "top", height: "8px", textAlign: "center" }}><a rel="noopener noreferrer" target="_blank" href={content.full_cta_link ? content.full_cta_link : "#"}><img src={`lynparza_images/${content.full_cta && content.full_cta}`} alt="" style={{ cursor: "pointer" }} /></a></td>
                                                                                     </tr>
                                                                                 </tbody>
                                                                             </table>

@@ -45,7 +45,7 @@ class LynparzaAll extends React.Component {
                             </div>
                             <div className="content-left">
                                 <div className="content2-content">
-                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/lynparza-template1.jpg)" }}></div>
+                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/lynparza-template2.jpg)" }}></div>
                                     <h3>Template 2</h3>
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
@@ -63,7 +63,7 @@ class LynparzaAll extends React.Component {
                         <div className="content-div2">
                             <div className="content-left">
                                 <div className="content2-content">
-                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/lynparza-template1.jpg)" }}></div>
+                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/lynparza-template3.jpg)" }}></div>
                                     <h3>Template 3</h3>
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by

@@ -8,7 +8,6 @@ import FasenraBlueLinks from './_common/fasenra-blue-links';
 import FasenraFooter from './_common/fasenra-footer';
 class FasenraTemp1 extends React.Component {
     render() {
-        const { template_type } = this.props;
         return (
             <div style={{ "width": "100%", "border": "0px", "padding": "0px", "margin": "0px" }}>
                 <table id="main_table" width="598" border="0" cellPadding="0" cellSpacing="0" style={{ "border": "1px solid #343434", "backgroundColor": "#fff", "color": "#000", "textAlign": "left", "verticalAlign": "top", "margin": "0 auto" }} align="center">

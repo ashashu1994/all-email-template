@@ -134,6 +134,12 @@ a:hover {
   .full-img-less {
     width: 267px !important;
   }
+  .full-img-196 {
+    width: 196px !important;
+  }
+  .full-img-193 {
+    width: 193px !important;
+  }
   /* text */
   .text-mob-center {
     text-align: center !important;
@@ -151,10 +157,10 @@ a:hover {
   .fasenra_widthtd {
     width: 5%;
   }
+  /* height */
   .fasenra_heighttd {
     height: 11px;
   }
-  /* height */
   .height-mob-0 {
     line-height: 0px !important;
     height: 0px !important;
@@ -182,5 +188,8 @@ a:hover {
   }
   .font-size-mob-9 {
     font-size: 9px !important;
+  }
+  .font-size-heading {
+    font-size: 18px !important;
   }
 }

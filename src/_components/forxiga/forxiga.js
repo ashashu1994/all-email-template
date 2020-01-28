@@ -1,5 +1,4 @@
 import React from 'react';
-import './forxiga-temp1.css';
 import ForxigaTemplate1 from './forxiga_temp1';
 import ForxigaTemplate2 from './forxiga_temp2';
 import ForxigaTemplate3 from './forxiga_temp3';

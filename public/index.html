@@ -19,22 +19,15 @@
       hasLocation = window.location.href;
       if (hasLocation.includes("/template/")) {
         setTimeout(function () {
-          var listStyle = document.getElementsByTagName("style");
-          var brand = document.getElementById("brandcheckid");
-          // if (brand.getAttribute("brandcheckid") === "fasenra") {
-          //   for (let i = 2; i < listStyle.length; i++) {
-          //     listStyle[i].parentNode.removeChild(listStyle[i]);
-          //   }
+          // var list = document.getElementsByTagName("script");
+          // for (var i = 1; i < list.length + 1; i++) {
+          //   list[i].parentNode.removeChild(list[i]);
           // }
-          var list = document.getElementsByTagName("script");
-          for (var i = 1; i < list.length + 1; i++) {
-            list[i].parentNode.removeChild(list[i]);
-          }
-          list[1].parentNode.removeChild(list[1]);
-          for (var i = 1; i < 3; i++) {
-            var x = document.getElementById("removeScript" + i);
-            x.parentNode.removeChild(x);
-          }
+          // list[1].parentNode.removeChild(list[1]);
+          // for (var i = 1; i < 3; i++) {
+          //   var x = document.getElementById("removeScript" + i);
+          //   x.parentNode.removeChild(x);
+          // }
         }, 5000)
       }
       else { }

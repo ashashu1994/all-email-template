@@ -1,5 +1,4 @@
 import React from 'react';
-import './lynparza.css';
 import LynparzaTemp1 from './lynparza-temp1';
 import LynparzaTemp2 from './lynparza-temp2';
 import LynparzaTemp3 from './lynparza-temp3';

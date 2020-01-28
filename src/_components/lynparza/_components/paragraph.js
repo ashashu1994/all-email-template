@@ -6,12 +6,12 @@ class Paragraph extends React.Component {
         return (
             <tr>
                 <td width="100%">
-                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                         <tbody>
                             <tr>
                                 <td width="10">&nbsp;</td>
                                 <td>
-                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                         <tbody>
                                             {content.text_section.map(function (text_section, text_sectionIndex) {
                                                 return (
@@ -72,11 +72,11 @@ class Paragraph extends React.Component {
                                                         {text_section.bullet_list && <>
                                                             <tr>
                                                                 <td width="100%">
-                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                                                    <table width="100%" border="0" cellSpacing="0" cellPadding="0">
                                                                         <tbody>
                                                                             <tr>
                                                                                 <td>
-                                                                                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style={{ lineHeight: "14px" }}>
+                                                                                    <table width="100%" border="0" cellSpacing="0" cellPadding="0" style={{ lineHeight: "14px" }}>
                                                                                         <tbody>
                                                                                             {text_section.bullet_list.map(function (bullet_list, bullet_listIndex) {
                                                                                                 return (

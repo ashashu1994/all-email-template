@@ -1,5 +1,4 @@
 import React from 'react';
-import './fasenra.css';
 import FasenraTemp1 from './fasenra-template1';
 import FasenraTemp2 from './fasenra-template2';
 import FasenraTemp3 from './fasenra-template3';

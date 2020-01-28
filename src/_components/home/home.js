@@ -41,12 +41,12 @@ class Home extends React.Component {
                         </div>
                         <div className="content-div">
                             <NavLink to="/home/forxiga">
-                                <div className="img-div" style={{ backgroundImage: "url(/images/website/farxiga.png)" }}>
+                                <div className="img-div" style={{ backgroundImage: "url(/images/website/forxiga.png)" }}>
                                     <div className="text-div">
-                                        <h4>farxiga</h4>
+                                        <h4>forxiga</h4>
                                         <p>Lorem Ipsum is simply dummy text is used by designers. Lorem Ipsum is simply dummy
                                             text...
-                            </p>
+                                        </p>
                                         <button className="">View More</button>
                                     </div>
                                 </div>

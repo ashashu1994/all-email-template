@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-class ForxigaAll extends React.Component {
+class SymbicortAll extends React.Component {
     render() {
         return (
             <div className="home-container-page">
@@ -13,7 +13,7 @@ class ForxigaAll extends React.Component {
                         <div className="abs">
                             <div className="d-table-mid">
                                 <div className="mid-div">
-                                    <h1>Forxiga</h1>
+                                    <h1>Symbicort</h1>
                                     <p>Lorem ipsum is simply dummy text used by designers in the website. Lorem Ipsum is simply
                                         dummy text is used
                                         by
@@ -30,7 +30,7 @@ class ForxigaAll extends React.Component {
                         <div className="content-div2">
                             <div className="content-left">
                                 <div className="content2-content">
-                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/forxiga-template1.jpg)" }}></div>
+                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/symbicort-template1.jpg)" }}></div>
                                     <h3>Template 1</h3>
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
@@ -38,14 +38,14 @@ class ForxigaAll extends React.Component {
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
                             designers. Lorem Ipsum is simply dummy text.</p>
-                                    <NavLink to="/template/forxiga/template1" target="_blank">
+                                    <NavLink to="/template/symbicort/template1" target="_blank">
                                         <button className="">Edit Template</button>
                                     </NavLink>
                                 </div>
                             </div>
-                            <div className="content-left right">
+                            <div className="content-left">
                                 <div className="content2-content">
-                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/forxiga-template2.jpg)" }}></div>
+                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/symbicort-template2.jpg)" }}></div>
                                     <h3>Template 2</h3>
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
@@ -53,7 +53,7 @@ class ForxigaAll extends React.Component {
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
                             designers. Lorem Ipsum is simply dummy text.</p>
-                                    <NavLink to="/template/forxiga/template2" target="_blank">
+                                    <NavLink to="/template/symbicort/template2" target="_blank">
                                         <button className="">Edit Template</button>
                                     </NavLink>
                                 </div>
@@ -63,7 +63,7 @@ class ForxigaAll extends React.Component {
                         <div className="content-div2">
                             <div className="content-left">
                                 <div className="content2-content">
-                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/forxiga-template3.jpg)" }}></div>
+                                    <div className="template-img" style={{ backgroundImage: "url(/images/templates/symbicort-template3.jpg)" }}></div>
                                     <h3>Template 3</h3>
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
@@ -71,7 +71,7 @@ class ForxigaAll extends React.Component {
                                     <p>Lorem ipsum is simply dummy text used by designers. Lorem Ipsum <br />is simply dummy
                                         text is used by
                             designers. Lorem Ipsum is simply dummy text.</p>
-                                    <NavLink to="/template/forxiga/template3" target="_blank">
+                                    <NavLink to="/template/symbicort/template3" target="_blank">
                                         <button className="">Edit Template</button>
                                     </NavLink>
                                 </div>
@@ -91,4 +91,4 @@ class ForxigaAll extends React.Component {
     }
 }
 
-export default ForxigaAll;
+export default SymbicortAll;

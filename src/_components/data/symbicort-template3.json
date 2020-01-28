@@ -1,0 +1,264 @@
+{
+    "brand": "symbicort",
+    "template_type": "template2",
+    "content": [
+        {
+            "preheader_text": [
+                "<span>#ee2e24</span>Symbicort®",
+                " (budesonide/formoterol): ICS dose"
+            ],
+            "title": [
+                "<span>#ee2e24</span>Symbicort",
+                "<sup>®",
+                " (budesonide/formoterol)"
+            ],
+            "click_text": [
+                {
+                    "multiline": [
+                        "Click for full ",
+                        "<a>#</a>Prescribing Information",
+                        " and scroll down or click for ",
+                        "<a>#</a>Important Safety Information",
+                        "."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "Adverse events should be reported. Reporting forms and information can be found at ",
+                        "<a>#</a>https://aereporting.astrazeneca.com",
+                        "."
+                    ]
+                }
+            ]
+        },
+        {
+            "hero_img": "main_img.jpg"
+        },
+        {
+            "text_section": [
+                {
+                    "name": [
+                        "Dear Lorem,"
+                    ],
+                    "paragraph": [
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        },
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section10": {
+                "bullet_list": [
+                    {
+                        "multiline": [
+                            "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                        ]
+                    },
+                    {
+                        "multiline": [
+                            "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "section25": {
+                "bullet_list": [
+                    {
+                        "multiline": [
+                            "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                        ]
+                    },
+                    {
+                        "multiline": [
+                            "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                        ]
+                    }
+                ],
+                "image": "main_icon_4.png"
+            }
+        },
+        {
+            "section15": [
+                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+            ]
+        },
+        {
+            "text_section": [
+                {
+                    "paragraph": [
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        },
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "img_less_width": "main_icon_1.jpg"
+        },
+        {
+            "text_section": [
+                {
+                    "small_paragraph": [
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        },
+                        {
+                            "multiline": [
+                                "Dummy text to fill the text box. Dummy text to fill the text box."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cta_button": "cta.png",
+            "cta_button_link": "#"
+        },
+        {
+            "text_section": [
+                {
+                    "heading": "Important Safety Information",
+                    "small_paragraph": [
+                        {
+                            "multiline": [
+                                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text_section": [
+                {
+                    "heading": "Abridged Prescribing Information",
+                    "small_paragraph": [
+                        {
+                            "multiline": [
+                                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "text_section": [
+                {
+                    "heading": "References",
+                    "small_paragraph": [
+                        {
+                            "multiline": [
+                                "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus."
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blue_links": [
+                {
+                    "blue_links_length": [
+                        {
+                            "links": [
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Important Safety Information"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Contact US"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Prescribing Information"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "links": [
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Contact US"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Prescribing Information"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Important Safety"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "footer_text": [
+                {
+                    "multiline": [
+                        "Please do not reply to this e-mail; it will not reach us. To ensure you will continue to receive these e-mails in your inbox, please add [",
+                        "<a>#</a>xxx@email.astrazeneca-us.com",
+                        "] to your address book."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "If in the future you no longer want to receive e-mails please click ",
+                        "<a>#</a>unsubscribe",
+                        "."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "This product information is intended for healthcare professionals only."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "In accordance with AstraZeneca policy, all promotional material must be developed in association with, and approved for release by local nominated signatory."
+                    ]
+                }
+            ]
+        },
+        {
+            "copyright_logo": {
+                "promo_id": "XX-XXXXX",
+                "preparation_date": "MM YYYY",
+                "expiry_date": "MM YYYY",
+                "logo": "az_logo.png"
+            }
+        }
+    ]
+}
