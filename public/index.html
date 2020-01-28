@@ -19,16 +19,16 @@
       hasLocation = window.location.href;
       if (hasLocation.includes("/template/")) {
         setTimeout(function () {
-          // var list = document.getElementsByTagName("script");
-          // for (var i = 1; i < list.length + 1; i++) {
-          //   list[i].parentNode.removeChild(list[i]);
-          // }
-          // list[1].parentNode.removeChild(list[1]);
-          // for (var i = 1; i < 3; i++) {
-          //   var x = document.getElementById("removeScript" + i);
-          //   x.parentNode.removeChild(x);
-          // }
-        }, 5000)
+          var list = document.getElementsByTagName("script");
+          for (var i = 1; i < list.length + 1; i++) {
+            list[i].parentNode.removeChild(list[i]);
+          }
+          list[1].parentNode.removeChild(list[1]);
+          for (var i = 1; i < 3; i++) {
+            var x = document.getElementById("removeScript" + i);
+            x.parentNode.removeChild(x);
+          }
+        }, 2000)
       }
       else { }
     }

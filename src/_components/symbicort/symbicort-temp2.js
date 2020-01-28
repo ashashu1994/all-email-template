@@ -11,6 +11,7 @@ import Section25 from './_components/section25';
 import CTAButton from './_components/cta-button';
 import BlueLinks from './_components/blue-links';
 import Footer from './_components/footer';
+import Section30 from './_components/section30';
 class SymbicortTemp2 extends React.Component {
     render() {
         return (
@@ -47,9 +48,11 @@ class SymbicortTemp2 extends React.Component {
                                                 {content.section20 &&
                                                     <Section20 content={content} />
                                                 }
-                                                {content.section25 && <>
+                                                {content.section30 &&
+                                                    <Section30 content={content} />
+                                                }
+                                                {content.section25 &&
                                                     <Section25 content={content} />
-                                                </>
                                                 }
                                                 {content.cta_button &&
                                                     <CTAButton content={content} />

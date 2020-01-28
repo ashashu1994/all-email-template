@@ -99,25 +99,22 @@
             }
         },
         {
-            "img_less_width": "main_icon_1.jpg"
-        },
-        {
-            "text_section": [
-                {
-                    "small_paragraph": [
-                        {
-                            "multiline": [
-                                "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
-                            ]
-                        },
-                        {
-                            "multiline": [
-                                "Dummy text to fill the text box. Dummy text to fill the text box."
-                            ]
-                        }
-                    ]
-                }
-            ]
+            "section30": {
+                "half": [
+                    {
+                        "image": "icon_1.png",
+                        "text": [
+                            "Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                        ]
+                    },
+                    {
+                        "image": "icon_1.png",
+                        "text": [
+                            "Lorem ipsum is simply Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box. Dummy text to fill the text box."
+                        ]
+                    }
+                ]
+            }
         },
         {
             "cta_button": "cta.png",
