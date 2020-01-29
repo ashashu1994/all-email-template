@@ -16,7 +16,7 @@ class Section30 extends React.Component {
                                             <tbody>
                                                 <tr>
                                                     {content.section30.half[0] &&
-                                                        <td class="width-mob-100 display-mob-block" style={{ width: "47%" }} valign="top">
+                                                        <td className="width-mob-100 display-mob-block" style={{ width: "47%" }} valign="top">
                                                             <table width="100%" border="0" cellSpacing="0" cellPadding="0" style={{ border: "1px solid #ffffff" }} bgcolor="#fff">
                                                                 <tbody>
                                                                     <tr>
@@ -45,9 +45,9 @@ class Section30 extends React.Component {
                                                             </table>
                                                         </td>
                                                     }
-                                                    <td class="display-mob-none" style={{ width: "6%" }} valign="top"></td>
+                                                    <td className="display-mob-none" style={{ width: "6%" }} valign="top"></td>
                                                     {content.section30.half[1] &&
-                                                        <td class="width-mob-100 display-mob-block" style={{ width: "47%" }} valign="top">
+                                                        <td className="width-mob-100 display-mob-block" style={{ width: "47%" }} valign="top">
                                                             <table width="100%" border="0" cellSpacing="0" cellPadding="0" style={{ border: "1px solid #ffffff" }} bgcolor="#fff">
                                                                 <tbody>
                                                                     <tr>
