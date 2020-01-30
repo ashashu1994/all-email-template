@@ -214,6 +214,13 @@
 .editor-page-css {
   height: 100vh;
   overflow: hidden;
+  .text-white {
+    color: #fff;
+    font-family: "Roboto";
+  }
+  .mb-3 {
+    margin-bottom: 15px;
+  }
   .editor-left {
     width: 60%;
     border-right: 2px solid #ddd;
@@ -224,6 +231,9 @@
     overflow-x: hidden;
     overflow-y: auto;
     box-sizing: border-box;
+    &.w-100 {
+      width: 100%;
+    }
   }
   .editor-right {
     width: 40%;
@@ -236,6 +246,9 @@
     padding: 15px;
     color: #fff;
     font-family: "Roboto";
+    &.d-none {
+      display: none;
+    }
     & *,
     & *::after,
     & *::before {
@@ -259,6 +272,9 @@
     background-repeat: no-repeat;
     position: relative;
     background-color: #fff;
+    &.w-100 {
+      width: 100%;
+    }
     &.selected {
       border: 1px solid #1d76bc;
     }
@@ -275,5 +291,8 @@
       font-family: "Roboto";
       font-weight: 400;
     }
+  }
+  .editor-right-top {
+    margin-bottom: 20px;
   }
 }
