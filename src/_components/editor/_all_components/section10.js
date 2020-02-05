@@ -1,5 +1,6 @@
 import React from 'react';
 import CommonText from './common/custom_text';
+import FS11 from './common/fs-11';
 class Section10 extends React.Component {
     render() {
         const { data } = this.props;
@@ -18,15 +19,11 @@ class Section10 extends React.Component {
                                             </tr>
                                             {data.preheader_text && <>
                                                 <tr>
-                                                    <td height="13" style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: "13px", color: `${data.textColor ? data.textColor : "#fff"}`, verticalAlign: "top", height: "8px", textAlign: "left", fontSize: "11px" }}>
-                                                        {data.preheader_text.map(function (preheader_text, preheader_textIndex) {
-                                                            return (
-                                                                <React.Fragment key={preheader_textIndex}>
-                                                                    <CommonText commonTxt={preheader_text} aColor={data.textColor ? data.textColor : "#fff"} supFS={"7px"} />
-                                                                </React.Fragment>
-                                                            )
-                                                        })}
-                                                    </td>
+                                                    <FS11
+                                                        data={data.preheader_text}
+                                                        bgColor={data.bgColor}
+                                                        textColor={data.textColor}
+                                                    />
                                                 </tr>
                                                 <tr>
                                                     <td height="13" style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: "13px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>

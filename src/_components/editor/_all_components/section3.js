@@ -1,5 +1,4 @@
 import React from 'react';
-import CommonText from './common/custom_text';
 import FS11 from './common/fs-11';
 class Section3 extends React.Component {
     render() {
@@ -19,7 +18,9 @@ class Section3 extends React.Component {
                                             </tr>
                                             <tr>
                                                 <FS11
-                                                    data={data}
+                                                    data={data.text}
+                                                    bgColor={data.bgColor}
+                                                    textColor={data.textColor}
                                                 />
                                             </tr>
                                             <tr>
