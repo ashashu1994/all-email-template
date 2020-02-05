@@ -1,13 +1,13 @@
 import React from 'react';
 import { HashRouter as Router, Route } from 'react-router-dom';
-import Editor from './_components/editor/editor/editor';
 import Template from './_components/editor/template/template';
+import Component from './_components/editor/component/component';
 function App() {
   return (
     <>
       <Router>
         <>
-          <Route exact path="/" component={Editor} />
+          <Route exact path="/" component={Component} />
           <Route path="/template" component={Template} />
         </>
       </Router>

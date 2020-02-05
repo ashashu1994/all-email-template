@@ -2,82 +2,79 @@ import React from 'react';
 import CommonText from './common/custom_text';
 class Section10 extends React.Component {
     render() {
-        const { content } = this.props;
+        const { data } = this.props;
         return (
             <tr>
                 <td>
-                    <table width="100%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#fff">
+                    <table width="100%" border="0" cellSpacing="0" cellPadding="0" bgcolor={data.bgColor ? data.bgColor : "#fff"}>
                         <tbody>
                             <tr>
-                                <td width="10" bgcolor="#fff" style={{ backgroundColor: "#fff" }}>&nbsp;</td>
+                                <td width="10" bgcolor={data.bgColor ? data.bgColor : "#fff"} style={{ backgroundColor: `${data.bgColor ? data.bgColor : "#fff"}` }}>&nbsp;</td>
                                 <td>
-                                    <table width="100%" border="0" cellSpacing="0" cellPadding="0" bgcolor="#fff">
+                                    <table width="100%" border="0" cellSpacing="0" cellPadding="0" bgcolor={data.bgColor ? data.bgColor : "#fff"}>
                                         <tbody>
                                             <tr>
-                                                <td height="10" style={{ background: "#fff", lineHeight: "10px", verticalAlign: "top", height: "10px", fontSize: "1px" }}>&nbsp;</td>
+                                                <td height={data.marginTop ? data.marginTop : "0px"} style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: `${data.marginTop ? data.marginTop : "0px"}`, verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>
                                             </tr>
-                                            {content.preheader_text && <>
+                                            {data.preheader_text && <>
                                                 <tr>
-                                                    <td height="13" style={{ background: "#fff", lineHeight: "13px", color: "#000", verticalAlign: "top", height: "8px", textAlign: "left", fontSize: "11px" }}>
-                                                        {content.preheader_text.map(function (preheader_text, preheader_textIndex) {
+                                                    <td height="13" style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: "13px", color: `${data.textColor ? data.textColor : "#fff"}`, verticalAlign: "top", height: "8px", textAlign: "left", fontSize: "11px" }}>
+                                                        {data.preheader_text.map(function (preheader_text, preheader_textIndex) {
                                                             return (
                                                                 <React.Fragment key={preheader_textIndex}>
-                                                                    <CommonText commonTxt={preheader_text} />
+                                                                    <CommonText commonTxt={preheader_text} aColor={data.textColor ? data.textColor : "#fff"} supFS={"7px"} />
                                                                 </React.Fragment>
                                                             )
                                                         })}
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td height="13" style={{ background: "#fff", lineHeight: "13px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
+                                                    <td height="13" style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: "13px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
                                                 </tr>
                                             </>}
-                                            {content.title && <>
+                                            {data.title && <>
                                                 <tr>
-                                                    <td height="13" style={{ background: "#fff", lineHeight: "20px", verticalAlign: "top", height: "8px", color: "#000", fontSize: "20px", textAlign: "left" }} className="font-size-heading">
-                                                        {content.title.map(function (title, titleIndex) {
+                                                    <td height="13" style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: "20px", verticalAlign: "top", height: "8px", color: `${data.textColor ? data.textColor : "#fff"}`, fontSize: "20px", textAlign: "left" }} className="font-size-heading">
+                                                        {data.title.map(function (title, titleIndex) {
                                                             return (
                                                                 <React.Fragment key={titleIndex}>
-                                                                    <CommonText commonTxt={title} />
+                                                                    <CommonText commonTxt={title} aColor={data.textColor ? data.textColor : "#fff"} supFS={"7px"} />
                                                                 </React.Fragment>
                                                             )
                                                         })}
                                                     </td>
                                                 </tr>
                                                 <tr>
-                                                    <td height="13" style={{ background: "#fff", lineHeight: "13px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
+                                                    <td height="13" style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: "13px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
                                                 </tr>
                                             </>}
-                                            {content.click_text && <>
-                                                {content.click_text.map(function (click_text, click_textIndex) {
-                                                    return (
-                                                        <React.Fragment key={click_textIndex}>
-                                                            <tr>
-                                                                <td height="13" style={{ background: "#fff", lineHeight: "15px", verticalAlign: "top", height: "8px", color: "#000", textAlign: "left", fontSize: "11px" }}>
-                                                                    {click_text.multiline.map(function (multiline, multilineIndex) {
-                                                                        return (
-                                                                            <React.Fragment key={multilineIndex}>
-                                                                                <CommonText commonTxt={multiline} />
-                                                                            </React.Fragment>
-                                                                        )
-                                                                    })}
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td height="1" style={{ background: "#fff", lineHeight: "1px", verticalAlign: "top", height: "1px", fontSize: "1px" }}>&nbsp;</td>
-                                                            </tr>
-                                                        </React.Fragment>
-                                                    )
-                                                })}
-                                                <tr>
-                                                    <td height="15" style={{ background: "#fff", lineHeight: "15px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
-                                                </tr>
-                                            </>
-                                            }
+                                            {data.click_text && data.click_text.map(function (click_text, click_textIndex) {
+                                                return (
+                                                    <React.Fragment key={click_textIndex}>
+                                                        <tr>
+                                                            <td height="13" style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: "15px", verticalAlign: "top", height: "8px", color: `${data.textColor ? data.textColor : "#fff"}`, textAlign: "left", fontSize: "11px" }}>
+                                                                {click_text.multiline.map(function (multiline, multilineIndex) {
+                                                                    return (
+                                                                        <React.Fragment key={multilineIndex}>
+                                                                            <CommonText commonTxt={multiline} aColor={data.textColor ? data.textColor : "#fff"} supFS={"7px"} />
+                                                                        </React.Fragment>
+                                                                    )
+                                                                })}
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td height="1" style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: "1px", verticalAlign: "top", height: "1px", fontSize: "1px" }}>&nbsp;</td>
+                                                        </tr>
+                                                    </React.Fragment>
+                                                )
+                                            })}
+                                            <tr>
+                                                <td height={data.marginBottom ? data.marginBottom : "0px"} style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: `${data.marginBottom ? data.marginBottom : "0px"}`, verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>
+                                            </tr>
                                         </tbody>
                                     </table>
                                 </td>
-                                <td width="10" bgcolor="#fff" style={{ backgroundColor: "#fff" }}>&nbsp;</td>
+                                <td width="10" bgcolor={data.bgColor ? data.bgColor : "#fff"} style={{ backgroundColor: `${data.bgColor ? data.bgColor : "#fff"}` }}>&nbsp;</td>
                             </tr>
                         </tbody>
                     </table>

@@ -6,9 +6,93 @@
             "section1": {
                 "marginTop": "10px",
                 "marginBottom": "10px",
+                "bgColor": "#000",
+                "textColor": "#fff",
                 "text": [
                     "Lorem Ipsum is simply dummy text of 14px font size",
                     "<sup>20"
+                ]
+            }
+        },
+        {
+            "section2": {
+                "marginTop": "10px",
+                "marginBottom": "10px",
+                "bgColor": "#000",
+                "textColor": "#fff",
+                "text": [
+                    "Lorem Ipsum is simply dummy text of 20px font size",
+                    "<sup>20"
+                ]
+            }
+        },
+        {
+            "section3": {
+                "marginTop": "10px",
+                "marginBottom": "10px",
+                "bgColor": "#000",
+                "textColor": "#fff",
+                "text": [
+                    "Lorem Ipsum is simply dummy text of 11px font size",
+                    "<sup>20"
+                ]
+            }
+        },
+        {
+            "section4": {
+                "marginTop": "10px",
+                "marginBottom": "10px",
+                "bgColor": "#000",
+                "textColor": "#fff",
+                "text": [
+                    "Lorem Ipsum is simply dummy text of 10px font size",
+                    "<sup>20"
+                ]
+            }
+        },
+        {
+            "section5": {
+                "marginTop": "10px",
+                "marginBottom": "10px",
+                "bgColor": "#000",
+                "textColor": "#fff",
+                "text": [
+                    "Lorem Ipsum is simply dummy text of 15px font size",
+                    "<sup>20 ",
+                    "and ",
+                    "<span>#f00</span>special text"
+                ]
+            }
+        },
+        {
+            "section10": {
+                "marginTop": "10px",
+                "marginBottom": "10px",
+                "bgColor": "#fff",
+                "textColor": "#000",
+                "preheader_text": [
+                    "Preheader Summary text"
+                ],
+                "title": [
+                    "FASENRA (benralizumab)"
+                ],
+                "click_text": [
+                    {
+                        "multiline": [
+                            "Click for full ",
+                            "<a>#</a>Prescribing Information",
+                            " and scroll down or click for ",
+                            "<a>#</a>Important Safety Information",
+                            "."
+                        ]
+                    },
+                    {
+                        "multiline": [
+                            "Adverse events should be reported. Reporting forms and information can be found at ",
+                            "<a>#</a>https://aereporting.astrazeneca.com",
+                            "."
+                        ]
+                    }
                 ]
             }
         }

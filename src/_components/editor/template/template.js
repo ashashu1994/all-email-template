@@ -5,6 +5,7 @@ import Section2 from '../_all_components/section2';
 import Section3 from '../_all_components/section3';
 import Section4 from '../_all_components/section4';
 import Section5 from '../_all_components/section5';
+import Section10 from '../_all_components/section10';
 class Template extends React.Component {
     render() {
         return (
@@ -32,6 +33,9 @@ class Template extends React.Component {
                                                     }
                                                     {content.section5 &&
                                                         <Section5 data={content.section5} />
+                                                    }
+                                                    {content.section10 &&
+                                                        <Section10 data={content.section10} />
                                                     }
                                                 </React.Fragment>
                                             )

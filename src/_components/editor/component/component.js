@@ -1,7 +1,8 @@
 import React from 'react';
-import data from "./component";
+import data from "./component.json";
 import '../../../common-inline.css';
-class Editor extends React.Component {
+import JSONCode from './json-code.js';
+class Component extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -36,17 +37,22 @@ class Editor extends React.Component {
                 </div>
                 <div className={"editor-right " + (this.state.activeDiv === -1 ? "d-none" : "")}>
                     <div className="editor-right-top">
-                        <h3 class="text-white">Section {this.state.activeDiv + 1}</h3>
+                        <h3 className="text-white">Section {this.state.activeDiv + 1}</h3>
                         <div className="editor-component w-100" style={{ backgroundImage: `url(/images/sections/section${this.state.activeDiv + 1}.jpg)` }}>
                         </div>
                     </div>
                     <div className="editor-right-middle">
-
+                        <div className="">
+                            <h3 className="text-white mb-3">JSON Code</h3>
+                            <p className="text-white mb-3">
+                                <JSONCode id={this.state.activeDiv + 1} />
+                            </p>
+                        </div>
                     </div>
                     <div className="editor-right-bottom">
-                        <h3 class="text-white mb-3">Description</h3>
-                        <p>
-                            
+                        <h3 className="text-white mb-3">Description</h3>
+                        <p className="text-white">
+                            Lorem Ipsum is simply dummy text used by designers.
                         </p>
                     </div>
                 </div>
@@ -56,4 +62,4 @@ class Editor extends React.Component {
     }
 }
 
-export default Editor;
+export default Component;
