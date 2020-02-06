@@ -1,6 +1,6 @@
 import React from 'react';
-import CommonText from './common/custom_text';
 import FS11 from './common/fs-11';
+import FS20 from './common/fs-20';
 class Section10 extends React.Component {
     render() {
         const { data } = this.props;
@@ -31,15 +31,11 @@ class Section10 extends React.Component {
                                             </>}
                                             {data.title && <>
                                                 <tr>
-                                                    <td height="13" style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: "20px", verticalAlign: "top", height: "8px", color: `${data.textColor ? data.textColor : "#fff"}`, fontSize: "20px", textAlign: "left" }} className="font-size-heading">
-                                                        {data.title.map(function (title, titleIndex) {
-                                                            return (
-                                                                <React.Fragment key={titleIndex}>
-                                                                    <CommonText commonTxt={title} aColor={data.textColor ? data.textColor : "#fff"} supFS={"7px"} />
-                                                                </React.Fragment>
-                                                            )
-                                                        })}
-                                                    </td>
+                                                    <FS20
+                                                        data={data.title}
+                                                        bgColor={data.bgColor}
+                                                        textColor={data.textColor}
+                                                    />
                                                 </tr>
                                                 <tr>
                                                     <td height="13" style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: "13px", verticalAlign: "top", height: "8px", fontSize: "1px" }}>&nbsp;</td>
@@ -49,15 +45,11 @@ class Section10 extends React.Component {
                                                 return (
                                                     <React.Fragment key={click_textIndex}>
                                                         <tr>
-                                                            <td height="13" style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: "15px", verticalAlign: "top", height: "8px", color: `${data.textColor ? data.textColor : "#fff"}`, textAlign: "left", fontSize: "11px" }}>
-                                                                {click_text.multiline.map(function (multiline, multilineIndex) {
-                                                                    return (
-                                                                        <React.Fragment key={multilineIndex}>
-                                                                            <CommonText commonTxt={multiline} aColor={data.textColor ? data.textColor : "#fff"} supFS={"7px"} />
-                                                                        </React.Fragment>
-                                                                    )
-                                                                })}
-                                                            </td>
+                                                            <FS11
+                                                                data={click_text.multiline}
+                                                                bgColor={data.bgColor}
+                                                                textColor={data.textColor}
+                                                            />
                                                         </tr>
                                                         <tr>
                                                             <td height="1" style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: "1px", verticalAlign: "top", height: "1px", fontSize: "1px" }}>&nbsp;</td>

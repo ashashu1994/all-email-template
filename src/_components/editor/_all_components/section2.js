@@ -1,5 +1,6 @@
 import React from 'react';
 import CommonText from './common/custom_text';
+import FS20 from './common/fs-20';
 class Section2 extends React.Component {
     render() {
         const { data } = this.props;
@@ -17,15 +18,11 @@ class Section2 extends React.Component {
                                                 <td height={data.marginTop ? data.marginTop : "0px"} style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: `${data.marginTop ? data.marginTop : "0px"}`, verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>
                                             </tr>
                                             <tr>
-                                                <td height="13" style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: "21px", color: `${data.textColor ? data.textColor : "#000"}`, verticalAlign: "top", height: "8px", textAlign: "left", fontSize: "20px" }} className="font-size-heading">
-                                                    {data.text.map(function (text, textIndex) {
-                                                        return (
-                                                            <React.Fragment key={textIndex}>
-                                                                <CommonText commonTxt={text} supFS={"7px"} aColor={data.textColor ? data.textColor : "#000"} />
-                                                            </React.Fragment>
-                                                        )
-                                                    })}
-                                                </td>
+                                                <FS20
+                                                    data={data.text}
+                                                    bgColor={data.bgColor}
+                                                    textColor={data.textColor}
+                                                />
                                             </tr>
                                             <tr>
                                                 <td height={data.marginBottom ? data.marginBottom : "0px"} style={{ background: `${data.bgColor ? data.bgColor : "#fff"}`, lineHeight: `${data.marginBottom ? data.marginBottom : "0px"}`, verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>

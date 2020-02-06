@@ -95,6 +95,46 @@
                     }
                 ]
             }
+        },
+        {
+            "marginTop": "10px",
+            "marginBottom": "10px",
+            "bgColor": "#fff",
+            "textColor": "#000",
+            "section15": [
+                {
+                    "multiline": [
+                        "Please do not reply to this e-mail; it will not reach us. To ensure you will continue to receive these e-mails in your inbox, please add [",
+                        "<a>#</a>xxx@email.astrazeneca-us.com",
+                        "] to your address book."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "If in the future you no longer want to receive e-mails please click ",
+                        "<a>#</a>unsubscribe",
+                        "."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "This product information is intended for healthcare professionals only."
+                    ]
+                },
+                {
+                    "multiline": [
+                        "In accordance with AstraZeneca policy, all promotional material must be developed in association with, and approved for release by local nominated signatory."
+                    ]
+                }
+            ]
+        },
+        {
+            "copyright_logo": {
+                "promo_id": "XX-XXXXX",
+                "preparation_date": "MM YYYY",
+                "expiry_date": "MM YYYY",
+                "logo": "az_logo.png"
+            }
         }
     ]
 }
