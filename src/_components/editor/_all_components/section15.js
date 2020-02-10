@@ -19,11 +19,13 @@ class Section15 extends React.Component {
                                             {data.map(function (footer_text, footer_textIndex) {
                                                 return (
                                                     <React.Fragment key={footer_textIndex}>
-                                                        <FS10
-                                                            data={footer_text.multiline}
-                                                            textColor={textColor}
-                                                            bgColor={bgColor}
-                                                        />
+                                                        <tr>
+                                                            <FS10
+                                                                data={footer_text.multiline}
+                                                                textColor={textColor}
+                                                                bgColor={bgColor}
+                                                            />
+                                                        </tr>
                                                         <tr>
                                                             <td height="5" style={{ background: `${bgColor ? bgColor : "#fff"}`, lineHeight: "5px", verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>
                                                         </tr>

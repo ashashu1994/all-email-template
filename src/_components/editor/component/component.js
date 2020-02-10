@@ -18,6 +18,27 @@ class Component extends React.Component {
         event.target.classList.add('selected');
         this.setState({ activeDiv: (key) });
     }
+    CopyToClipboard(containerid) {
+        if (document.selection) {
+            var range = document.body.createTextRange();
+            range.moveToElementText(document.getElementById(containerid));
+            range.select().createTextRange();
+            document.execCommand("copy");
+
+        } else if (window.getSelection) {
+            var range = document.createRange();
+            range.selectNode(document.getElementById(containerid));
+            window.getSelection().removeAllRanges();
+            window.getSelection().addRange(range);
+            document.execCommand("copy");
+            window.getSelection().removeAllRanges();
+            var copyID = document.getElementById("copied");
+            copyID.classList.add("show");
+            setTimeout(function () {
+                copyID.classList.remove("show");
+            }, 800)
+        }
+    }
     render() {
         return (
             <div className="editor-page-css">
@@ -42,13 +63,15 @@ class Component extends React.Component {
                         </div>
                     </div>
                     <div className="editor-right-middle">
-                        <div className="">
+                        <div className="copy-json">
                             <h3 className="text-white mb-3">JSON Code</h3>
-                            <p className="text-white mb-3">
+                            <p className="text-white mb-3 pre-wrap bg-black" id="copyDiv" onClick={(e) => this.CopyToClipboard('copyDiv')}>
                                 <JSONCode id={this.state.activeDiv + 1} />
                             </p>
+                            <div id="copied">Copied to clipboard</div>
                         </div>
                     </div>
+
                     <div className="editor-right-bottom">
                         <h3 className="text-white mb-3">Description</h3>
                         <p className="text-white">

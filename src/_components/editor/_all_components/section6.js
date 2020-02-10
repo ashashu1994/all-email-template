@@ -1,5 +1,4 @@
 import React from 'react';
-import FS15 from './common/fs-15';
 import FS12 from './common/fs-12';
 class Section6 extends React.Component {
     render() {

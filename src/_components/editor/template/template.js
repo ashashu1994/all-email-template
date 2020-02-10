@@ -9,6 +9,10 @@ import Section10 from '../_all_components/section10';
 import Section15 from '../_all_components/section15';
 import Section20 from '../_all_components/section20';
 import Section6 from '../_all_components/section6';
+import Section25 from '../_all_components/section25';
+import Section26 from '../_all_components/section26';
+import Section30 from '../_all_components/section30';
+import Section35 from '../_all_components/section35';
 class Template extends React.Component {
     render() {
         return (
@@ -93,6 +97,42 @@ class Template extends React.Component {
                                                     {content.section20 &&
                                                         <Section20
                                                             data={content.section20}
+                                                            marginTop={content.marginTop}
+                                                            marginBottom={content.marginBottom}
+                                                            bgColor={content.bgColor}
+                                                            textColor={content.textColor}
+                                                        />
+                                                    }
+                                                    {content.section25 &&
+                                                        <Section25
+                                                            data={content.section25}
+                                                            marginTop={content.marginTop}
+                                                            marginBottom={content.marginBottom}
+                                                            bgColor={content.bgColor}
+                                                            textColor={content.textColor}
+                                                        />
+                                                    }
+                                                    {content.section26 &&
+                                                        <Section26
+                                                            data={content.section26}
+                                                            marginTop={content.marginTop}
+                                                            marginBottom={content.marginBottom}
+                                                            bgColor={content.bgColor}
+                                                            textColor={content.textColor}
+                                                        />
+                                                    }
+                                                    {content.section30 &&
+                                                        <Section30
+                                                            data={content.section30}
+                                                            marginTop={content.marginTop}
+                                                            marginBottom={content.marginBottom}
+                                                            bgColor={content.bgColor}
+                                                            textColor={content.textColor}
+                                                        />
+                                                    }
+                                                    {content.section35 &&
+                                                        <Section35
+                                                            data={content.section35}
                                                             marginTop={content.marginTop}
                                                             marginBottom={content.marginBottom}
                                                             bgColor={content.bgColor}

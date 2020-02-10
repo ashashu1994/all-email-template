@@ -138,6 +138,104 @@
                 "expiry_date": "MM YYYY",
                 "logo": "az_logo.png"
             }
+        },
+        {
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "bgColor": "#fff",
+            "textColor": "#000",
+            "section25": {
+                "image": "main_img.png"
+            }
+        },
+        {
+            "marginTop": "10px",
+            "marginBottom": "0px",
+            "bgColor": "#fff",
+            "textColor": "#000",
+            "section26": {
+                "image": "main_img1.jpg",
+                "resp_image": "main_img2.jpg"
+            }
+        },
+        {
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "bgColor": "#000",
+            "textColor": "#fff",
+            "section30": [
+                {
+                    "blue_links_length": [
+                        {
+                            "links": [
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Important Safety Information"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Contact US"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Prescribing Information"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "links": [
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Contact US"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Prescribing Information"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Important Safety"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "links": [
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Contact US"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Prescribing Information"
+                                    ]
+                                },
+                                {
+                                    "multiline": [
+                                        "<a>#</a>Important Safety"
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "marginTop": "10px",
+            "marginBottom": "10px",
+            "bgColor": "#fff",
+            "textColor": "#000",
+            "section35": {
+                "image": "btn1.png",
+                "image_link": "#"
+            }
         }
     ]
 }

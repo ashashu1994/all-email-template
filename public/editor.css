@@ -218,8 +218,38 @@
   font-family: "Roboto";
 }
 
+.editor-page-css .bg-black {
+  background-color: #000;
+}
+
 .editor-page-css .mb-3 {
   margin-bottom: 15px;
+}
+
+.editor-page-css .pre-wrap {
+  white-space: pre-wrap;
+  line-height: 18px;
+  font-size: 14px;
+}
+
+.editor-page-css .copy-json {
+  position: relative;
+}
+
+.editor-page-css .copy-json #copied {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+  background-color: black;
+  color: #fff;
+  opacity: 0.8;
+  padding: 5px;
+  display: none;
+}
+
+.editor-page-css .copy-json #copied.show {
+  display: block;
 }
 
 .editor-page-css .editor-left {
@@ -291,6 +321,8 @@
 
 .editor-page-css .editor-component.selected {
   border: 1px solid #1d76bc;
+  -webkit-box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
 }
 
 .editor-page-css .editor-component .editor-abs-text {
