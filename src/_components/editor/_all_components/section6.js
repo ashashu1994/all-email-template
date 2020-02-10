@@ -1,6 +1,7 @@
 import React from 'react';
+import FS15 from './common/fs-15';
 import FS12 from './common/fs-12';
-class Section1 extends React.Component {
+class Section6 extends React.Component {
     render() {
         const { data, marginTop, marginBottom, bgColor, textColor } = this.props;
         return (
@@ -17,11 +18,20 @@ class Section1 extends React.Component {
                                                 <td height={marginTop ? marginTop : "0px"} style={{ background: `${bgColor ? bgColor : "#fff"}`, lineHeight: `${marginTop ? marginTop : "0px"}`, verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>
                                             </tr>
                                             <tr>
-                                                <FS12
-                                                    data={data}
-                                                    bgColor={bgColor}
-                                                    textColor={textColor}
-                                                />
+                                                <td>
+                                                    <table width="100%" border="0" cellSpacing="0" cellPadding="0" style={{ lineHeight: "14px" }}>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td width="11" height="10" align="top" valign="top" style={{ background: `${bgColor ? bgColor : "#fff"}`, color: `${textColor ? textColor : "#fff"}`, textAlign: "left", fontSize: "13px" }}>•</td>
+                                                                <FS12
+                                                                    data={data}
+                                                                    bgColor={bgColor}
+                                                                    textColor={textColor}
+                                                                />
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
                                             </tr>
                                             <tr>
                                                 <td height={marginBottom ? marginBottom : "0px"} style={{ background: `${bgColor ? bgColor : "#fff"}`, lineHeight: `${marginBottom ? marginBottom : "0px"}`, verticalAlign: "top", fontSize: "1px" }}>&nbsp;</td>
@@ -39,4 +49,4 @@ class Section1 extends React.Component {
     }
 }
 
-export default Section1;
+export default Section6;

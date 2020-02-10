@@ -117,24 +117,34 @@ a:hover {
   display: none;
 }
 @media only screen and (max-width: 480px) and (min-width: 320px) {
+  /* default */
   body {
     line-height: 11px !important;
     text-align: left;
   }
+  /* table */
   #main_table,
   #main_table1 {
     width: 318px !important;
   }
+  /* images */
   .full-img {
     width: 318px !important;
   }
   .full-img-less {
     width: 267px !important;
   }
+  .full-img-196 {
+    width: 196px !important;
+  }
+  .full-img-193 {
+    width: 193px !important;
+  }
+  /* text */
   .text-mob-center {
     text-align: center !important;
   }
-
+  /* width */
   .width-mob-100 {
     width: 100% !important;
   }
@@ -144,13 +154,23 @@ a:hover {
   .width-mob-95 {
     width: 95% !important;
   }
+  .fasenra_widthtd {
+    width: 5%;
+  }
+  /* height */
+  .fasenra_heighttd {
+    height: 11px;
+  }
+  .height-mob-0 {
+    line-height: 0px !important;
+    height: 0px !important;
+  }
   .height-mob-10 {
     line-height: 10px !important;
     height: 10px !important;
   }
-
   .display-mob-none {
-    display: none;
+    display: none !important;
   }
   .display-mob-inline-block {
     display: inline-block;
@@ -158,7 +178,18 @@ a:hover {
   .display-mob-block {
     display: block;
   }
+  .mobshow,
+  * [lang~="x-mobshow"] {
+    display: block !important;
+    width: auto !important;
+    max-height: inherit !important;
+    overflow: visible !important;
+    float: none !important;
+  }
   .font-size-mob-9 {
     font-size: 9px !important;
+  }
+  .font-size-heading {
+    font-size: 18px !important;
   }
 }
