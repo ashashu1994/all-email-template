@@ -8,7 +8,7 @@ class FS20 extends React.Component {
                 {data.map(function (text, textIndex) {
                     return (
                         <React.Fragment key={textIndex}>
-                            <CommonText commonTxt={text} supFS={"7px"} aColor={textColor ? textColor : "#000"} />
+                            <CommonText commonTxt={text} supFS={"10px"} aColor={textColor ? textColor : "#000"} />
                         </React.Fragment>
                     )
                 })}

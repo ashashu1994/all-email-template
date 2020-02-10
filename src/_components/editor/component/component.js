@@ -47,10 +47,10 @@ class Component extends React.Component {
                         <h3>Components</h3>
                         <div>
                             {data.content.map((content, key) => (
-                                <div key={key} className="editor-component" style={{ backgroundImage: `url(/images/sections/section${key + 1}.jpg)` }}
-                                    onClick={(e) => this.selectComponent(e, key)}
+                                <div key={key} className="editor-component" style={{ backgroundImage: `url(/images/sections/section${content.id}.jpg)` }}
+                                    onClick={(e) => this.selectComponent(e, content.id)}
                                 >
-                                    <h5 className="editor-abs-text">Section {key + 1}</h5>
+                                    <h5 className="editor-abs-text">Section {content.id}</h5>
                                 </div>
                             ))}
                         </div>
@@ -71,7 +71,6 @@ class Component extends React.Component {
                             <div id="copied">Copied to clipboard</div>
                         </div>
                     </div>
-
                     <div className="editor-right-bottom">
                         <h3 className="text-white mb-3">Description</h3>
                         <p className="text-white">
