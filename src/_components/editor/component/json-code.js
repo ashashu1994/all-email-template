@@ -110,13 +110,13 @@ class JSONCode extends React.Component {
         `;
         return (
             <>
-                {(id === 1) ? reactcode1 :
-                    (id === 2) ? reactcode2 :
-                        (id === 3) ? reactcode3 :
-                            (id === 4) ? reactcode4 :
-                                (id === 5) ? reactcode5 :
-                                    (id === 6) ? reactcode6 :
-                                        (id === 10) ? reactcode10 :
+                {(id === "1") ? reactcode1 :
+                    (id === "2") ? reactcode2 :
+                        (id === "3") ? reactcode3 :
+                            (id === "4") ? reactcode4 :
+                                (id === "5") ? reactcode5 :
+                                    (id === "6") ? reactcode6 :
+                                        (id === "10") ? reactcode10 :
                                             "Code not available"}
             </>
         )

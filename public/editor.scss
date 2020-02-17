@@ -271,6 +271,7 @@
     padding: 15px;
     color: #fff;
     font-family: "Roboto";
+    font-size: 14px;
     &.d-none {
       display: none;
     }
@@ -293,7 +294,7 @@
     box-sizing: border-box;
     vertical-align: top;
     background-position: center center;
-    background-size: contain;
+    background-size: 95%;
     background-repeat: no-repeat;
     position: relative;
     background-color: #fff;

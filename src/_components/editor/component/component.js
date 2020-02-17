@@ -6,10 +6,11 @@ class Component extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            activeDiv: -1
+            activeDiv: 0,
+            desc: ""
         }
     }
-    selectComponent(event, key) {
+    selectComponent(event, key, desc) {
         event.preventDefault();
         var elements = document.getElementsByClassName("editor-component");
         for (var i = 0; i < elements.length; i++) {
@@ -17,6 +18,7 @@ class Component extends React.Component {
         }
         event.target.classList.add('selected');
         this.setState({ activeDiv: (key) });
+        this.setState({ desc: (desc) });
     }
     CopyToClipboard(containerid) {
         if (document.selection) {
@@ -24,6 +26,11 @@ class Component extends React.Component {
             range.moveToElementText(document.getElementById(containerid));
             range.select().createTextRange();
             document.execCommand("copy");
+            var copyID = document.getElementById("copied");
+            copyID.classList.add("show");
+            setTimeout(function () {
+                copyID.classList.remove("show");
+            }, 800)
 
         } else if (window.getSelection) {
             var range = document.createRange();
@@ -42,13 +49,13 @@ class Component extends React.Component {
     render() {
         return (
             <div className="editor-page-css">
-                <div className={"editor-left " + (this.state.activeDiv === -1 ? "w-100" : "")}>
+                <div className={"editor-left " + (this.state.activeDiv === 0 ? "w-100" : "")}>
                     <div className="editor-padding">
                         <h3>Components</h3>
                         <div>
                             {data.content.map((content, key) => (
                                 <div key={key} className="editor-component" style={{ backgroundImage: `url(/images/sections/section${content.id}.jpg)` }}
-                                    onClick={(e) => this.selectComponent(e, content.id)}
+                                    onClick={(e) => this.selectComponent(e, content.id, content.desc)}
                                 >
                                     <h5 className="editor-abs-text">Section {content.id}</h5>
                                 </div>
@@ -56,17 +63,17 @@ class Component extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className={"editor-right " + (this.state.activeDiv === -1 ? "d-none" : "")}>
+                <div className={"editor-right " + (this.state.activeDiv === 0 ? "d-none" : "")}>
                     <div className="editor-right-top">
-                        <h3 className="text-white">Section {this.state.activeDiv + 1}</h3>
-                        <div className="editor-component w-100" style={{ backgroundImage: `url(/images/sections/section${this.state.activeDiv + 1}.jpg)` }}>
+                        <h3 className="text-white">Section {this.state.activeDiv}</h3>
+                        <div className="editor-component w-100" style={{ backgroundImage: `url(/images/sections/section${this.state.activeDiv}.jpg)` }}>
                         </div>
                     </div>
                     <div className="editor-right-middle">
                         <div className="copy-json">
                             <h3 className="text-white mb-3">JSON Code</h3>
                             <p className="text-white mb-3 pre-wrap bg-black" id="copyDiv" onClick={(e) => this.CopyToClipboard('copyDiv')}>
-                                <JSONCode id={this.state.activeDiv + 1} />
+                                <JSONCode id={this.state.activeDiv} />
                             </p>
                             <div id="copied">Copied to clipboard</div>
                         </div>
@@ -74,7 +81,7 @@ class Component extends React.Component {
                     <div className="editor-right-bottom">
                         <h3 className="text-white mb-3">Description</h3>
                         <p className="text-white">
-                            Lorem Ipsum is simply dummy text used by designers.
+                            {this.state.desc}
                         </p>
                     </div>
                 </div>

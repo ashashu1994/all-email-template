@@ -1,5 +1,6 @@
 import React from 'react';
 import data from "../../../data";
+// import data from "../../../template";
 import Section1 from '../_all_components/section1';
 import Section2 from '../_all_components/section2';
 import Section3 from '../_all_components/section3';
@@ -26,118 +27,124 @@ class Template extends React.Component {
                                         {data.content && data.content.map(function (content, contentIndex) {
                                             return (
                                                 <React.Fragment key={contentIndex}>
-                                                    {content.section1 &&
-                                                        <Section1
-                                                            data={content.section1}
-                                                            marginTop={content.marginTop}
-                                                            marginBottom={content.marginBottom}
-                                                            bgColor={content.bgColor}
-                                                            textColor={content.textColor}
-                                                        />
-                                                    }
-                                                    {content.section2 &&
-                                                        <Section2
-                                                            data={content.section2}
-                                                            marginTop={content.marginTop}
-                                                            marginBottom={content.marginBottom}
-                                                            bgColor={content.bgColor}
-                                                            textColor={content.textColor}
-                                                        />
-                                                    }
+                                                    {content ? <>
+                                                        {content.section1 &&
+                                                            <Section1
+                                                                data={content.section1}
+                                                                marginTop={content.marginTop}
+                                                                marginBottom={content.marginBottom}
+                                                                bgColor={content.bgColor}
+                                                                textColor={content.textColor}
+                                                            />
+                                                        }
+                                                        {content.section2 &&
+                                                            <Section2
+                                                                data={content.section2}
+                                                                marginTop={content.marginTop}
+                                                                marginBottom={content.marginBottom}
+                                                                bgColor={content.bgColor}
+                                                                textColor={content.textColor}
+                                                            />
+                                                        }
 
-                                                    {content.section3 &&
-                                                        <Section3 data={content.section3}
-                                                            marginTop={content.marginTop}
-                                                            marginBottom={content.marginBottom}
-                                                            bgColor={content.bgColor}
-                                                            textColor={content.textColor}
-                                                        />
-                                                    }
-                                                    {content.section4 &&
-                                                        <Section4 data={content.section4}
-                                                            marginTop={content.marginTop}
-                                                            marginBottom={content.marginBottom}
-                                                            bgColor={content.bgColor}
-                                                            textColor={content.textColor}
-                                                        />
-                                                    }
-                                                    {content.section5 &&
-                                                        <Section5 data={content.section5}
-                                                            marginTop={content.marginTop}
-                                                            marginBottom={content.marginBottom}
-                                                            bgColor={content.bgColor}
-                                                            textColor={content.textColor}
-                                                        />
-                                                    }
-                                                    {content.section6 &&
-                                                        <Section6 data={content.section6}
-                                                            marginTop={content.marginTop}
-                                                            marginBottom={content.marginBottom}
-                                                            bgColor={content.bgColor}
-                                                            textColor={content.textColor}
-                                                        />
-                                                    }
-                                                    {content.section10 &&
-                                                        <Section10 data={content.section10}
-                                                            marginTop={content.marginTop}
-                                                            marginBottom={content.marginBottom}
-                                                            bgColor={content.bgColor}
-                                                            textColor={content.textColor}
-                                                        />
-                                                    }
-                                                    {content.section15 &&
-                                                        <Section15
-                                                            data={content.section15}
-                                                            marginTop={content.marginTop}
-                                                            marginBottom={content.marginBottom}
-                                                            bgColor={content.bgColor}
-                                                            textColor={content.textColor}
-                                                        />
-                                                    }
-                                                    {content.section20 &&
-                                                        <Section20
-                                                            data={content.section20}
-                                                            marginTop={content.marginTop}
-                                                            marginBottom={content.marginBottom}
-                                                            bgColor={content.bgColor}
-                                                            textColor={content.textColor}
-                                                        />
-                                                    }
-                                                    {content.section25 &&
-                                                        <Section25
-                                                            data={content.section25}
-                                                            marginTop={content.marginTop}
-                                                            marginBottom={content.marginBottom}
-                                                            bgColor={content.bgColor}
-                                                            textColor={content.textColor}
-                                                        />
-                                                    }
-                                                    {content.section26 &&
-                                                        <Section26
-                                                            data={content.section26}
-                                                            marginTop={content.marginTop}
-                                                            marginBottom={content.marginBottom}
-                                                            bgColor={content.bgColor}
-                                                            textColor={content.textColor}
-                                                        />
-                                                    }
-                                                    {content.section30 &&
-                                                        <Section30
-                                                            data={content.section30}
-                                                            marginTop={content.marginTop}
-                                                            marginBottom={content.marginBottom}
-                                                            bgColor={content.bgColor}
-                                                            textColor={content.textColor}
-                                                        />
-                                                    }
-                                                    {content.section35 &&
-                                                        <Section35
-                                                            data={content.section35}
-                                                            marginTop={content.marginTop}
-                                                            marginBottom={content.marginBottom}
-                                                            bgColor={content.bgColor}
-                                                            textColor={content.textColor}
-                                                        />
+                                                        {content.section3 &&
+                                                            <Section3 data={content.section3}
+                                                                marginTop={content.marginTop}
+                                                                marginBottom={content.marginBottom}
+                                                                bgColor={content.bgColor}
+                                                                textColor={content.textColor}
+                                                            />
+                                                        }
+                                                        {content.section4 &&
+                                                            <Section4 data={content.section4}
+                                                                marginTop={content.marginTop}
+                                                                marginBottom={content.marginBottom}
+                                                                bgColor={content.bgColor}
+                                                                textColor={content.textColor}
+                                                            />
+                                                        }
+                                                        {content.section5 &&
+                                                            <Section5 data={content.section5}
+                                                                marginTop={content.marginTop}
+                                                                marginBottom={content.marginBottom}
+                                                                bgColor={content.bgColor}
+                                                                textColor={content.textColor}
+                                                            />
+                                                        }
+                                                        {content.section6 &&
+                                                            <Section6 data={content.section6}
+                                                                marginTop={content.marginTop}
+                                                                marginBottom={content.marginBottom}
+                                                                bgColor={content.bgColor}
+                                                                textColor={content.textColor}
+                                                            />
+                                                        }
+                                                        {content.section10 &&
+                                                            <Section10 data={content.section10}
+                                                                marginTop={content.marginTop}
+                                                                marginBottom={content.marginBottom}
+                                                                bgColor={content.bgColor}
+                                                                textColor={content.textColor}
+                                                            />
+                                                        }
+                                                        {content.section15 &&
+                                                            <Section15
+                                                                data={content.section15}
+                                                                marginTop={content.marginTop}
+                                                                marginBottom={content.marginBottom}
+                                                                bgColor={content.bgColor}
+                                                                textColor={content.textColor}
+                                                            />
+                                                        }
+                                                        {content.section20 &&
+                                                            <Section20
+                                                                data={content.section20}
+                                                                marginTop={content.marginTop}
+                                                                marginBottom={content.marginBottom}
+                                                                bgColor={content.bgColor}
+                                                                textColor={content.textColor}
+                                                            />
+                                                        }
+                                                        {content.section25 &&
+                                                            <Section25
+                                                                data={content.section25}
+                                                                marginTop={content.marginTop}
+                                                                marginBottom={content.marginBottom}
+                                                                bgColor={content.bgColor}
+                                                                textColor={content.textColor}
+                                                            />
+                                                        }
+                                                        {content.section26 &&
+                                                            <Section26
+                                                                data={content.section26}
+                                                                marginTop={content.marginTop}
+                                                                marginBottom={content.marginBottom}
+                                                                bgColor={content.bgColor}
+                                                                textColor={content.textColor}
+                                                            />
+                                                        }
+                                                        {content.section30 &&
+                                                            <Section30
+                                                                data={content.section30}
+                                                                marginTop={content.marginTop}
+                                                                marginBottom={content.marginBottom}
+                                                                bgColor={content.bgColor}
+                                                                textColor={content.textColor}
+                                                            />
+                                                        }
+                                                        {content.section35 &&
+                                                            <Section35
+                                                                data={content.section35}
+                                                                marginTop={content.marginTop}
+                                                                marginBottom={content.marginBottom}
+                                                                bgColor={content.bgColor}
+                                                                textColor={content.textColor}
+                                                            />
+                                                        }
+                                                    </> :
+                                                        <tr>
+                                                            <td style={{ padding: "10px", textAlign: "center" }}>Start building your Email Template</td>
+                                                        </tr>
                                                     }
                                                 </React.Fragment>
                                             )
