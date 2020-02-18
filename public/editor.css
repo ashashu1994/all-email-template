@@ -252,6 +252,16 @@
   display: block;
 }
 
+.editor-page-css #jsonText {
+  width: 100%;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 20px;
+  height: calc(100vh - 100px);
+}
+
 .editor-page-css .editor-left {
   width: 60%;
   border-right: 2px solid #ddd;
@@ -267,6 +277,33 @@
 
 .editor-page-css .editor-left.w-100 {
   width: 100%;
+}
+
+.editor-page-css .editor-left .btn-class {
+  padding: 0 10px;
+  background-color: #3838be;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  vertical-align: top;
+  border: 0px;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+  font-family: "Roboto";
+  line-height: 32px;
+}
+
+.editor-page-css .editor-left .start-bulding {
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+.editor-page-css .editor-left .start-bulding a {
+  vertical-align: middle;
 }
 
 .editor-page-css .editor-right {

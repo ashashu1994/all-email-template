@@ -1,6 +1,7 @@
 import React from 'react';
 import data from "./component.json";
 import '../../../common-inline.css';
+import { NavLink } from 'react-router-dom';
 class Component extends React.Component {
     constructor(props) {
         super(props);
@@ -51,6 +52,9 @@ class Component extends React.Component {
         return (
             <div className="editor-page-css">
                 <div className={"editor-left " + (this.state.activeDiv === 0 ? "w-100" : "")}>
+                    <div className="start-bulding">
+                        <NavLink class="btn-class" to="/createTemp" target="_blank">Click here</NavLink> to start building your template now.
+                    </div>
                     <div className="editor-padding">
                         <h3>Components</h3>
                         <div>
