@@ -1,16 +1,16 @@
 import React from 'react';
 import data from "./component.json";
 import '../../../common-inline.css';
-import JSONCode from './json-code.js';
 class Component extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             activeDiv: 0,
-            desc: ""
+            desc: "",
+            json: ""
         }
     }
-    selectComponent(event, key, desc) {
+    selectComponent(event, key, desc, json) {
         event.preventDefault();
         var elements = document.getElementsByClassName("editor-component");
         for (var i = 0; i < elements.length; i++) {
@@ -19,6 +19,7 @@ class Component extends React.Component {
         event.target.classList.add('selected');
         this.setState({ activeDiv: (key) });
         this.setState({ desc: (desc) });
+        this.setState({ json: (json) });
     }
     CopyToClipboard(containerid) {
         if (document.selection) {
@@ -55,7 +56,7 @@ class Component extends React.Component {
                         <div>
                             {data.content.map((content, key) => (
                                 <div key={key} className="editor-component" style={{ backgroundImage: `url(/images/sections/section${content.id}.jpg)` }}
-                                    onClick={(e) => this.selectComponent(e, content.id, content.desc)}
+                                    onClick={(e) => this.selectComponent(e, content.id, content.desc, content.json_val)}
                                 >
                                     <h5 className="editor-abs-text">Section {content.id}</h5>
                                 </div>
@@ -73,7 +74,7 @@ class Component extends React.Component {
                         <div className="copy-json">
                             <h3 className="text-white mb-3">JSON Code</h3>
                             <p className="text-white mb-3 pre-wrap bg-black" id="copyDiv" onClick={(e) => this.CopyToClipboard('copyDiv')}>
-                                <JSONCode id={this.state.activeDiv} />
+                                {this.state.json}
                             </p>
                             <div id="copied">Copied to clipboard</div>
                         </div>

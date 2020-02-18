@@ -2,31 +2,38 @@
     "content": [
         {
             "id": "1",
-            "desc": "Lorem Ipsum is simply dummy text 1"
+            "desc": "Lorem Ipsum is simply dummy text 1",
+            "json_val": "\n\t{\r\n            \"marginTop\": \"10px\",\r\n            \"marginBottom\": \"10px\",\r\n            \"bgColor\": \"#fff\",\r\n            \"textColor\": \"#000\",\r\n            \"section1\": [\r\n                \"Lorem Ipsum is simply dummy text of 14px font size\",\r\n                \"<sup>20\"\r\n            ]\r\n        }\t\n\n"
         },
         {
             "id": "2",
-            "desc": "Lorem Ipsum is simply dummy text 2"
+            "desc": "Lorem Ipsum is simply dummy text 2",
+            "json_val": "\n\t{\r\n            \"marginTop\": \"10px\",\r\n            \"marginBottom\": \"10px\",\r\n            \"bgColor\": \"#000\",\r\n            \"textColor\": \"#fff\",\r\n            \"section2\": [\r\n                \"Lorem Ipsum is simply dummy text of 20px font size\",\r\n                \"<sup>20\"\r\n            ]\r\n        }\t\n\n"
         },
         {
             "id": "3",
-            "desc": "Lorem Ipsum is simply dummy text 3"
+            "desc": "Lorem Ipsum is simply dummy text 3",
+            "json_val": "\n\t{\r\n            \"marginTop\": \"10px\",\r\n            \"marginBottom\": \"10px\",\r\n            \"bgColor\": \"#fff\",\r\n            \"textColor\": \"#000\",\r\n            \"section3\": [\r\n                \"Lorem Ipsum is simply dummy text of 11px font size\",\r\n                \"<sup>20\"\r\n            ]\r\n        }\t\n\n"
         },
         {
             "id": "4",
-            "desc": "Lorem Ipsum is simply dummy text 4"
+            "desc": "Lorem Ipsum is simply dummy text 4",
+            "json_val": "\n\t{\r\n            \"marginTop\": \"10px\",\r\n            \"marginBottom\": \"10px\",\r\n            \"bgColor\": \"#000\",\r\n            \"textColor\": \"#fff\",\r\n            \"section4\": [\r\n                \"Lorem Ipsum is simply dummy text of 10px font size\",\r\n                \"<sup>20\"\r\n            ]\r\n        }\t\n\n"
         },
         {
             "id": "5",
-            "desc": "Lorem Ipsum is simply dummy text 5"
+            "desc": "Lorem Ipsum is simply dummy text 5",
+            "json_val": "\n\t{\r\n            \"marginTop\": \"10px\",\r\n            \"marginBottom\": \"10px\",\r\n            \"bgColor\": \"#fff\",\r\n            \"textColor\": \"#000\",\r\n            \"section5\": [\r\n                \"Lorem Ipsum is simply dummy text of 15px font size\",\r\n                \"<sup>20 \",\r\n                \"and \",\r\n                \"<span>#f00<\/span>special text\"\r\n            ]\r\n        }\t\n\n"
         },
         {
             "id": "6",
-            "desc": "Lorem Ipsum is simply dummy text 6"
+            "desc": "Lorem Ipsum is simply dummy text 6",
+            "json_val": "\n\t{\r\n            \"marginTop\": \"10px\",\r\n            \"marginBottom\": \"10px\",\r\n            \"bgColor\": \"#fff\",\r\n            \"textColor\": \"#000\",\r\n            \"section6\": [\r\n                \"Lorem Ipsum is simply dummy text of 12px font size\"\r\n            ]\r\n        }\t\n\n"
         },
         {
             "id": "10",
-            "desc": "Lorem Ipsum is simply dummy text 10"
+            "desc": "Lorem Ipsum is simply dummy text 10",
+            "json_val": "\n\t{\r\n            \"marginTop\": \"10px\",\r\n            \"marginBottom\": \"10px\",\r\n            \"bgColor\": \"#000\",\r\n            \"textColor\": \"#fff\",\r\n            \"section10\": {\r\n                \"preheader_text\": [\r\n                    \"Preheader Summary text\"\r\n                ],\r\n                \"title\": [\r\n                    \"FASENRA (benralizumab)\"\r\n                ],\r\n                \"click_text\": [\r\n                    {\r\n                        \"multiline\": [\r\n                            \"Click for full \",\r\n                            \"<a>#<\/a>Prescribing Information\",\r\n                            \" and scroll down or click for \",\r\n                            \"<a>#<\/a>Important Safety Information\",\r\n                            \".\"\r\n                        ]\r\n                    },\r\n                    {\r\n                        \"multiline\": [\r\n                            \"Adverse events should be reported. Reporting forms and information can be found at \",\r\n                            \"<a>#<\/a>https:\/\/aereporting.astrazeneca.com\",\r\n                            \".\"\r\n                        ]\r\n                    }\r\n                ]\r\n            }\r\n        }\t\n\n"
         }
     ]
 }
